@@ -1,0 +1,16 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile inter.files/5.add.rsid/.with.rsid
+  --extract references/pobi.snps/.se.pobi.bim.snps.only.txt
+  --make-bed
+  --out inter.files/6.intersect/.intersected.anc.pobi
+
+Hostname: ebc201
+Working directory: /mmg/awwohns/selection_v4
+Start time: Fri May 19 00:43:31 2017
+
+Random number seed: 1495143811
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+Error: Failed to open inter.files/5.add.rsid/.with.rsid.bed.
+
+End time: Fri May 19 00:43:31 2017

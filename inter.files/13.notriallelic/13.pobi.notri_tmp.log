@@ -1,0 +1,28 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile inter.files/9.pobi.with.anc.snps/13.pobi.with.anc.snps
+  --exclude inter.files/12.remerged/13.pobi.anc-merge.missnp
+  --make-bed
+  --out inter.files/13.notriallelic/13.pobi.notri_tmp
+
+Hostname: ebc202
+Working directory: /mmg/awwohns/selection_v4
+Start time: Fri May 19 01:46:19 2017
+
+Random number seed: 1495147579
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+21363 variants loaded from .bim file.
+101 people (49 males, 52 females) loaded from .fam.
+101 phenotype values loaded from .fam.
+--exclude: 21161 variants remaining.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 101 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.999677.
+21161 variants and 101 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 101 are controls.
+--make-bed to inter.files/13.notriallelic/13.pobi.notri_tmp.bed +
+inter.files/13.notriallelic/13.pobi.notri_tmp.bim +
+inter.files/13.notriallelic/13.pobi.notri_tmp.fam ... done.
+
+End time: Fri May 19 01:46:41 2017

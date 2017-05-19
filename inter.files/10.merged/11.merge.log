@@ -1,0 +1,35 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile inter.files/7.intersect.pheno/11.intersected.anc.pobi
+  --bmerge inter.files/9.pobi.with.anc.snps/11.pobi.with.anc.snps
+  --make-bed
+  --out inter.files/10.merged/11.merge
+
+Hostname: ebc202
+Working directory: /mmg/awwohns/selection_v4
+Start time: Fri May 19 01:49:45 2017
+
+Random number seed: 1495147785
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+86 people loaded from
+inter.files/7.intersect.pheno/11.intersected.anc.pobi.fam.
+101 people to be merged from
+inter.files/9.pobi.with.anc.snps/11.pobi.with.anc.snps.fam.
+Of these, 101 are new, while 0 are present in the base dataset.
+29931 markers loaded from
+inter.files/7.intersect.pheno/11.intersected.anc.pobi.bim.
+29931 markers to be merged from
+inter.files/9.pobi.with.anc.snps/11.pobi.with.anc.snps.bim.
+Of these, 0 are new, while 29931 are present in the base dataset.
+Error: 14795 variants with 3+ alleles present.
+* If you believe this is due to strand inconsistency, try --flip with
+  inter.files/10.merged/11.merge-merge.missnp.
+  (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
+  alleles probably remain in your data.  If LD between nearby SNPs is high,
+  --flip-scan should detect them.)
+* If you are dealing with genuine multiallelic variants, we recommend exporting
+  that subset of the data to VCF (via e.g. '--recode vcf'), merging with
+  another tool/script, and then importing the result; PLINK is not yet suited
+  to handling them.
+
+End time: Fri May 19 01:49:45 2017

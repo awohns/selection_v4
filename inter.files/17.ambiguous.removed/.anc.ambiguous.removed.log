@@ -1,0 +1,16 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile inter.files/15.flipped.snps/.flipped.monomorphic
+  --exclude /ebc_data/awwohns/selection_v4/references/ambiguous.snps.anc.modern/ambigious.snps.txt
+  --make-bed
+  --out inter.files/17.ambiguous.removed/.anc.ambiguous.removed
+
+Hostname: ebc201
+Working directory: /mmg/awwohns/selection_v4
+Start time: Fri May 19 15:29:27 2017
+
+Random number seed: 1495196967
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+Error: Failed to open inter.files/15.flipped.snps/.flipped.monomorphic.bed.
+
+End time: Fri May 19 15:29:27 2017
