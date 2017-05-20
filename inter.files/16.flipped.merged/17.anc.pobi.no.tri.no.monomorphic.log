@@ -1,0 +1,44 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --allow-no-sex
+  --bfile inter.files/15.flipped.snps/17.flipped.monomorphic
+  --bmerge inter.files/13.notriallelic/17.pobi.notri_tmp
+  --make-bed
+  --out inter.files/16.flipped.merged/17.anc.pobi.no.tri.no.monomorphic
+
+Hostname: ebc219
+Working directory: /mmg/awwohns/selection_v4
+Start time: Fri May 19 18:02:32 2017
+
+Random number seed: 1495206152
+257837 MB RAM detected; reserving 128918 MB for main workspace.
+86 people loaded from inter.files/15.flipped.snps/17.flipped.monomorphic.fam.
+101 people to be merged from inter.files/13.notriallelic/17.pobi.notri_tmp.fam.
+Of these, 101 are new, while 0 are present in the base dataset.
+18380 markers loaded from
+inter.files/15.flipped.snps/17.flipped.monomorphic.bim.
+18380 markers to be merged from
+inter.files/13.notriallelic/17.pobi.notri_tmp.bim.
+Of these, 0 are new, while 18380 are present in the base dataset.
+Performing single-pass merge (187 people, 18380 variants).
+Merged fileset written to
+inter.files/16.flipped.merged/17.anc.pobi.no.tri.no.monomorphic-merge.bed +
+inter.files/16.flipped.merged/17.anc.pobi.no.tri.no.monomorphic-merge.bim +
+inter.files/16.flipped.merged/17.anc.pobi.no.tri.no.monomorphic-merge.fam .
+18380 variants loaded from .bim file.
+187 people (49 males, 52 females, 86 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+inter.files/16.flipped.merged/17.anc.pobi.no.tri.no.monomorphic.nosex .
+187 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 187 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.579301.
+18380 variants and 187 people pass filters and QC.
+Among remaining phenotypes, 86 are cases and 101 are controls.
+--make-bed to
+inter.files/16.flipped.merged/17.anc.pobi.no.tri.no.monomorphic.bed +
+inter.files/16.flipped.merged/17.anc.pobi.no.tri.no.monomorphic.bim +
+inter.files/16.flipped.merged/17.anc.pobi.no.tri.no.monomorphic.fam ... done.
+
+End time: Fri May 19 18:02:32 2017

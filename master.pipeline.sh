@@ -7,7 +7,7 @@ read indiv
 if [ "$option" == "anc.modern" ]; then
 	for i in {1..22}; do
         echo ${i}
-        eval "sbatch anc.modern.eachchr.sh ${i} ${indiv}"
+        eval "sbatch anc.modern.eachchr.sh ${i} ${indiv} new_bams.filelist"
         sleep 1
 done
 
@@ -20,13 +20,13 @@ done
 elif [ "$option" = "pre.modern" ]; then
 	for i in {1..22}; do
         echo ${i}
-        #eval "sbatch pre.modern.eachchr.sh  ${i} ${indiv}"
+        eval "sbatch anc.modern.eachchr.sh ${i} ${indiv} pre_list.filelist"
         sleep 1
 done
 elif [ "$option" = "post.modern" ]; then
 	for i in {1..22}; do
         echo ${i}
-        #eval "sbatch post.modern.eachchr.sh  ${i} ${indiv}"
+        eval "sbatch anc.modern.eachchr.sh ${i} ${indiv} post_list.filelist"
         sleep 1
 done
 else

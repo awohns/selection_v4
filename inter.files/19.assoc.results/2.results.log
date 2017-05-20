@@ -1,0 +1,18 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --adjust
+  --allow-no-sex
+  --assoc
+  --bfile inter.files/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous
+  --out inter.files/19.assoc.results/2.results
+
+Hostname: ebc201
+Working directory: /mmg/awwohns/selection_v4
+Start time: Fri May 19 17:52:06 2017
+
+Random number seed: 1495205526
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+Error: Failed to open
+inter.files/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous.bed.
+
+End time: Fri May 19 17:52:06 2017

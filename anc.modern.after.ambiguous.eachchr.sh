@@ -25,3 +25,5 @@ awk 'NR >= 2 {print($2,$1,$3,$9)}' inter.files/19.assoc.results/${cur_chr}.resul
 fi
 
 
+# #Make Manhattan Plot
+# eval 'Rscript lib/make.manhattan.R'

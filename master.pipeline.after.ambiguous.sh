@@ -8,7 +8,7 @@ if [ "$option" == "anc.modern" ]; then
 	for i in {1..22}; do
         echo ${i}
         eval "rm inter.files/20.manhattan.data/assoc.results.all.chrs.no.ambiguous.txt"
-        eval "sbatch anc.modern.after.ambiguous.eachchr.sh ${i}"
+        eval "./anc.modern.after.ambiguous.eachchr.sh ${i}"
         sleep 1
 done
 

@@ -5,25 +5,28 @@ Options in effect:
   --make-bed
   --out inter.files/13.notriallelic/2.anc.notri_tmp
 
-Hostname: ebc207
+Hostname: ebc226
 Working directory: /mmg/awwohns/selection_v4
-Start time: Fri May 19 02:00:26 2017
+Start time: Fri May 19 18:13:17 2017
 
-Random number seed: 1495148426
-257837 MB RAM detected; reserving 128918 MB for main workspace.
+Random number seed: 1495206797
+257661 MB RAM detected; reserving 128830 MB for main workspace.
 49247 variants loaded from .bim file.
 86 people (0 males, 0 females, 86 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to inter.files/13.notriallelic/2.anc.notri_tmp.nosex
 .
+86 phenotype values loaded from .fam.
 --exclude: 48802 variants remaining.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 86 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
 Total genotyping rate is 0.082412.
 48802 variants and 86 people pass filters and QC.
-Note: No phenotypes present.
+Among remaining phenotypes, 86 are cases and 0 are controls.
 --make-bed to inter.files/13.notriallelic/2.anc.notri_tmp.bed +
 inter.files/13.notriallelic/2.anc.notri_tmp.bim +
 inter.files/13.notriallelic/2.anc.notri_tmp.fam ... done.
 
-End time: Fri May 19 02:01:47 2017
+End time: Fri May 19 18:13:17 2017

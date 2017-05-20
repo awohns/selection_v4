@@ -1,3 +1,4 @@
+install.packages("qqman")
 library(qqman)
 library(RColorBrewer)
 

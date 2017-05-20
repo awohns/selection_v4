@@ -30,10 +30,10 @@ eval 'cp inter.files/2.tped/${cur_chr}.tfam inter.files/3.tped.nto0/temp.${cur_c
 #Convert tped to ped
 plink --tfile inter.files/3.tped.nto0/temp.${cur_chr} --recode --out inter.files/4.ped/${cur_chr}_ped
 
-Add the rsids
+#Add the rsids
 plink --file inter.files/4.ped/${cur_chr}_ped --update-map references/pobi.snps.by.chr/${cur_chr}.se.pobi.bim.txt --update-name --make-bed --out inter.files/5.add.rsid/${cur_chr}.with.rsid
 
-Find intersected SNPS between ancient and pobi
+#Find intersected SNPS between ancient and pobi
 plink --bfile inter.files/5.add.rsid/${cur_chr}.with.rsid --extract references/pobi.snps/${cur_chr}.se.pobi.bim.snps.only.txt --make-bed --out inter.files/6.intersect/${cur_chr}.intersected.anc.pobi
 
 #Add phenotypes to intersected list
@@ -48,10 +48,10 @@ cut -f2 inter.files/7.intersect.pheno/${cur_chr}.intersected.anc.pobi.bim > inte
 #Extract the overlapping SNPs from POBI
 plink --bfile references/se.england.pobi/se.england.pobi --extract inter.files/8.anc.snps/${cur_chr}.anc.snps.txt --make-bed --out inter.files/9.pobi.with.anc.snps/${cur_chr}.pobi.with.anc.snps
 
-Merge pobi and ancient
+#Merge pobi and ancient
 plink --bfile inter.files/7.intersect.pheno/${cur_chr}.intersected.anc.pobi --bmerge inter.files/9.pobi.with.anc.snps/${cur_chr}.pobi.with.anc.snps --make-bed --out inter.files/10.merged/${cur_chr}.merge
 
-Flip the missnps
+#Flip the missnps
 plink --bfile inter.files/7.intersect.pheno/${cur_chr}.intersected.anc.pobi --flip inter.files/10.merged/${cur_chr}.merge-merge.missnp --make-bed --out inter.files/11.merged.flipped/${cur_chr}.merge.flipped
 
 #Remerge after the flip

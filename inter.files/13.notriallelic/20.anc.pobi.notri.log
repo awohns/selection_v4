@@ -6,11 +6,11 @@ Options in effect:
   --make-bed
   --out inter.files/13.notriallelic/20.anc.pobi.notri
 
-Hostname: ebc201
+Hostname: ebc220
 Working directory: /mmg/awwohns/selection_v4
-Start time: Fri May 19 01:37:15 2017
+Start time: Fri May 19 17:59:56 2017
 
-Random number seed: 1495147035
+Random number seed: 1495205996
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 86 people loaded from inter.files/13.notriallelic/20.anc.notri_tmp.fam.
 101 people to be merged from inter.files/13.notriallelic/20.pobi.notri_tmp.fam.
@@ -39,4 +39,4 @@ Among remaining phenotypes, 86 are cases and 101 are controls.
 inter.files/13.notriallelic/20.anc.pobi.notri.bim +
 inter.files/13.notriallelic/20.anc.pobi.notri.fam ... done.
 
-End time: Fri May 19 01:37:15 2017
+End time: Fri May 19 17:59:56 2017
