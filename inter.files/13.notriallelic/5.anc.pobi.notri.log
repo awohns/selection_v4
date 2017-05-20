@@ -8,9 +8,9 @@ Options in effect:
 
 Hostname: ebc227
 Working directory: /mmg/awwohns/selection_v4
-Start time: Fri May 19 18:13:58 2017
+Start time: Sat May 20 18:08:53 2017
 
-Random number seed: 1495206838
+Random number seed: 1495292933
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 86 people loaded from inter.files/13.notriallelic/5.anc.notri_tmp.fam.
 101 people to be merged from inter.files/13.notriallelic/5.pobi.notri_tmp.fam.
@@ -28,15 +28,16 @@ inter.files/13.notriallelic/5.anc.pobi.notri-merge.fam .
 187 people (49 males, 52 females, 86 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to inter.files/13.notriallelic/5.anc.pobi.notri.nosex
 .
-187 phenotype values loaded from .fam.
+101 phenotype values loaded from .fam.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 187 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
 Total genotyping rate is 0.577626.
 36347 variants and 187 people pass filters and QC.
-Among remaining phenotypes, 86 are cases and 101 are controls.
+Among remaining phenotypes, 0 are cases and 101 are controls.  (86 phenotypes
+are missing.)
 --make-bed to inter.files/13.notriallelic/5.anc.pobi.notri.bed +
 inter.files/13.notriallelic/5.anc.pobi.notri.bim +
 inter.files/13.notriallelic/5.anc.pobi.notri.fam ... done.
 
-End time: Fri May 19 18:13:58 2017
+End time: Sat May 20 18:10:38 2017

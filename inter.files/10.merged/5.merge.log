@@ -7,9 +7,9 @@ Options in effect:
 
 Hostname: ebc227
 Working directory: /mmg/awwohns/selection_v4
-Start time: Fri May 19 18:13:56 2017
+Start time: Sat May 20 18:04:07 2017
 
-Random number seed: 1495206836
+Random number seed: 1495292647
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 86 people loaded from inter.files/7.intersect.pheno/5.intersected.anc.pobi.fam.
 101 people to be merged from
@@ -31,4 +31,4 @@ Error: 18345 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Fri May 19 18:13:56 2017
+End time: Sat May 20 18:04:10 2017

@@ -8,9 +8,9 @@ Options in effect:
 
 Hostname: ebc227
 Working directory: /mmg/awwohns/selection_v4
-Start time: Fri May 19 18:16:28 2017
+Start time: Sat May 20 18:15:00 2017
 
-Random number seed: 1495206988
+Random number seed: 1495293300
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 86 people loaded from inter.files/15.flipped.snps/6.flipped.monomorphic.fam.
 101 people to be merged from inter.files/13.notriallelic/6.pobi.notri_tmp.fam.
@@ -41,4 +41,4 @@ inter.files/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic.bed +
 inter.files/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic.bim +
 inter.files/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic.fam ... done.
 
-End time: Fri May 19 18:16:29 2017
+End time: Sat May 20 18:15:01 2017

@@ -7,7 +7,8 @@ read indiv
 if [ "$option" == "anc.modern" ]; then
 	for i in {1..22}; do
         echo ${i}
-        eval "sbatch anc.modern.eachchr.sh ${i} ${indiv} new_bams.filelist"
+        maxmis=$((86-$indiv))
+        eval "sbatch anc.modern.eachchr.sh ${i} ${maxmis} new_bams.filelist inter.files"
         sleep 1
 done
 
@@ -20,13 +21,16 @@ done
 elif [ "$option" = "pre.modern" ]; then
 	for i in {1..22}; do
         echo ${i}
-        eval "sbatch anc.modern.eachchr.sh ${i} ${indiv} pre_list.filelist"
+        maxmis=$((44-$indiv))
+        eval "sbatch anc.modern.eachchr.sh ${i} ${maxmis} pre_list.filelist pre.modern"
+        echo "sbatch anc.modern.eachchr.sh" ${i} ${maxmis} "pre_list.filelist pre.modern"
         sleep 1
 done
 elif [ "$option" = "post.modern" ]; then
 	for i in {1..22}; do
         echo ${i}
-        eval "sbatch anc.modern.eachchr.sh ${i} ${indiv} post_list.filelist"
+        maxmis=$((24-$indiv))
+        eval "sbatch anc.modern.eachchr.sh ${i} ${maxmis} post_list.filelist post.modern"
         sleep 1
 done
 else

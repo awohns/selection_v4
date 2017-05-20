@@ -5,12 +5,12 @@ Options in effect:
   --make-bed
   --out inter.files/12.remerged/15.pobi.anc
 
-Hostname: ebc219
+Hostname: ebc206
 Working directory: /mmg/awwohns/selection_v4
-Start time: Fri May 19 18:01:56 2017
+Start time: Sat May 20 17:49:17 2017
 
-Random number seed: 1495206116
-257837 MB RAM detected; reserving 128918 MB for main workspace.
+Random number seed: 1495291757
+257661 MB RAM detected; reserving 128830 MB for main workspace.
 86 people loaded from inter.files/11.merged.flipped/15.merge.flipped.fam.
 101 people to be merged from
 inter.files/9.pobi.with.anc.snps/15.pobi.with.anc.snps.fam.
@@ -30,4 +30,4 @@ Error: 170 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Fri May 19 18:01:56 2017
+End time: Sat May 20 17:49:17 2017

@@ -6,12 +6,12 @@ Options in effect:
   --make-bed
   --out inter.files/13.notriallelic/14.anc.pobi.notri
 
-Hostname: ebc219
+Hostname: ebc206
 Working directory: /mmg/awwohns/selection_v4
-Start time: Fri May 19 18:03:19 2017
+Start time: Sat May 20 18:07:33 2017
 
-Random number seed: 1495206199
-257837 MB RAM detected; reserving 128918 MB for main workspace.
+Random number seed: 1495292853
+257661 MB RAM detected; reserving 128830 MB for main workspace.
 86 people loaded from inter.files/13.notriallelic/14.anc.notri_tmp.fam.
 101 people to be merged from inter.files/13.notriallelic/14.pobi.notri_tmp.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
@@ -28,15 +28,16 @@ inter.files/13.notriallelic/14.anc.pobi.notri-merge.fam .
 187 people (49 males, 52 females, 86 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 inter.files/13.notriallelic/14.anc.pobi.notri.nosex .
-187 phenotype values loaded from .fam.
+101 phenotype values loaded from .fam.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 187 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
 Total genotyping rate is 0.578069.
 19401 variants and 187 people pass filters and QC.
-Among remaining phenotypes, 86 are cases and 101 are controls.
+Among remaining phenotypes, 0 are cases and 101 are controls.  (86 phenotypes
+are missing.)
 --make-bed to inter.files/13.notriallelic/14.anc.pobi.notri.bed +
 inter.files/13.notriallelic/14.anc.pobi.notri.bim +
 inter.files/13.notriallelic/14.anc.pobi.notri.fam ... done.
 
-End time: Fri May 19 18:03:19 2017
+End time: Sat May 20 18:08:55 2017

@@ -7,9 +7,9 @@ Options in effect:
 
 Hostname: ebc226
 Working directory: /mmg/awwohns/selection_v4
-Start time: Fri May 19 18:09:30 2017
+Start time: Sat May 20 18:14:29 2017
 
-Random number seed: 1495206570
+Random number seed: 1495293269
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 40557 variants loaded from .bim file.
 86 people (0 males, 0 females, 86 ambiguous) loaded from .fam.
@@ -29,4 +29,4 @@ Among remaining phenotypes, 86 are cases and 0 are controls.
 inter.files/13.notriallelic/3.anc.notri_tmp.bim +
 inter.files/13.notriallelic/3.anc.notri_tmp.fam ... done.
 
-End time: Fri May 19 18:09:30 2017
+End time: Sat May 20 18:14:29 2017

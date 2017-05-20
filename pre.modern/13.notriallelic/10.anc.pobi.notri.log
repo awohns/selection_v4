@@ -1,0 +1,42 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --allow-no-sex
+  --bfile pre.modern/13.notriallelic/10.anc.notri_tmp
+  --bmerge pre.modern/13.notriallelic/10.pobi.notri_tmp
+  --make-bed
+  --out pre.modern/13.notriallelic/10.anc.pobi.notri
+
+Hostname: ebc205
+Working directory: /mmg/awwohns/selection_v4
+Start time: Sat May 20 23:42:54 2017
+
+Random number seed: 1495312974
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+44 people loaded from pre.modern/13.notriallelic/10.anc.notri_tmp.fam.
+101 people to be merged from pre.modern/13.notriallelic/10.pobi.notri_tmp.fam.
+Of these, 101 are new, while 0 are present in the base dataset.
+19557 markers loaded from pre.modern/13.notriallelic/10.anc.notri_tmp.bim.
+19557 markers to be merged from
+pre.modern/13.notriallelic/10.pobi.notri_tmp.bim.
+Of these, 0 are new, while 19557 are present in the base dataset.
+Performing single-pass merge (145 people, 19557 variants).
+Merged fileset written to
+pre.modern/13.notriallelic/10.anc.pobi.notri-merge.bed +
+pre.modern/13.notriallelic/10.anc.pobi.notri-merge.bim +
+pre.modern/13.notriallelic/10.anc.pobi.notri-merge.fam .
+19557 variants loaded from .bim file.
+145 people (49 males, 52 females, 44 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to pre.modern/13.notriallelic/10.anc.pobi.notri.nosex
+.
+145 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 145 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.738682.
+19557 variants and 145 people pass filters and QC.
+Among remaining phenotypes, 44 are cases and 101 are controls.
+--make-bed to pre.modern/13.notriallelic/10.anc.pobi.notri.bed +
+pre.modern/13.notriallelic/10.anc.pobi.notri.bim +
+pre.modern/13.notriallelic/10.anc.pobi.notri.fam ... done.
+
+End time: Sat May 20 23:42:54 2017

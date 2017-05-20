@@ -5,11 +5,11 @@ Options in effect:
   --make-bed
   --out inter.files/10.merged/1.merge
 
-Hostname: ebc215
+Hostname: ebc226
 Working directory: /mmg/awwohns/selection_v4
-Start time: Fri May 19 18:11:07 2017
+Start time: Sat May 20 18:14:35 2017
 
-Random number seed: 1495206667
+Random number seed: 1495293275
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 86 people loaded from inter.files/7.intersect.pheno/1.intersected.anc.pobi.fam.
 101 people to be merged from
@@ -31,4 +31,4 @@ Error: 24980 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Fri May 19 18:11:07 2017
+End time: Sat May 20 18:14:35 2017

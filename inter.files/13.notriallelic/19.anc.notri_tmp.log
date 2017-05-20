@@ -5,12 +5,12 @@ Options in effect:
   --make-bed
   --out inter.files/13.notriallelic/19.anc.notri_tmp
 
-Hostname: ebc220
+Hostname: ebc207
 Working directory: /mmg/awwohns/selection_v4
-Start time: Fri May 19 17:59:50 2017
+Start time: Sat May 20 17:37:44 2017
 
-Random number seed: 1495205990
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1495291064
+257837 MB RAM detected; reserving 128918 MB for main workspace.
 13846 variants loaded from .bim file.
 86 people (0 males, 0 females, 86 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to inter.files/13.notriallelic/19.anc.notri_tmp.nosex
@@ -29,4 +29,4 @@ Among remaining phenotypes, 86 are cases and 0 are controls.
 inter.files/13.notriallelic/19.anc.notri_tmp.bim +
 inter.files/13.notriallelic/19.anc.notri_tmp.fam ... done.
 
-End time: Fri May 19 17:59:50 2017
+End time: Sat May 20 17:37:45 2017

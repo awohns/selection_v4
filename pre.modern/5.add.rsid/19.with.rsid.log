@@ -1,0 +1,36 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --file pre.modern/4.ped/19_ped
+  --make-bed
+  --out pre.modern/5.add.rsid/19.with.rsid
+  --update-map references/pobi.snps.by.chr/19.se.pobi.bim.txt
+  --update-name
+
+Hostname: ebc207
+Working directory: /mmg/awwohns/selection_v4
+Start time: Sat May 20 23:36:30 2017
+
+Note: --update-map [filename] + parameter-free --update-name deprecated.  Use
+--update-name [filename] instead.
+Random number seed: 1495312590
+257837 MB RAM detected; reserving 128918 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (9347 variants, 44 people).
+--file: pre.modern/5.add.rsid/19.with.rsid-temporary.bed +
+pre.modern/5.add.rsid/19.with.rsid-temporary.bim +
+pre.modern/5.add.rsid/19.with.rsid-temporary.fam written.
+9347 variants loaded from .bim file.
+44 people (0 males, 0 females, 44 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to pre.modern/5.add.rsid/19.with.rsid.nosex .
+--update-name: 9347 values updated, 8433 variant IDs not present.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 44 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.143682.
+9347 variants and 44 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to pre.modern/5.add.rsid/19.with.rsid.bed +
+pre.modern/5.add.rsid/19.with.rsid.bim + pre.modern/5.add.rsid/19.with.rsid.fam
+... done.
+
+End time: Sat May 20 23:36:30 2017

@@ -1,7 +1,7 @@
 	-> Command: 
 angsd -b references/new_bams.filelist -doHaploCall 1 -doCounts 1 -out inter.files/1.haplo/21 -r 21 -maxMis 81 -sites references/pobi.snps.by.chr/21.se.pobi.bim.chr.pos.txt 
 	-> angsd version: 0.913-22-g10d7007-dirty (htslib: 1.3.1-58-g344c825) build(Aug 10 2016 18:27:04)
-	-> Fri May 19 17:54:37 2017
+	-> Sat May 20 17:31:23 2017
 ----------------
 multiReader.cpp:
 	-nLines	50	(Number of lines to read)
@@ -131,5 +131,5 @@ Optional
 		->"inter.files/1.haplo/21.arg"
 		->"inter.files/1.haplo/21.haplo.gz"
 
-	[ALL done] cpu-time used =  211.95 sec
-	[ALL done] walltime used =  214.00 sec
+	[ALL done] cpu-time used =  443.06 sec
+	[ALL done] walltime used =  482.00 sec

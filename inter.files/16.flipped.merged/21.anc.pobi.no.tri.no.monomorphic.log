@@ -6,11 +6,11 @@ Options in effect:
   --make-bed
   --out inter.files/16.flipped.merged/21.anc.pobi.no.tri.no.monomorphic
 
-Hostname: ebc220
+Hostname: ebc208.hpc.ut.ee
 Working directory: /mmg/awwohns/selection_v4
-Start time: Fri May 19 17:58:33 2017
+Start time: Sat May 20 17:40:13 2017
 
-Random number seed: 1495205913
+Random number seed: 1495291213
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 86 people loaded from inter.files/15.flipped.snps/21.flipped.monomorphic.fam.
 101 people to be merged from inter.files/13.notriallelic/21.pobi.notri_tmp.fam.
@@ -41,4 +41,4 @@ inter.files/16.flipped.merged/21.anc.pobi.no.tri.no.monomorphic.bed +
 inter.files/16.flipped.merged/21.anc.pobi.no.tri.no.monomorphic.bim +
 inter.files/16.flipped.merged/21.anc.pobi.no.tri.no.monomorphic.fam ... done.
 
-End time: Fri May 19 17:58:33 2017
+End time: Sat May 20 17:40:13 2017
