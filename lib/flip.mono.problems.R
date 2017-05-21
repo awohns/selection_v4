@@ -1,8 +1,9 @@
 args =commandArgs(trailingOnly = TRUE)
 cur_chr <- args[1]
+folder <- args[2]
 
-ancient <- read.delim(paste0("/ebc_data/awwohns/selection_v4/inter.files/13.notriallelic/",cur_chr,".anc.notri_tmp.bim"),header=FALSE)
-pobi <- read.delim(paste0("/ebc_data/awwohns/selection_v4/inter.files/13.notriallelic/",cur_chr,".pobi.notri_tmp.bim"),header=FALSE)
+ancient <- read.delim(paste0("/ebc_data/awwohns/selection_v4/",folder,"/13.notriallelic/",cur_chr,".anc.notri_tmp.bim"),header=FALSE)
+pobi <- read.delim(paste0("/ebc_data/awwohns/selection_v4/",folder,"/13.notriallelic/",cur_chr,".pobi.notri_tmp.bim"),header=FALSE)
 
 merged <- merge(ancient, pobi, by=("V2"))
 #print(head(merged))
@@ -61,5 +62,5 @@ for(i in 1:nrow(merged)) {
 		
 }
 results <- t(as.data.frame(results))
-write.table(results, file=paste0("inter.files/14.snps.to.flip/",cur_chr,"results.txt"),row.names=FALSE,col.names=FALSE,quote=FALSE)
+write.table(results, file=paste0(folder,"/14.snps.to.flip/",cur_chr,"results.txt"),row.names=FALSE,col.names=FALSE,quote=FALSE)
 

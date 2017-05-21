@@ -6,12 +6,39 @@ Options in effect:
   --make-bed
   --out pre.modern/16.flipped.merged/16.anc.pobi.no.tri.no.monomorphic
 
-Hostname: ebc207
+Hostname: ebc216
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sat May 20 23:38:09 2017
+Start time: Sun May 21 20:05:59 2017
 
-Random number seed: 1495312689
-257837 MB RAM detected; reserving 128918 MB for main workspace.
-Error: Failed to open pre.modern/15.flipped.snps/16.flipped.monomorphic.bed.
+Random number seed: 1495386359
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+44 people loaded from pre.modern/15.flipped.snps/16.flipped.monomorphic.fam.
+101 people to be merged from pre.modern/13.notriallelic/16.pobi.notri_tmp.fam.
+Of these, 101 are new, while 0 are present in the base dataset.
+12922 markers loaded from
+pre.modern/15.flipped.snps/16.flipped.monomorphic.bim.
+12922 markers to be merged from
+pre.modern/13.notriallelic/16.pobi.notri_tmp.bim.
+Of these, 0 are new, while 12922 are present in the base dataset.
+Performing single-pass merge (145 people, 12922 variants).
+Merged fileset written to
+pre.modern/16.flipped.merged/16.anc.pobi.no.tri.no.monomorphic-merge.bed +
+pre.modern/16.flipped.merged/16.anc.pobi.no.tri.no.monomorphic-merge.bim +
+pre.modern/16.flipped.merged/16.anc.pobi.no.tri.no.monomorphic-merge.fam .
+12922 variants loaded from .bim file.
+145 people (49 males, 52 females, 44 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+pre.modern/16.flipped.merged/16.anc.pobi.no.tri.no.monomorphic.nosex .
+145 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 145 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.739392.
+12922 variants and 145 people pass filters and QC.
+Among remaining phenotypes, 44 are cases and 101 are controls.
+--make-bed to
+pre.modern/16.flipped.merged/16.anc.pobi.no.tri.no.monomorphic.bed +
+pre.modern/16.flipped.merged/16.anc.pobi.no.tri.no.monomorphic.bim +
+pre.modern/16.flipped.merged/16.anc.pobi.no.tri.no.monomorphic.fam ... done.
 
-End time: Sat May 20 23:38:09 2017
+End time: Sun May 21 20:05:59 2017

@@ -1,0 +1,29 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile pre.modern/5.add.rsid/4.with.rsid
+  --extract references/pobi.snps/4.se.pobi.bim.snps.only.txt
+  --make-bed
+  --out pre.modern/6.intersect/4.intersected.anc.pobi
+
+Hostname: ebc227
+Working directory: /mmg/awwohns/selection_v4
+Start time: Sun May 21 20:11:56 2017
+
+Random number seed: 1495386716
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+20132 variants loaded from .bim file.
+44 people (0 males, 0 females, 44 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+pre.modern/6.intersect/4.intersected.anc.pobi.nosex .
+--extract: 20132 variants remaining.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 44 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.137015.
+20132 variants and 44 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to pre.modern/6.intersect/4.intersected.anc.pobi.bed +
+pre.modern/6.intersect/4.intersected.anc.pobi.bim +
+pre.modern/6.intersect/4.intersected.anc.pobi.fam ... done.
+
+End time: Sun May 21 20:11:56 2017

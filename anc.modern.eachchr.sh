@@ -37,10 +37,14 @@ plink --file ${folder}/4.ped/${cur_chr}_ped --update-map references/pobi.snps.by
 #Find intersected SNPS between ancient and pobi
 plink --bfile ${folder}/5.add.rsid/${cur_chr}.with.rsid --extract references/pobi.snps/${cur_chr}.se.pobi.bim.snps.only.txt --make-bed --out ${folder}/6.intersect/${cur_chr}.intersected.anc.pobi
 
-#Add phenotypes to intersected list
-cp ${folder}/6.intersect/* ${folder}/7.intersect.pheno/
+#Change the phenotypes
 awk '{$6 = "2";print $0 }' ${folder}/6.intersect/${cur_chr}.intersected.anc.pobi.fam > ${folder}/7.intersect.pheno/${cur_chr}.intersected.anc.pobi.fam
 
+#Add phenotypes to intersected list
+cp ${folder}/6.intersect/*.intersected.anc.pobi.bim ${folder}/7.intersect.pheno/
+cp ${folder}/6.intersect/*.intersected.anc.pobi.log ${folder}/7.intersect.pheno/
+cp ${folder}/6.intersect/*.intersected.anc.pobi.nosex ${folder}/7.intersect.pheno/
+cp ${folder}/6.intersect/*.intersected.anc.pobi.bed ${folder}/7.intersect.pheno/
 
 #Get list of SNPs intersected from the ancient dataset
 cut -f2 ${folder}/7.intersect.pheno/${cur_chr}.intersected.anc.pobi.bim > ${folder}/8.anc.snps/${cur_chr}.anc.snps.txt
@@ -64,7 +68,7 @@ plink --bfile ${folder}/9.pobi.with.anc.snps/${cur_chr}.pobi.with.anc.snps --exc
 plink --bfile ${folder}/13.notriallelic/${cur_chr}.anc.notri_tmp --bmerge ${folder}/13.notriallelic/${cur_chr}.pobi.notri_tmp --make-bed --allow-no-sex --out ${folder}/13.notriallelic/${cur_chr}.anc.pobi.notri
 
 #Find Monomorphic Problems
-Rscript lib/flip.mono.problems.R ${cur_chr}
+Rscript lib/flip.mono.problems.R ${cur_chr} ${folder}
 
 #Flip the monomorphic SNPs
 plink --bfile ${folder}/13.notriallelic/${cur_chr}.anc.notri_tmp --flip ${folder}/14.snps.to.flip/${cur_chr}results.txt --make-bed --out ${folder}/15.flipped.snps/${cur_chr}.flipped.monomorphic 

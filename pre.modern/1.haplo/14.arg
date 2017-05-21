@@ -1,7 +1,7 @@
 	-> Command: 
 angsd -b references/pre_list.filelist -doHaploCall 1 -doCounts 1 -out pre.modern/1.haplo/14 -r 14 -maxMis 39 -sites references/pobi.snps.by.chr/14.se.pobi.bim.chr.pos.txt 
 	-> angsd version: 0.913-22-g10d7007-dirty (htslib: 1.3.1-58-g344c825) build(Aug 10 2016 18:27:04)
-	-> Sat May 20 23:32:52 2017
+	-> Sun May 21 20:00:41 2017
 ----------------
 multiReader.cpp:
 	-nLines	50	(Number of lines to read)
@@ -131,5 +131,5 @@ Optional
 		->"pre.modern/1.haplo/14.arg"
 		->"pre.modern/1.haplo/14.haplo.gz"
 
-	[ALL done] cpu-time used =  673.01 sec
-	[ALL done] walltime used =  803.00 sec
+	[ALL done] cpu-time used =  331.88 sec
+	[ALL done] walltime used =  355.00 sec

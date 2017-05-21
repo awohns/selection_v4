@@ -8,7 +8,7 @@ if [ "$option" == "anc.modern" ]; then
 	for i in {1..22}; do
         echo ${i}
         eval "rm inter.files/20.manhattan.data/assoc.results.all.chrs.no.ambiguous.txt"
-        eval "./anc.modern.after.ambiguous.eachchr.sh ${i}"
+        eval "./anc.modern.after.ambiguous.eachchr.sh ${i} inter.files"
         sleep 1
 done
 
@@ -19,9 +19,11 @@ elif [ "$option" = "pre.post" ]; then
         sleep 1
 done
 elif [ "$option" = "pre.modern" ]; then
+        eval "rm pre.modern/20.manhattan.data/assoc.results.all.chrs.no.ambiguous.txt"
 	for i in {1..22}; do
         echo ${i}
-        #eval "sbatch pre.modern.after.ambiguous.eachchr.sh  ${i}"
+        #eval "rm pre.modern/20.manhattan.data/assoc.results.all.chrs.no.ambiguous.txt"
+        eval "./anc.modern.after.ambiguous.eachchr.sh ${i} pre.modern"
         sleep 1
 done
 elif [ "$option" = "post.modern" ]; then

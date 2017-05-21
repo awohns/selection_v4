@@ -6,13 +6,13 @@ Options in effect:
   --update-map references/pobi.snps.by.chr/9.se.pobi.bim.txt
   --update-name
 
-Hostname: ebc205
+Hostname: ebc229
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sat May 20 23:41:04 2017
+Start time: Sun May 21 20:07:46 2017
 
 Note: --update-map [filename] + parameter-free --update-name deprecated.  Use
 --update-name [filename] instead.
-Random number seed: 1495312864
+Random number seed: 1495386466
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 Scanning .ped file... done.
 Performing single-pass .bed write (17046 variants, 44 people).
@@ -33,4 +33,4 @@ Note: No phenotypes present.
 pre.modern/5.add.rsid/9.with.rsid.bim + pre.modern/5.add.rsid/9.with.rsid.fam
 ... done.
 
-End time: Sat May 20 23:41:04 2017
+End time: Sun May 21 20:07:47 2017
