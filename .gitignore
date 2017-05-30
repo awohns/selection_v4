@@ -16,3 +16,6 @@
 *.map
 *.hwe
 *.rdf
+*.bin
+*.frq
+*.haplo

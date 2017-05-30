@@ -1,0 +1,22 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile /ebc_data/awwohns/selection_v4/pre.modern/5.add.rsid/21.with.rsid
+  --freq
+  --out 21
+
+Hostname: ebc201
+Working directory: /mmg/awwohns/selection_v4/freq
+Start time: Fri May 26 00:49:58 2017
+
+Random number seed: 1495748998
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+5328 variants loaded from .bim file.
+44 people (0 males, 0 females, 44 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 21.nosex .
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 44 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.139209.
+--freq: Allele frequencies (founders only) written to 21.frq .
+
+End time: Fri May 26 00:49:58 2017

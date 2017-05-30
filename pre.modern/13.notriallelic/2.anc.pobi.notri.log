@@ -6,24 +6,43 @@ Options in effect:
   --make-bed
   --out pre.modern/13.notriallelic/2.anc.pobi.notri
 
-Hostname: ebc226
+Hostname: ebc215
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sun May 21 20:15:53 2017
+Start time: Mon May 29 01:15:07 2017
 
-Random number seed: 1495386953
+Random number seed: 1496009707
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 44 people loaded from pre.modern/13.notriallelic/2.anc.notri_tmp.fam.
 101 people to be merged from pre.modern/13.notriallelic/2.pobi.notri_tmp.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-29825 markers loaded from pre.modern/13.notriallelic/2.anc.notri_tmp.bim.
-29825 markers to be merged from
+Warning: Multiple positions seen for variant 'rs1377637'.
+Warning: Multiple positions seen for variant 'rs4832616'.
+Warning: Multiple positions seen for variant 'rs11695726'.
+Warning: Multiple positions seen for variant 'rs12991420'.
+Warning: Multiple positions seen for variant 'rs13000108'.
+Warning: Multiple positions seen for variant 'rs6745830'.
+Warning: Multiple positions seen for variant 'rs12467735'.
+Warning: Multiple positions seen for variant 'rs2555940'.
+Warning: Multiple positions seen for variant 'rs4241219'.
+Warning: Multiple positions seen for variant 'rs12991226'.
+Warning: Multiple positions seen for variant 'rs12373810'.
+Warning: Multiple positions seen for variant 'rs17393209'.
+Warning: Multiple positions seen for variant 'rs13011637'.
+Warning: Multiple positions seen for variant 'rs7606917'.
+Warning: Multiple positions seen for variant 'rs12989613'.
+Warning: Multiple positions seen for variant 'rs7600835'.
+Warning: Multiple positions seen for variant 'rs9753403'.
+Warning: Multiple positions seen for variant 'rs4850416'.
+Warning: Multiple positions seen for variant 'rs1424339'.
+64285 markers loaded from pre.modern/13.notriallelic/2.anc.notri_tmp.bim.
+64285 markers to be merged from
 pre.modern/13.notriallelic/2.pobi.notri_tmp.bim.
-Of these, 0 are new, while 29825 are present in the base dataset.
-Performing single-pass merge (145 people, 29825 variants).
+Of these, 0 are new, while 64285 are present in the base dataset.
+Performing single-pass merge (145 people, 64285 variants).
 Merged fileset written to pre.modern/13.notriallelic/2.anc.pobi.notri-merge.bed
 + pre.modern/13.notriallelic/2.anc.pobi.notri-merge.bim +
 pre.modern/13.notriallelic/2.anc.pobi.notri-merge.fam .
-29825 variants loaded from .bim file.
+64285 variants loaded from .bim file.
 145 people (49 males, 52 females, 44 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to pre.modern/13.notriallelic/2.anc.pobi.notri.nosex
 .
@@ -31,11 +50,11 @@ Ambiguous sex IDs written to pre.modern/13.notriallelic/2.anc.pobi.notri.nosex
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 145 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.738325.
-29825 variants and 145 people pass filters and QC.
+Total genotyping rate is 0.727502.
+64285 variants and 145 people pass filters and QC.
 Among remaining phenotypes, 44 are cases and 101 are controls.
 --make-bed to pre.modern/13.notriallelic/2.anc.pobi.notri.bed +
 pre.modern/13.notriallelic/2.anc.pobi.notri.bim +
 pre.modern/13.notriallelic/2.anc.pobi.notri.fam ... done.
 
-End time: Sun May 21 20:15:54 2017
+End time: Mon May 29 01:15:07 2017

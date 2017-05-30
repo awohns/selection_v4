@@ -3,34 +3,34 @@ Options in effect:
   --file pre.modern/4.ped/20_ped
   --make-bed
   --out pre.modern/5.add.rsid/20.with.rsid
-  --update-map references/pobi.snps.by.chr/20.se.pobi.bim.txt
+  --update-map references/pobi.snps.by.chr/20.se.pobi.updated.bim.txt
   --update-name
 
-Hostname: ebc217
+Hostname: ebc203
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sun May 21 20:04:12 2017
+Start time: Mon May 29 01:08:38 2017
 
 Note: --update-map [filename] + parameter-free --update-name deprecated.  Use
 --update-name [filename] instead.
-Random number seed: 1495386252
+Random number seed: 1496009318
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 Scanning .ped file... done.
-Performing single-pass .bed write (10343 variants, 44 people).
+Performing single-pass .bed write (20242 variants, 44 people).
 --file: pre.modern/5.add.rsid/20.with.rsid-temporary.bed +
 pre.modern/5.add.rsid/20.with.rsid-temporary.bim +
 pre.modern/5.add.rsid/20.with.rsid-temporary.fam written.
-10343 variants loaded from .bim file.
+20242 variants loaded from .bim file.
 44 people (0 males, 0 females, 44 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to pre.modern/5.add.rsid/20.with.rsid.nosex .
---update-name: 10343 values updated, 10929 variant IDs not present.
+--update-name: 20242 values updated, 1030 variant IDs not present.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 44 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.141141.
-10343 variants and 44 people pass filters and QC.
+Total genotyping rate is 0.107839.
+20242 variants and 44 people pass filters and QC.
 Note: No phenotypes present.
 --make-bed to pre.modern/5.add.rsid/20.with.rsid.bed +
 pre.modern/5.add.rsid/20.with.rsid.bim + pre.modern/5.add.rsid/20.with.rsid.fam
 ... done.
 
-End time: Sun May 21 20:04:12 2017
+End time: Mon May 29 01:08:38 2017

@@ -6,25 +6,27 @@ Options in effect:
   --make-bed
   --out pre.modern/16.flipped.merged/21.anc.pobi.no.tri.no.monomorphic
 
-Hostname: ebc217
+Hostname: ebc203
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sun May 21 20:03:14 2017
+Start time: Mon May 29 01:07:53 2017
 
-Random number seed: 1495386194
+Random number seed: 1496009273
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 44 people loaded from pre.modern/15.flipped.snps/21.flipped.monomorphic.fam.
 101 people to be merged from pre.modern/13.notriallelic/21.pobi.notri_tmp.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-5281 markers loaded from pre.modern/15.flipped.snps/21.flipped.monomorphic.bim.
-5281 markers to be merged from
+Warning: Multiple positions seen for variant 'rs2596105'.
+10929 markers loaded from
+pre.modern/15.flipped.snps/21.flipped.monomorphic.bim.
+10929 markers to be merged from
 pre.modern/13.notriallelic/21.pobi.notri_tmp.bim.
-Of these, 0 are new, while 5281 are present in the base dataset.
-Performing single-pass merge (145 people, 5281 variants).
+Of these, 0 are new, while 10929 are present in the base dataset.
+Performing single-pass merge (145 people, 10929 variants).
 Merged fileset written to
 pre.modern/16.flipped.merged/21.anc.pobi.no.tri.no.monomorphic-merge.bed +
 pre.modern/16.flipped.merged/21.anc.pobi.no.tri.no.monomorphic-merge.bim +
 pre.modern/16.flipped.merged/21.anc.pobi.no.tri.no.monomorphic-merge.fam .
-5281 variants loaded from .bim file.
+10929 variants loaded from .bim file.
 145 people (49 males, 52 females, 44 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.modern/16.flipped.merged/21.anc.pobi.no.tri.no.monomorphic.nosex .
@@ -32,12 +34,12 @@ pre.modern/16.flipped.merged/21.anc.pobi.no.tri.no.monomorphic.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 145 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.738588.
-5281 variants and 145 people pass filters and QC.
+Total genotyping rate is 0.728.
+10929 variants and 145 people pass filters and QC.
 Among remaining phenotypes, 44 are cases and 101 are controls.
 --make-bed to
 pre.modern/16.flipped.merged/21.anc.pobi.no.tri.no.monomorphic.bed +
 pre.modern/16.flipped.merged/21.anc.pobi.no.tri.no.monomorphic.bim +
 pre.modern/16.flipped.merged/21.anc.pobi.no.tri.no.monomorphic.fam ... done.
 
-End time: Sun May 21 20:03:15 2017
+End time: Mon May 29 01:07:54 2017

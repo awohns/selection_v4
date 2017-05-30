@@ -5,21 +5,40 @@ Options in effect:
   --make-bed
   --out pre.modern/12.remerged/2.pobi.anc
 
-Hostname: ebc226
+Hostname: ebc215
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sun May 21 20:15:53 2017
+Start time: Mon May 29 01:15:07 2017
 
-Random number seed: 1495386953
+Random number seed: 1496009707
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 44 people loaded from pre.modern/11.merged.flipped/2.merge.flipped.fam.
 101 people to be merged from
 pre.modern/9.pobi.with.anc.snps/2.pobi.with.anc.snps.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-30106 markers loaded from pre.modern/11.merged.flipped/2.merge.flipped.bim.
-30106 markers to be merged from
+Warning: Multiple positions seen for variant 'rs1377637'.
+Warning: Multiple positions seen for variant 'rs4832616'.
+Warning: Multiple positions seen for variant 'rs11695726'.
+Warning: Multiple positions seen for variant 'rs12991420'.
+Warning: Multiple positions seen for variant 'rs13000108'.
+Warning: Multiple positions seen for variant 'rs6745830'.
+Warning: Multiple positions seen for variant 'rs12467735'.
+Warning: Multiple positions seen for variant 'rs2555940'.
+Warning: Multiple positions seen for variant 'rs4241219'.
+Warning: Multiple positions seen for variant 'rs12991226'.
+Warning: Multiple positions seen for variant 'rs12373810'.
+Warning: Multiple positions seen for variant 'rs17393209'.
+Warning: Multiple positions seen for variant 'rs13011637'.
+Warning: Multiple positions seen for variant 'rs7606917'.
+Warning: Multiple positions seen for variant 'rs12989613'.
+Warning: Multiple positions seen for variant 'rs7600835'.
+Warning: Multiple positions seen for variant 'rs9753403'.
+Warning: Multiple positions seen for variant 'rs4850416'.
+Warning: Multiple positions seen for variant 'rs1424339'.
+64849 markers loaded from pre.modern/11.merged.flipped/2.merge.flipped.bim.
+64849 markers to be merged from
 pre.modern/9.pobi.with.anc.snps/2.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 30106 are present in the base dataset.
-Error: 281 variants with 3+ alleles present.
+Of these, 0 are new, while 64849 are present in the base dataset.
+Error: 564 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
   pre.modern/12.remerged/2.pobi.anc-merge.missnp.
   (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
@@ -30,4 +49,4 @@ Error: 281 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Sun May 21 20:15:53 2017
+End time: Mon May 29 01:15:07 2017

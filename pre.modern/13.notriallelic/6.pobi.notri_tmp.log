@@ -7,22 +7,22 @@ Options in effect:
 
 Hostname: ebc227
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sun May 21 20:11:35 2017
+Start time: Mon May 29 01:15:57 2017
 
-Random number seed: 1495386695
+Random number seed: 1496009757
 257661 MB RAM detected; reserving 128830 MB for main workspace.
-23767 variants loaded from .bim file.
+51095 variants loaded from .bim file.
 101 people (49 males, 52 females) loaded from .fam.
 101 phenotype values loaded from .fam.
---exclude: 23550 variants remaining.
+--exclude: 50649 variants remaining.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 101 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.999511.
-23550 variants and 101 people pass filters and QC.
+Total genotyping rate is 0.999515.
+50649 variants and 101 people pass filters and QC.
 Among remaining phenotypes, 0 are cases and 101 are controls.
 --make-bed to pre.modern/13.notriallelic/6.pobi.notri_tmp.bed +
 pre.modern/13.notriallelic/6.pobi.notri_tmp.bim +
 pre.modern/13.notriallelic/6.pobi.notri_tmp.fam ... done.
 
-End time: Sun May 21 20:11:35 2017
+End time: Mon May 29 01:15:57 2017

@@ -5,28 +5,28 @@ Options in effect:
   --make-bed
   --out pre.modern/11.merged.flipped/10.merge.flipped
 
-Hostname: ebc230
+Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sun May 21 20:09:18 2017
+Start time: Mon May 29 01:13:15 2017
 
-Random number seed: 1495386558
+Random number seed: 1496009595
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 19749 variants loaded from .bim file.
 44 people (0 males, 0 females, 44 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.modern/11.merged.flipped/10.merge.flipped.nosex .
 44 phenotype values loaded from .fam.
---flip: 9791 SNPs flipped.
+--flip: 9799 SNPs flipped.
 Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
 phenotypes to be ignored, use the --allow-no-sex flag.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 44 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.139633.
+Total genotyping rate is 0.13964.
 19749 variants and 44 people pass filters and QC.
 Among remaining phenotypes, 44 are cases and 0 are controls.
 --make-bed to pre.modern/11.merged.flipped/10.merge.flipped.bed +
 pre.modern/11.merged.flipped/10.merge.flipped.bim +
 pre.modern/11.merged.flipped/10.merge.flipped.fam ... done.
 
-End time: Sun May 21 20:09:18 2017
+End time: Mon May 29 01:13:16 2017

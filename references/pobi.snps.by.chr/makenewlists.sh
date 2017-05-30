@@ -1,4 +1,4 @@
-for file in *.se.pobi.bim.txt 
+for file in *.se.pobi.updated.bim.txt 
 do
 filename=$(basename "$file")
 extension="${filename##*.}"

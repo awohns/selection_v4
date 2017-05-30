@@ -3,34 +3,34 @@ Options in effect:
   --file pre.modern/4.ped/22_ped
   --make-bed
   --out pre.modern/5.add.rsid/22.with.rsid
-  --update-map references/pobi.snps.by.chr/22.se.pobi.bim.txt
+  --update-map references/pobi.snps.by.chr/22.se.pobi.updated.bim.txt
   --update-name
 
-Hostname: ebc217
-Working directory: /mmg/awwohns/selection_v4
-Start time: Sun May 21 20:02:15 2017
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Mon May 29 01:08:11 2017
 
 Note: --update-map [filename] + parameter-free --update-name deprecated.  Use
 --update-name [filename] instead.
-Random number seed: 1495386135
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1496009291
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 Scanning .ped file... done.
-Performing single-pass .bed write (6848 variants, 44 people).
+Performing single-pass .bed write (2425 variants, 44 people).
 --file: pre.modern/5.add.rsid/22.with.rsid-temporary.bed +
 pre.modern/5.add.rsid/22.with.rsid-temporary.bim +
 pre.modern/5.add.rsid/22.with.rsid-temporary.fam written.
-6848 variants loaded from .bim file.
+2425 variants loaded from .bim file.
 44 people (0 males, 0 females, 44 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to pre.modern/5.add.rsid/22.with.rsid.nosex .
---update-name: 6848 values updated, 6177 variant IDs not present.
+--update-name: 2425 values updated, 10600 variant IDs not present.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 44 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.142696.
-6848 variants and 44 people pass filters and QC.
+Total genotyping rate is 0.177545.
+2425 variants and 44 people pass filters and QC.
 Note: No phenotypes present.
 --make-bed to pre.modern/5.add.rsid/22.with.rsid.bed +
 pre.modern/5.add.rsid/22.with.rsid.bim + pre.modern/5.add.rsid/22.with.rsid.fam
 ... done.
 
-End time: Sun May 21 20:02:15 2017
+End time: Mon May 29 01:08:12 2017

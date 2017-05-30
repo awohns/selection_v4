@@ -1,0 +1,22 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile /ebc_data/awwohns/selection_v4/references/se.england.pobi/se.england.updated.map
+  --freq
+  --out pobi
+
+Hostname: ebc201
+Working directory: /mmg/awwohns/selection_v4/freq
+Start time: Fri May 26 01:01:19 2017
+
+Random number seed: 1495749679
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+827147 variants loaded from .bim file.
+101 people (49 males, 52 females) loaded from .fam.
+101 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 101 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.999589.
+--freq: Allele frequencies (founders only) written to pobi.frq .
+
+End time: Fri May 26 01:01:20 2017

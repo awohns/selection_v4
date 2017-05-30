@@ -8,26 +8,26 @@ Options in effect:
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sun May 21 21:12:21 2017
+Start time: Thu May 25 18:02:31 2017
 
-Random number seed: 1495390341
+Random number seed: 1495724551
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 44 people loaded from
 pre.modern/17.ambiguous.removed/15.anc.ambiguous.removed.fam.
 101 people to be merged from
 pre.modern/17.ambiguous.removed/15.pobi.ambiguous.removed.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-11434 markers loaded from
+11430 markers loaded from
 pre.modern/17.ambiguous.removed/15.anc.ambiguous.removed.bim.
-11434 markers to be merged from
+11430 markers to be merged from
 pre.modern/17.ambiguous.removed/15.pobi.ambiguous.removed.bim.
-Of these, 0 are new, while 11434 are present in the base dataset.
-Performing single-pass merge (145 people, 11434 variants).
+Of these, 0 are new, while 11430 are present in the base dataset.
+Performing single-pass merge (145 people, 11430 variants).
 Merged fileset written to
 pre.modern/18.ambiguous.removed.merged/15.anc.pobi.no.ambiguous-merge.bed +
 pre.modern/18.ambiguous.removed.merged/15.anc.pobi.no.ambiguous-merge.bim +
 pre.modern/18.ambiguous.removed.merged/15.anc.pobi.no.ambiguous-merge.fam .
-11434 variants loaded from .bim file.
+11430 variants loaded from .bim file.
 145 people (49 males, 52 females, 44 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.modern/18.ambiguous.removed.merged/15.anc.pobi.no.ambiguous.nosex .
@@ -35,12 +35,12 @@ pre.modern/18.ambiguous.removed.merged/15.anc.pobi.no.ambiguous.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 145 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.738677.
-11434 variants and 145 people pass filters and QC.
+Total genotyping rate is 0.738679.
+11430 variants and 145 people pass filters and QC.
 Among remaining phenotypes, 44 are cases and 101 are controls.
 --make-bed to
 pre.modern/18.ambiguous.removed.merged/15.anc.pobi.no.ambiguous.bed +
 pre.modern/18.ambiguous.removed.merged/15.anc.pobi.no.ambiguous.bim +
 pre.modern/18.ambiguous.removed.merged/15.anc.pobi.no.ambiguous.fam ... done.
 
-End time: Sun May 21 21:12:21 2017
+End time: Thu May 25 18:02:31 2017

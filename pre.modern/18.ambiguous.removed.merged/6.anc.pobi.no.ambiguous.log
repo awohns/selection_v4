@@ -8,26 +8,47 @@ Options in effect:
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sun May 21 21:11:44 2017
+Start time: Thu May 25 18:02:10 2017
 
-Random number seed: 1495390304
+Random number seed: 1495724530
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 44 people loaded from
 pre.modern/17.ambiguous.removed/6.anc.ambiguous.removed.fam.
 101 people to be merged from
 pre.modern/17.ambiguous.removed/6.pobi.ambiguous.removed.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-23354 markers loaded from
+Warning: Multiple positions seen for variant 'rs2523608'.
+Warning: Multiple positions seen for variant 'rs41559422'.
+Warning: Multiple positions seen for variant 'rs12528645'.
+Warning: Multiple positions seen for variant 'rs2621330'.
+Warning: Multiple positions seen for variant 'rs2070121'.
+Warning: Multiple positions seen for variant 'rs241447'.
+Warning: Multiple positions seen for variant 'rs4148876'.
+Warning: Multiple positions seen for variant 'rs1057149'.
+Warning: Multiple positions seen for variant 'rs1135216'.
+Warning: Multiple positions seen for variant 'rs2127679'.
+Warning: Multiple positions seen for variant 'rs1057141'.
+Warning: Multiple positions seen for variant 'rs17617321'.
+Warning: Multiple positions seen for variant 'rs1063478'.
+Warning: Multiple positions seen for variant 'rs3129302'.
+Warning: Multiple positions seen for variant 'rs2581'.
+Warning: Multiple positions seen for variant 'rs2582'.
+Warning: Multiple positions seen for variant 'rs375256'.
+Warning: Multiple positions seen for variant 'rs364950'.
+Warning: Multiple positions seen for variant 'rs2308931'.
+Warning: Multiple positions seen for variant 'rs1042190'.
+Warning: Multiple positions seen for variant 'rs1782633'.
+23361 markers loaded from
 pre.modern/17.ambiguous.removed/6.anc.ambiguous.removed.bim.
-23354 markers to be merged from
+23361 markers to be merged from
 pre.modern/17.ambiguous.removed/6.pobi.ambiguous.removed.bim.
-Of these, 0 are new, while 23354 are present in the base dataset.
-Performing single-pass merge (145 people, 23354 variants).
+Of these, 0 are new, while 23361 are present in the base dataset.
+Performing single-pass merge (145 people, 23361 variants).
 Merged fileset written to
 pre.modern/18.ambiguous.removed.merged/6.anc.pobi.no.ambiguous-merge.bed +
 pre.modern/18.ambiguous.removed.merged/6.anc.pobi.no.ambiguous-merge.bim +
 pre.modern/18.ambiguous.removed.merged/6.anc.pobi.no.ambiguous-merge.fam .
-23354 variants loaded from .bim file.
+23361 variants loaded from .bim file.
 145 people (49 males, 52 females, 44 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.modern/18.ambiguous.removed.merged/6.anc.pobi.no.ambiguous.nosex .
@@ -35,12 +56,12 @@ pre.modern/18.ambiguous.removed.merged/6.anc.pobi.no.ambiguous.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 145 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.738381.
-23354 variants and 145 people pass filters and QC.
+Total genotyping rate is 0.738378.
+23361 variants and 145 people pass filters and QC.
 Among remaining phenotypes, 44 are cases and 101 are controls.
 --make-bed to
 pre.modern/18.ambiguous.removed.merged/6.anc.pobi.no.ambiguous.bed +
 pre.modern/18.ambiguous.removed.merged/6.anc.pobi.no.ambiguous.bim +
 pre.modern/18.ambiguous.removed.merged/6.anc.pobi.no.ambiguous.fam ... done.
 
-End time: Sun May 21 21:11:44 2017
+End time: Thu May 25 18:02:11 2017

@@ -1,7 +1,7 @@
 	-> Command: 
-angsd -b references/pre_list.filelist -doHaploCall 1 -doCounts 1 -out pre.modern/1.haplo/15 -r 15 -maxMis 39 -sites references/pobi.snps.by.chr/15.se.pobi.bim.chr.pos.txt 
+angsd -b references/pre_list.filelist -doHaploCall 1 -doCounts 1 -out pre.modern/1.haplo/15 -r 15 -maxMis 42 -sites references/pobi.snps.by.chr/15.se.pobi.updated.bim.chr.pos.txt 
 	-> angsd version: 0.913-22-g10d7007-dirty (htslib: 1.3.1-58-g344c825) build(Aug 10 2016 18:27:04)
-	-> Sun May 21 20:00:41 2017
+	-> Mon May 29 01:05:21 2017
 ----------------
 multiReader.cpp:
 	-nLines	50	(Number of lines to read)
@@ -54,10 +54,10 @@ Examples for region specification:
 	-howOften	100	How often should the program show progress
 --------------
 abcFilter.cpp:
-	-sites		references/pobi.snps.by.chr/15.se.pobi.bim.chr.pos.txt	(File containing sites to keep (chr pos))
-	-sites		references/pobi.snps.by.chr/15.se.pobi.bim.chr.pos.txt	(File containing sites to keep (chr regStart regStop))
-	-sites		references/pobi.snps.by.chr/15.se.pobi.bim.chr.pos.txt	(File containing sites to keep (chr pos major minor))
-	-sites		references/pobi.snps.by.chr/15.se.pobi.bim.chr.pos.txt	(File containing sites to keep (chr pos major minor af ac an))
+	-sites		references/pobi.snps.by.chr/15.se.pobi.updated.bim.chr.pos.txt	(File containing sites to keep (chr pos))
+	-sites		references/pobi.snps.by.chr/15.se.pobi.updated.bim.chr.pos.txt	(File containing sites to keep (chr regStart regStop))
+	-sites		references/pobi.snps.by.chr/15.se.pobi.updated.bim.chr.pos.txt	(File containing sites to keep (chr pos major minor))
+	-sites		references/pobi.snps.by.chr/15.se.pobi.updated.bim.chr.pos.txt	(File containing sites to keep (chr pos major minor af ac an))
 	-minInd		0	Only use site if atleast minInd of samples has data
 	-capDepth	-1	Only use the first capDepth bases
 	-strict	1	 (experimental)
@@ -127,9 +127,9 @@ abcHaploCall.cpp:
 	-doCounts	1	Must choose -doCount 1
 Optional
 	-minMinor	0	Minimum observed minor alleles
-	-maxMis	39	Maximum missing bases (per site)
+	-maxMis	42	Maximum missing bases (per site)
 		->"pre.modern/1.haplo/15.arg"
 		->"pre.modern/1.haplo/15.haplo.gz"
 
-	[ALL done] cpu-time used =  184.48 sec
-	[ALL done] walltime used =  202.00 sec
+	[ALL done] cpu-time used =  281.83 sec
+	[ALL done] walltime used =  294.00 sec

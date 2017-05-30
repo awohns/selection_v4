@@ -17,7 +17,7 @@ module load plink-1.9.0
 module load R
 
 #Perform haplocall
-angsd -b references/${bams_list} -doHaploCall 1 -doCounts 1 -out ${folder}/1.haplo/${cur_chr}  -r ${cur_chr} -maxMis ${maxmis} -sites references/pobi.snps.by.chr/${cur_chr}.se.pobi.bim.chr.pos.txt
+angsd -b references/${bams_list} -doHaploCall 1 -doCounts 1 -out ${folder}/1.haplo/${cur_chr}  -r ${cur_chr} -maxMis ${maxmis} -sites references/pobi.snps.by.chr/${cur_chr}.se.pobi.updated.bim.chr.pos.txt
 
 #Convert to tped
 /storage/software/angsd-0.913-22/misc/haploToPlink ${folder}/1.haplo/${cur_chr}.haplo.gz ${folder}/2.tped/${cur_chr}
@@ -32,7 +32,7 @@ eval 'cp ${folder}/2.tped/${cur_chr}.tfam ${folder}/3.tped.nto0/temp.${cur_chr}.
 plink --tfile ${folder}/3.tped.nto0/temp.${cur_chr} --recode --out ${folder}/4.ped/${cur_chr}_ped
 
 #Add the rsids
-plink --file ${folder}/4.ped/${cur_chr}_ped --update-map references/pobi.snps.by.chr/${cur_chr}.se.pobi.bim.txt --update-name --make-bed --out ${folder}/5.add.rsid/${cur_chr}.with.rsid
+plink --file ${folder}/4.ped/${cur_chr}_ped --update-map references/pobi.snps.by.chr/${cur_chr}.se.pobi.updated.bim.txt --update-name --make-bed --out ${folder}/5.add.rsid/${cur_chr}.with.rsid
 
 #Find intersected SNPS between ancient and pobi
 plink --bfile ${folder}/5.add.rsid/${cur_chr}.with.rsid --extract references/pobi.snps/${cur_chr}.se.pobi.bim.snps.only.txt --make-bed --out ${folder}/6.intersect/${cur_chr}.intersected.anc.pobi
