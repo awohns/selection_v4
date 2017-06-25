@@ -68,7 +68,7 @@ plink --bfile ${folder}/9.pobi.with.anc.snps/${cur_chr}.pobi.with.anc.snps --exc
 plink --bfile ${folder}/13.notriallelic/${cur_chr}.anc.notri_tmp --bmerge ${folder}/13.notriallelic/${cur_chr}.pobi.notri_tmp --make-bed --allow-no-sex --out ${folder}/13.notriallelic/${cur_chr}.anc.pobi.notri
 
 #Find Monomorphic Problems
-Rscript lib/flip.mono.problems.R ${cur_chr} ${folder}
+Rscript lib/flip.mono.problems.R ${cur_chr} ${folder}/13.notriallelic
 
 #Flip the monomorphic SNPs
 plink --bfile ${folder}/13.notriallelic/${cur_chr}.anc.notri_tmp --flip ${folder}/14.snps.to.flip/${cur_chr}results.txt --make-bed --out ${folder}/15.flipped.snps/${cur_chr}.flipped.monomorphic 

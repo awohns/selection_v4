@@ -1,7 +1,7 @@
 	-> Command: 
-angsd -b references/pre_list.filelist -doHaploCall 1 -doCounts 1 -out pre.modern/1.haplo/15 -r 15 -maxMis 42 -sites references/pobi.snps.by.chr/15.se.pobi.updated.bim.chr.pos.txt 
+angsd -b references/pre.bam.list.txt -doHaploCall 1 -doCounts 1 -out pre.modern/1.haplo/15 -r 15 -maxMis 39 -sites references/pobi.snps.by.chr/15.se.pobi.updated.bim.chr.pos.txt 
 	-> angsd version: 0.913-22-g10d7007-dirty (htslib: 1.3.1-58-g344c825) build(Aug 10 2016 18:27:04)
-	-> Mon May 29 01:05:21 2017
+	-> Sat Jun 24 21:33:44 2017
 ----------------
 multiReader.cpp:
 	-nLines	50	(Number of lines to read)
@@ -20,8 +20,8 @@ multiReader.cpp:
 multiReader.cpp:
 ---------------
 parseArgs_bambi.cpp: bam reader:
-	-bam/-b		references/pre_list.filelist	(list of BAM/CRAM files)
-	-i		references/pre_list.filelist	(Single BAM/CRAM file)
+	-bam/-b		references/pre.bam.list.txt	(list of BAM/CRAM files)
+	-i		references/pre.bam.list.txt	(Single BAM/CRAM file)
 	-r		15	Supply a single region in commandline (see examples below)
 	-rf		(null)	Supply multiple regions in a file (see examples below)
 	-remove_bads	1	Discard 'bad' reads, (flag >=256) 
@@ -127,9 +127,4 @@ abcHaploCall.cpp:
 	-doCounts	1	Must choose -doCount 1
 Optional
 	-minMinor	0	Minimum observed minor alleles
-	-maxMis	42	Maximum missing bases (per site)
-		->"pre.modern/1.haplo/15.arg"
-		->"pre.modern/1.haplo/15.haplo.gz"
-
-	[ALL done] cpu-time used =  281.83 sec
-	[ALL done] walltime used =  294.00 sec
+	-maxMis	39	Maximum missing bases (per site)

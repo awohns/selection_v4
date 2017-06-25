@@ -1,0 +1,37 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile pre.post.inter/17.post.merged.flipped/2.post.merge.flipped
+  --bmerge pre.post.inter/15.pre.with.post.snps/2.pre.with.post.snps
+  --make-bed
+  --out pre.post.inter/18.remerged/2.pre.post
+
+Hostname: ebc212
+Working directory: /mmg/awwohns/selection_v4
+Start time: Mon Jun 26 01:25:13 2017
+
+Random number seed: 1498429513
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+34 people loaded from
+pre.post.inter/17.post.merged.flipped/2.post.merge.flipped.fam.
+40 people to be merged from
+pre.post.inter/15.pre.with.post.snps/2.pre.with.post.snps.fam.
+Of these, 6 are new, while 34 are present in the base dataset.
+570 markers loaded from
+pre.post.inter/17.post.merged.flipped/2.post.merge.flipped.bim.
+570 markers to be merged from
+pre.post.inter/15.pre.with.post.snps/2.pre.with.post.snps.bim.
+Of these, 0 are new, while 570 are present in the base dataset.
+Performing single-pass merge (40 people, 570 variants).
+Merged fileset written to pre.post.inter/18.remerged/2.pre.post-merge.bed +
+pre.post.inter/18.remerged/2.pre.post-merge.bim +
+pre.post.inter/18.remerged/2.pre.post-merge.fam .
+570 variants loaded from .bim file.
+40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to pre.post.inter/18.remerged/2.pre.post.nosex .
+34 phenotype values loaded from .fam.
+Error: When ambiguous-sex samples with phenotype data are present,
+--make-bed/--make-just-fam/--recode/--write-covar usually cannot be combined
+with other commands.  Split them across multiple PLINK runs, or use
+--allow-no-sex/--must-have-sex.
+
+End time: Mon Jun 26 01:25:13 2017

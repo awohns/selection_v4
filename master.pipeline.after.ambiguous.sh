@@ -15,7 +15,7 @@ done
 elif [ "$option" = "pre.post" ]; then
 	for i in {1..22}; do
         echo ${i}
-        #eval "sbatch pre.post.after.ambiguous.eachchr.sh  ${i}"
+        eval "sbatch pre.post.after.ambiguous.eachchr.sh ${i} pre.post.inter"
         sleep 1
 done
 elif [ "$option" = "pre.modern" ]; then

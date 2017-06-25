@@ -1,0 +1,17 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile pre.post.inter/17.post.merged.flipped/22.post.merge.flipped
+  --bmerge pre.post.inter/15.pre.with.post.snps/22.pre.with.post.snps
+  --make-bed
+  --out pre.post.inter/18.remerged/22.pre.post
+
+Hostname: ebc203
+Working directory: /mmg/awwohns/selection_v4
+Start time: Mon Jun 26 01:38:13 2017
+
+Random number seed: 1498430293
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+Error: Failed to open
+pre.post.inter/17.post.merged.flipped/22.post.merge.flipped.bed.
+
+End time: Mon Jun 26 01:38:13 2017

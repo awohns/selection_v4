@@ -5,12 +5,12 @@ Options in effect:
   --make-bed
   --out pre.modern/6.intersect/18.intersected.anc.pobi
 
-Hostname: ebc203
-Working directory: /mmg/awwohns/selection_v4
-Start time: Mon May 29 01:09:36 2017
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Sat Jun 24 22:14:41 2017
 
-Random number seed: 1496009376
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1498331681
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 22900 variants loaded from .bim file.
 44 people (0 males, 0 females, 44 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
@@ -26,4 +26,4 @@ Note: No phenotypes present.
 pre.modern/6.intersect/18.intersected.anc.pobi.bim +
 pre.modern/6.intersect/18.intersected.anc.pobi.fam ... done.
 
-End time: Mon May 29 01:09:36 2017
+End time: Sat Jun 24 22:14:41 2017

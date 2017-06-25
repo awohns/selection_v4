@@ -6,14 +6,14 @@ Options in effect:
   --update-map references/pobi.snps.by.chr/10.se.pobi.updated.bim.txt
   --update-name
 
-Hostname: ebc201
-Working directory: /mmg/awwohns/selection_v4
-Start time: Mon May 29 01:13:13 2017
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Sat Jun 24 21:33:02 2017
 
 Note: --update-map [filename] + parameter-free --update-name deprecated.  Use
 --update-name [filename] instead.
-Random number seed: 1496009593
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1498329182
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 Scanning .ped file... done.
 Performing single-pass .bed write (40897 variants, 44 people).
 --file: pre.modern/5.add.rsid/10.with.rsid-temporary.bed +
@@ -24,4 +24,4 @@ pre.modern/5.add.rsid/10.with.rsid-temporary.fam written.
 Ambiguous sex IDs written to pre.modern/5.add.rsid/10.with.rsid.nosex .
 Error: Duplicate variant ID '10_17889596' in --update-name file.
 
-End time: Mon May 29 01:13:14 2017
+End time: Sat Jun 24 21:33:03 2017

@@ -1,0 +1,21 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile pre.post.inter/13.post.intersect.pheno/17.post.intersected
+  --flip pre.post.inter/16.merged/17.merge-merge.missnp
+  --make-bed
+  --out pre.post.inter/17.post.merged.flipped/17.post.merge.flipped
+
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Mon Jun 26 01:37:26 2017
+
+Random number seed: 1498430246
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
+204 variants loaded from .bim file.
+34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+pre.post.inter/17.post.merged.flipped/17.post.merge.flipped.nosex .
+34 phenotype values loaded from .fam.
+Error: Failed to open pre.post.inter/16.merged/17.merge-merge.missnp.
+
+End time: Mon Jun 26 01:37:26 2017

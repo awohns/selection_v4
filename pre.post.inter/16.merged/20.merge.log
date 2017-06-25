@@ -1,0 +1,37 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile pre.post.inter/13.post.intersect.pheno/20.post.intersected
+  --bmerge pre.post.inter/15.pre.with.post.snps/20.pre.with.post.snps
+  --make-bed
+  --out pre.post.inter/16.merged/20.merge
+
+Hostname: ebc202
+Working directory: /mmg/awwohns/selection_v4
+Start time: Mon Jun 26 01:25:11 2017
+
+Random number seed: 1498429511
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+34 people loaded from
+pre.post.inter/13.post.intersect.pheno/20.post.intersected.fam.
+40 people to be merged from
+pre.post.inter/15.pre.with.post.snps/20.pre.with.post.snps.fam.
+Of these, 6 are new, while 34 are present in the base dataset.
+194 markers loaded from
+pre.post.inter/13.post.intersect.pheno/20.post.intersected.bim.
+194 markers to be merged from
+pre.post.inter/15.pre.with.post.snps/20.pre.with.post.snps.bim.
+Of these, 0 are new, while 194 are present in the base dataset.
+Performing single-pass merge (40 people, 194 variants).
+Merged fileset written to pre.post.inter/16.merged/20.merge-merge.bed +
+pre.post.inter/16.merged/20.merge-merge.bim +
+pre.post.inter/16.merged/20.merge-merge.fam .
+194 variants loaded from .bim file.
+40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to pre.post.inter/16.merged/20.merge.nosex .
+34 phenotype values loaded from .fam.
+Error: When ambiguous-sex samples with phenotype data are present,
+--make-bed/--make-just-fam/--recode/--write-covar usually cannot be combined
+with other commands.  Split them across multiple PLINK runs, or use
+--allow-no-sex/--must-have-sex.
+
+End time: Mon Jun 26 01:25:12 2017

@@ -1,0 +1,20 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile pre.post.inter/15.pre.with.post.snps/19.pre.with.post.snps
+  --exclude pre.post.inter/18.remerged/19.pre.post-merge.missnp
+  --make-bed
+  --out pre.post.inter/20.notriallelic.pre/19.pre.notri_tmp
+
+Hostname: ebc202
+Working directory: /mmg/awwohns/selection_v4
+Start time: Mon Jun 26 01:25:12 2017
+
+Random number seed: 1498429512
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+144 variants loaded from .bim file.
+40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+pre.post.inter/20.notriallelic.pre/19.pre.notri_tmp.nosex .
+Error: Failed to open pre.post.inter/18.remerged/19.pre.post-merge.missnp.
+
+End time: Mon Jun 26 01:25:12 2017

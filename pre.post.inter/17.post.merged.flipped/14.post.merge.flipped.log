@@ -1,0 +1,17 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile pre.post.inter/13.post.intersect.pheno/14.post.intersected
+  --flip pre.post.inter/16.merged/14.merge-merge.missnp
+  --make-bed
+  --out pre.post.inter/17.post.merged.flipped/14.post.merge.flipped
+
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Mon Jun 26 01:36:02 2017
+
+Random number seed: 1498430162
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
+Error: Failed to open
+pre.post.inter/13.post.intersect.pheno/14.post.intersected.bed.
+
+End time: Mon Jun 26 01:36:04 2017

@@ -1,0 +1,16 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile pre.post.inter/19.notriallelic.post/8.post.notri_tmp
+  --flip pre.post.inter/22.snps.to.flip/8results.txt
+  --make-bed
+  --out pre.post.inter/23.flipped.snps.post/8.flipped.post.monomorphic
+
+Hostname: ebc224
+Working directory: /mmg/awwohns/selection_v4
+Start time: Mon Jun 26 01:25:15 2017
+
+Random number seed: 1498429515
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+Error: Failed to open pre.post.inter/19.notriallelic.post/8.post.notri_tmp.bed.
+
+End time: Mon Jun 26 01:25:15 2017

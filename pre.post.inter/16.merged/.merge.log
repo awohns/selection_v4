@@ -1,0 +1,17 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile pre.post.inter/13.post.intersect.pheno/.post.intersected
+  --bmerge pre.post.inter/15.pre.with.post.snps/.pre.with.post.snps
+  --make-bed
+  --out pre.post.inter/16.merged/.merge
+
+Hostname: ebc201
+Working directory: /mmg/awwohns/selection_v4
+Start time: Sun Jun 25 21:35:41 2017
+
+Random number seed: 1498415741
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+Error: Failed to open
+pre.post.inter/13.post.intersect.pheno/.post.intersected.bed.
+
+End time: Sun Jun 25 21:35:41 2017

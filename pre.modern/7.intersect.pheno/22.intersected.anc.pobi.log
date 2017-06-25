@@ -7,9 +7,9 @@ Options in effect:
 
 Hostname: atlas.hpc.ut.ee
 Working directory: /ebc_data/awwohns/selection_v4
-Start time: Mon May 29 01:08:12 2017
+Start time: Sat Jun 24 22:48:20 2017
 
-Random number seed: 1496009292
+Random number seed: 1498333700
 2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 2425 variants loaded from .bim file.
 44 people (0 males, 0 females, 44 ambiguous) loaded from .fam.
@@ -26,4 +26,4 @@ Note: No phenotypes present.
 pre.modern/6.intersect/22.intersected.anc.pobi.bim +
 pre.modern/6.intersect/22.intersected.anc.pobi.fam ... done.
 
-End time: Mon May 29 01:08:12 2017
+End time: Sat Jun 24 22:48:20 2017

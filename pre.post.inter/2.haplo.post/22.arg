@@ -1,7 +1,7 @@
 	-> Command: 
-angsd -b references/post_list.filelist -doHaploCall 1 -doCounts 1 -out pre.post.inter/2.haplo.post/22 -r 22 -maxMis 19 -sites references/pobi.snps.by.chr/22.se.pobi.bim.chr.pos.txt 
+angsd -b references/post.bam.list.txt -doHaploCall 1 -doCounts 1 -out pre.post.inter/2.haplo.post/22 -r 22 -maxMis 30 -sites references/pobi.snps.by.chr/22.se.pobi.updated.bim.chr.pos.txt 
 	-> angsd version: 0.913-22-g10d7007-dirty (htslib: 1.3.1-58-g344c825) build(Aug 10 2016 18:27:04)
-	-> Sat May 20 16:10:01 2017
+	-> Sun Jun 25 18:46:57 2017
 ----------------
 multiReader.cpp:
 	-nLines	50	(Number of lines to read)
@@ -20,8 +20,8 @@ multiReader.cpp:
 multiReader.cpp:
 ---------------
 parseArgs_bambi.cpp: bam reader:
-	-bam/-b		references/post_list.filelist	(list of BAM/CRAM files)
-	-i		references/post_list.filelist	(Single BAM/CRAM file)
+	-bam/-b		references/post.bam.list.txt	(list of BAM/CRAM files)
+	-i		references/post.bam.list.txt	(Single BAM/CRAM file)
 	-r		22	Supply a single region in commandline (see examples below)
 	-rf		(null)	Supply multiple regions in a file (see examples below)
 	-remove_bads	1	Discard 'bad' reads, (flag >=256) 
@@ -54,10 +54,10 @@ Examples for region specification:
 	-howOften	100	How often should the program show progress
 --------------
 abcFilter.cpp:
-	-sites		references/pobi.snps.by.chr/22.se.pobi.bim.chr.pos.txt	(File containing sites to keep (chr pos))
-	-sites		references/pobi.snps.by.chr/22.se.pobi.bim.chr.pos.txt	(File containing sites to keep (chr regStart regStop))
-	-sites		references/pobi.snps.by.chr/22.se.pobi.bim.chr.pos.txt	(File containing sites to keep (chr pos major minor))
-	-sites		references/pobi.snps.by.chr/22.se.pobi.bim.chr.pos.txt	(File containing sites to keep (chr pos major minor af ac an))
+	-sites		references/pobi.snps.by.chr/22.se.pobi.updated.bim.chr.pos.txt	(File containing sites to keep (chr pos))
+	-sites		references/pobi.snps.by.chr/22.se.pobi.updated.bim.chr.pos.txt	(File containing sites to keep (chr regStart regStop))
+	-sites		references/pobi.snps.by.chr/22.se.pobi.updated.bim.chr.pos.txt	(File containing sites to keep (chr pos major minor))
+	-sites		references/pobi.snps.by.chr/22.se.pobi.updated.bim.chr.pos.txt	(File containing sites to keep (chr pos major minor af ac an))
 	-minInd		0	Only use site if atleast minInd of samples has data
 	-capDepth	-1	Only use the first capDepth bases
 	-strict	1	 (experimental)
@@ -127,9 +127,9 @@ abcHaploCall.cpp:
 	-doCounts	1	Must choose -doCount 1
 Optional
 	-minMinor	0	Minimum observed minor alleles
-	-maxMis	19	Maximum missing bases (per site)
+	-maxMis	30	Maximum missing bases (per site)
 		->"pre.post.inter/2.haplo.post/22.arg"
 		->"pre.post.inter/2.haplo.post/22.haplo.gz"
 
-	[ALL done] cpu-time used =  20.97 sec
-	[ALL done] walltime used =  21.00 sec
+	[ALL done] cpu-time used =  213.78 sec
+	[ALL done] walltime used =  218.00 sec

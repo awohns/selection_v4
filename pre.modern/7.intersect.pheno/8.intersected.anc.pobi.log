@@ -5,11 +5,11 @@ Options in effect:
   --make-bed
   --out pre.modern/6.intersect/8.intersected.anc.pobi
 
-Hostname: ebc227
+Hostname: ebc215
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon May 29 01:13:42 2017
+Start time: Sat Jun 24 22:21:30 2017
 
-Random number seed: 1496009622
+Random number seed: 1498332090
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 42044 variants loaded from .bim file.
 44 people (0 males, 0 females, 44 ambiguous) loaded from .fam.
@@ -26,4 +26,4 @@ Note: No phenotypes present.
 pre.modern/6.intersect/8.intersected.anc.pobi.bim +
 pre.modern/6.intersect/8.intersected.anc.pobi.fam ... done.
 
-End time: Mon May 29 01:13:42 2017
+End time: Sat Jun 24 22:21:30 2017

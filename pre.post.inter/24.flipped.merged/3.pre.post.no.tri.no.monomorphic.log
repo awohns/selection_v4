@@ -1,0 +1,18 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --allow-no-sex
+  --bfile pre.post.inter/23.flipped.snps.post/3.flipped.post.monomorphic
+  --bmerge pre.post.inter/20.notriallelic.pre/3.pre.notri_tmp
+  --make-bed
+  --out pre.post.inter/24.flipped.merged/3.pre.post.no.tri.no.monomorphic
+
+Hostname: ebc212
+Working directory: /mmg/awwohns/selection_v4
+Start time: Mon Jun 26 01:25:11 2017
+
+Random number seed: 1498429511
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+Error: Failed to open
+pre.post.inter/23.flipped.snps.post/3.flipped.post.monomorphic.bed.
+
+End time: Mon Jun 26 01:25:11 2017

@@ -1,0 +1,16 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile pre.post.inter/10.post.add.rsid/13.post.with.rsid
+  --extract pre.post.inter/11.pre.snps/13.pre.snps.txt
+  --make-bed
+  --out pre.post.inter/12.post.intersected.with.pre/13.post.intersected
+
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Mon Jun 26 01:35:53 2017
+
+Random number seed: 1498430153
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
+Error: Failed to open pre.post.inter/10.post.add.rsid/13.post.with.rsid.bed.
+
+End time: Mon Jun 26 01:35:53 2017

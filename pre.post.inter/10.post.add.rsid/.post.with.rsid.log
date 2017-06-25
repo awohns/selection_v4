@@ -1,0 +1,19 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --file pre.post.inter/8.post.ped/_post_ped
+  --make-bed
+  --out pre.post.inter/10.post.add.rsid/.post.with.rsid
+  --update-map references/pobi.snps.by.chr/.se.pobi.updated.bim.txt
+  --update-name
+
+Hostname: ebc201
+Working directory: /mmg/awwohns/selection_v4
+Start time: Sun Jun 25 21:35:39 2017
+
+Note: --update-map [filename] + parameter-free --update-name deprecated.  Use
+--update-name [filename] instead.
+Random number seed: 1498415739
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+Error: Failed to open pre.post.inter/8.post.ped/_post_ped.map.
+
+End time: Sun Jun 25 21:35:39 2017
