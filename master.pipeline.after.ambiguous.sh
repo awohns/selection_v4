@@ -29,7 +29,7 @@ done
 elif [ "$option" = "post.modern" ]; then
 	for i in {1..22}; do
         echo ${i}
-        #eval "sbatch post.modern.after.ambigious.eachchr.sh  ${i}"
+        eval "./anc.modern.after.ambiguous.eachchr.sh  ${i} post.modern"
         sleep 1
 done
 else

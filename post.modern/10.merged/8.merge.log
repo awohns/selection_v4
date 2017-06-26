@@ -1,29 +1,28 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
-  --bfile pre.modern/7.intersect.pheno/8.intersected.anc.pobi
-  --bmerge pre.modern/9.pobi.with.anc.snps/8.pobi.with.anc.snps
+  --bfile post.modern/7.intersect.pheno/8.intersected.anc.pobi
+  --bmerge post.modern/9.pobi.with.anc.snps/8.pobi.with.anc.snps
   --make-bed
-  --out pre.modern/10.merged/8.merge
+  --out post.modern/10.merged/8.merge
 
-Hostname: ebc215
+Hostname: ebc202
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sat Jun 24 22:21:47 2017
+Start time: Mon Jun 26 15:18:20 2017
 
-Random number seed: 1498332107
+Random number seed: 1498479500
 257661 MB RAM detected; reserving 128830 MB for main workspace.
-44 people loaded from pre.modern/7.intersect.pheno/8.intersected.anc.pobi.fam.
+34 people loaded from post.modern/7.intersect.pheno/8.intersected.anc.pobi.fam.
 101 people to be merged from
-pre.modern/9.pobi.with.anc.snps/8.pobi.with.anc.snps.fam.
+post.modern/9.pobi.with.anc.snps/8.pobi.with.anc.snps.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-Warning: Multiple positions seen for variant 'rs3134185'.
-42044 markers loaded from
-pre.modern/7.intersect.pheno/8.intersected.anc.pobi.bim.
-42044 markers to be merged from
-pre.modern/9.pobi.with.anc.snps/8.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 42044 are present in the base dataset.
-Error: 20869 variants with 3+ alleles present.
+18721 markers loaded from
+post.modern/7.intersect.pheno/8.intersected.anc.pobi.bim.
+18721 markers to be merged from
+post.modern/9.pobi.with.anc.snps/8.pobi.with.anc.snps.bim.
+Of these, 0 are new, while 18721 are present in the base dataset.
+Error: 9314 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
-  pre.modern/10.merged/8.merge-merge.missnp.
+  post.modern/10.merged/8.merge-merge.missnp.
   (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
   alleles probably remain in your data.  If LD between nearby SNPs is high,
   --flip-scan should detect them.)
@@ -32,4 +31,4 @@ Error: 20869 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Sat Jun 24 22:21:47 2017
+End time: Mon Jun 26 15:18:20 2017

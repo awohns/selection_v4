@@ -3,29 +3,29 @@ Options in effect:
   --adjust
   --allow-no-sex
   --assoc
-  --bfile pre.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous
-  --out pre.modern/19.assoc.results/2.results
+  --bfile post.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous
+  --out post.modern/19.assoc.results/2.results
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sun Jun 25 18:25:14 2017
+Start time: Mon Jun 26 15:44:59 2017
 
-Random number seed: 1498404314
+Random number seed: 1498481099
 257661 MB RAM detected; reserving 128830 MB for main workspace.
-63810 variants loaded from .bim file.
-145 people (49 males, 52 females, 44 ambiguous) loaded from .fam.
-Ambiguous sex IDs written to pre.modern/19.assoc.results/2.results.nosex .
-145 phenotype values loaded from .fam.
+28834 variants loaded from .bim file.
+135 people (49 males, 52 females, 34 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to post.modern/19.assoc.results/2.results.nosex .
+135 phenotype values loaded from .fam.
 Using 1 thread (no multithreaded calculations invoked.
-Before main variant filters, 145 founders and 0 nonfounders present.
+Before main variant filters, 135 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.353724.
-63810 variants and 145 people pass filters and QC.
-Among remaining phenotypes, 44 are cases and 101 are controls.
-Writing C/C --assoc report to pre.modern/19.assoc.results/2.results.assoc ...
+Total genotyping rate is 0.999694.
+28834 variants and 135 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 101 are controls.
+Writing C/C --assoc report to post.modern/19.assoc.results/2.results.assoc ...
 done.
---adjust: Genomic inflation est. lambda (based on median chisq) = 1.
---adjust values (46983 variants) written to
-pre.modern/19.assoc.results/2.results.assoc.adjusted .
+--adjust: Genomic inflation est. lambda (based on median chisq) = 48.6825.
+--adjust values (28812 variants) written to
+post.modern/19.assoc.results/2.results.assoc.adjusted .
 
-End time: Sun Jun 25 18:25:14 2017
+End time: Mon Jun 26 15:44:59 2017

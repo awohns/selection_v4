@@ -5,11 +5,11 @@ Options in effect:
   --make-bed
   --out pre.post.inter/12.post.intersected.with.pre/1.post.intersected
 
-Hostname: ebc212
+Hostname: ebc229
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 01:25:05 2017
+Start time: Mon Jun 26 15:30:11 2017
 
-Random number seed: 1498429505
+Random number seed: 1498480211
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 28892 variants loaded from .bim file.
 34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
@@ -26,4 +26,4 @@ pre.post.inter/12.post.intersected.with.pre/1.post.intersected.bed +
 pre.post.inter/12.post.intersected.with.pre/1.post.intersected.bim +
 pre.post.inter/12.post.intersected.with.pre/1.post.intersected.fam ... done.
 
-End time: Mon Jun 26 01:25:05 2017
+End time: Mon Jun 26 15:30:49 2017

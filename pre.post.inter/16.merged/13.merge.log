@@ -1,17 +1,44 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
+  --allow-no-sex
   --bfile pre.post.inter/13.post.intersect.pheno/13.post.intersected
   --bmerge pre.post.inter/15.pre.with.post.snps/13.pre.with.post.snps
   --make-bed
   --out pre.post.inter/16.merged/13.merge
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Mon Jun 26 01:35:59 2017
+Hostname: ebc227
+Working directory: /mmg/awwohns/selection_v4
+Start time: Mon Jun 26 15:35:23 2017
 
-Random number seed: 1498430159
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
-Error: Failed to open
-pre.post.inter/13.post.intersect.pheno/13.post.intersected.bed.
+Random number seed: 1498480523
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+34 people loaded from
+pre.post.inter/13.post.intersect.pheno/13.post.intersected.fam.
+40 people to be merged from
+pre.post.inter/15.pre.with.post.snps/13.pre.with.post.snps.fam.
+Of these, 6 are new, while 34 are present in the base dataset.
+251 markers loaded from
+pre.post.inter/13.post.intersect.pheno/13.post.intersected.bim.
+251 markers to be merged from
+pre.post.inter/15.pre.with.post.snps/13.pre.with.post.snps.bim.
+Of these, 0 are new, while 251 are present in the base dataset.
+Performing single-pass merge (40 people, 251 variants).
+Merged fileset written to pre.post.inter/16.merged/13.merge-merge.bed +
+pre.post.inter/16.merged/13.merge-merge.bim +
+pre.post.inter/16.merged/13.merge-merge.fam .
+251 variants loaded from .bim file.
+40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to pre.post.inter/16.merged/13.merge.nosex .
+34 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 40 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.731375.
+251 variants and 40 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 0 are controls.  (6 phenotypes are
+missing.)
+--make-bed to pre.post.inter/16.merged/13.merge.bed +
+pre.post.inter/16.merged/13.merge.bim + pre.post.inter/16.merged/13.merge.fam
+... done.
 
-End time: Mon Jun 26 01:35:59 2017
+End time: Mon Jun 26 15:35:28 2017

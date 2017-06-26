@@ -6,12 +6,12 @@ Options in effect:
   --make-bed
   --out pre.post.inter/21.notriallelic.pre.post/9.pre.post.notri
 
-Hostname: ebc229
+Hostname: ebc212
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 01:23:17 2017
+Start time: Mon Jun 26 15:03:43 2017
 
-Random number seed: 1498429397
+Random number seed: 1498478623
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 Error: Failed to open pre.post.inter/19.notriallelic.post/9.post.notri_tmp.bed.
 
-End time: Mon Jun 26 01:23:17 2017
+End time: Mon Jun 26 15:03:43 2017

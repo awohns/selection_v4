@@ -1,32 +1,32 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
-  --bfile pre.modern/7.intersect.pheno/22.intersected.anc.pobi
-  --flip pre.modern/10.merged/22.merge-merge.missnp
+  --bfile post.modern/7.intersect.pheno/22.intersected.anc.pobi
+  --flip post.modern/10.merged/22.merge-merge.missnp
   --make-bed
-  --out pre.modern/11.merged.flipped/22.merge.flipped
+  --out post.modern/11.merged.flipped/22.merge.flipped
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Sat Jun 24 22:48:25 2017
+Hostname: ebc215
+Working directory: /mmg/awwohns/selection_v4
+Start time: Mon Jun 26 14:58:58 2017
 
-Random number seed: 1498333705
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
-2425 variants loaded from .bim file.
-44 people (0 males, 0 females, 44 ambiguous) loaded from .fam.
+Random number seed: 1498478338
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+5513 variants loaded from .bim file.
+34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
-pre.modern/11.merged.flipped/22.merge.flipped.nosex .
-44 phenotype values loaded from .fam.
---flip: 1215 SNPs flipped.
+post.modern/11.merged.flipped/22.merge.flipped.nosex .
+34 phenotype values loaded from .fam.
+--flip: 2738 SNPs flipped.
 Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
 phenotypes to be ignored, use the --allow-no-sex flag.
 Using 1 thread (no multithreaded calculations invoked.
-Before main variant filters, 44 founders and 0 nonfounders present.
+Before main variant filters, 34 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.177545.
-2425 variants and 44 people pass filters and QC.
-Among remaining phenotypes, 44 are cases and 0 are controls.
---make-bed to pre.modern/11.merged.flipped/22.merge.flipped.bed +
-pre.modern/11.merged.flipped/22.merge.flipped.bim +
-pre.modern/11.merged.flipped/22.merge.flipped.fam ... done.
+Total genotyping rate is 0.999957.
+5513 variants and 34 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 0 are controls.
+--make-bed to post.modern/11.merged.flipped/22.merge.flipped.bed +
+post.modern/11.merged.flipped/22.merge.flipped.bim +
+post.modern/11.merged.flipped/22.merge.flipped.fam ... done.
 
-End time: Sat Jun 24 22:48:26 2017
+End time: Mon Jun 26 14:58:58 2017

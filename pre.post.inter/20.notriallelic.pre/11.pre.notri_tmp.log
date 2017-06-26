@@ -5,11 +5,11 @@ Options in effect:
   --make-bed
   --out pre.post.inter/20.notriallelic.pre/11.pre.notri_tmp
 
-Hostname: ebc230
+Hostname: ebc227
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 01:39:56 2017
+Start time: Mon Jun 26 15:35:15 2017
 
-Random number seed: 1498430396
+Random number seed: 1498480515
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 332 variants loaded from .bim file.
 40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
@@ -25,4 +25,4 @@ Note: No phenotypes present.
 pre.post.inter/20.notriallelic.pre/11.pre.notri_tmp.bim +
 pre.post.inter/20.notriallelic.pre/11.pre.notri_tmp.fam ... done.
 
-End time: Mon Jun 26 01:40:30 2017
+End time: Mon Jun 26 15:35:16 2017

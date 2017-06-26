@@ -2,14 +2,22 @@ args =commandArgs(trailingOnly = TRUE)
 cur_chr <- args[1]
 folder <- args[2]
 
-if (folder == "inter.files") {
-	ancient <- read.delim(paste0("/ebc_data/awwohns/selection_v4/",folder,"/13.notriallelic/",cur_chr,".anc.notri_tmp.bim"),header=FALSE)
-pobi <- read.delim(paste0("/ebc_data/awwohns/selection_v4/",folder,"/13.notriallelic/",cur_chr,".pobi.notri_tmp.bim"),header=FALSE)
-
-} else if (folder == "pre.post.inter") {
+if (folder == "pre.post.inter") {
 	ancient <- read.delim(paste0("/ebc_data/awwohns/selection_v4/",folder,"/20.notriallelic.pre/",cur_chr,".pre.notri_tmp.bim"),header=FALSE)
 	pobi <- read.delim(paste0("/ebc_data/awwohns/selection_v4/",folder,"/19.notriallelic.post/",cur_chr,".post.notri_tmp.bim"),header=FALSE)
-}
+} else if (folder == "no.missnp") {
+	ancient <- read.delim(paste0("/ebc_data/awwohns/selection_v4/pre.post.inter/13.post.intersect.pheno/",cur_chr,".post.intersected.bim"),header=FALSE)
+	pobi <- read.delim(paste0("/ebc_data/awwohns/selection_v4/pre.post.inter/15.pre.with.post.snps/",cur_chr,".pre.with.post.snps.bim"),header=FALSE)
+} else if (folder == "no.missnp.2") {
+	ancient <- read.delim(paste0("/ebc_data/awwohns/selection_v4/pre.post.inter/17.post.merged.flipped/",cur_chr,".post.merge.flipped.bim"),header=FALSE)
+	pobi <- read.delim(paste0("/ebc_data/awwohns/selection_v4/pre.post.inter/15.pre.with.post.snps/",cur_chr,".pre.with.post.snps.bim"),header=FALSE)
+} else {
+	ancient <- read.delim(paste0("/ebc_data/awwohns/selection_v4/",folder,"/13.notriallelic/",cur_chr,".anc.notri_tmp.bim"),header=FALSE)
+	pobi <- read.delim(paste0("/ebc_data/awwohns/selection_v4/",folder,"/13.notriallelic/",cur_chr,".pobi.notri_tmp.bim"),header=FALSE)
+} 
+
+
+
 
 merged <- merge(ancient, pobi, by=("V2"))
 #print(head(merged))
@@ -73,4 +81,12 @@ if (folder == "inter.files") {
 	write.table(results, file=paste0(folder,"/14.snps.to.flip/",cur_chr,"results.txt"),row.names=FALSE,col.names=FALSE,quote=FALSE)
 } else if (folder == "pre.post.inter"){
 	write.table(results, file=paste0(folder,"/22.snps.to.flip/",cur_chr,"results.txt"),row.names=FALSE,col.names=FALSE,quote=FALSE)
+} else if (folder == "pre.modern") {
+	write.table(results, file=paste0(folder,"/14.snps.to.flip/",cur_chr,"results.txt"),row.names=FALSE,col.names=FALSE,quote=FALSE)
+} else if (folder == "post.modern") {
+	write.table(results, file=paste0(folder,"/14.snps.to.flip/",cur_chr,"results.txt"),row.names=FALSE,col.names=FALSE,quote=FALSE)
+} else if (folder == "no.missnp") {
+	write.table(results, file=paste0("pre.post.inter/22.snps.to.flip/",cur_chr,"results.txt"),row.names=FALSE,col.names=FALSE,quote=FALSE)
+} else if (folder == "no.missnp.2") {
+	write.table(results, file=paste0("pre.post.inter/22.snps.to.flip/",cur_chr,"results.txt"),row.names=FALSE,col.names=FALSE,quote=FALSE)
 }

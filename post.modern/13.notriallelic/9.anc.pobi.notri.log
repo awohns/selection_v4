@@ -1,0 +1,44 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --allow-no-sex
+  --bfile post.modern/13.notriallelic/9.anc.notri_tmp
+  --bmerge post.modern/13.notriallelic/9.pobi.notri_tmp
+  --make-bed
+  --out post.modern/13.notriallelic/9.anc.pobi.notri
+
+Hostname: ebc202
+Working directory: /mmg/awwohns/selection_v4
+Start time: Mon Jun 26 15:14:27 2017
+
+Random number seed: 1498479267
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+34 people loaded from post.modern/13.notriallelic/9.anc.notri_tmp.fam.
+101 people to be merged from post.modern/13.notriallelic/9.pobi.notri_tmp.fam.
+Of these, 101 are new, while 0 are present in the base dataset.
+Warning: Multiple positions seen for variant 'rs7861759'.
+Warning: Multiple positions seen for variant 'rs7019702'.
+15850 markers loaded from post.modern/13.notriallelic/9.anc.notri_tmp.bim.
+15850 markers to be merged from
+post.modern/13.notriallelic/9.pobi.notri_tmp.bim.
+Of these, 0 are new, while 15850 are present in the base dataset.
+Performing single-pass merge (135 people, 15850 variants).
+Merged fileset written to
+post.modern/13.notriallelic/9.anc.pobi.notri-merge.bed +
+post.modern/13.notriallelic/9.anc.pobi.notri-merge.bim +
+post.modern/13.notriallelic/9.anc.pobi.notri-merge.fam .
+15850 variants loaded from .bim file.
+135 people (49 males, 52 females, 34 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to post.modern/13.notriallelic/9.anc.pobi.notri.nosex
+.
+135 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 135 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.999758.
+15850 variants and 135 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 101 are controls.
+--make-bed to post.modern/13.notriallelic/9.anc.pobi.notri.bed +
+post.modern/13.notriallelic/9.anc.pobi.notri.bim +
+post.modern/13.notriallelic/9.anc.pobi.notri.fam ... done.
+
+End time: Mon Jun 26 15:14:27 2017

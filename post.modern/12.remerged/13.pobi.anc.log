@@ -1,28 +1,27 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
-  --bfile pre.modern/11.merged.flipped/13.merge.flipped
-  --bmerge pre.modern/9.pobi.with.anc.snps/13.pobi.with.anc.snps
+  --bfile post.modern/11.merged.flipped/13.merge.flipped
+  --bmerge post.modern/9.pobi.with.anc.snps/13.pobi.with.anc.snps
   --make-bed
-  --out pre.modern/12.remerged/13.pobi.anc
+  --out post.modern/12.remerged/13.pobi.anc
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Sat Jun 24 21:33:01 2017
+Hostname: ebc203
+Working directory: /mmg/awwohns/selection_v4
+Start time: Mon Jun 26 15:11:32 2017
 
-Random number seed: 1498329181
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
-44 people loaded from pre.modern/11.merged.flipped/13.merge.flipped.fam.
+Random number seed: 1498479092
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+34 people loaded from post.modern/11.merged.flipped/13.merge.flipped.fam.
 101 people to be merged from
-pre.modern/9.pobi.with.anc.snps/13.pobi.with.anc.snps.fam.
+post.modern/9.pobi.with.anc.snps/13.pobi.with.anc.snps.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-Warning: Multiple positions seen for variant 'rs206146'.
-28641 markers loaded from pre.modern/11.merged.flipped/13.merge.flipped.bim.
-28641 markers to be merged from
-pre.modern/9.pobi.with.anc.snps/13.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 28641 are present in the base dataset.
-Error: 250 variants with 3+ alleles present.
+12633 markers loaded from post.modern/11.merged.flipped/13.merge.flipped.bim.
+12633 markers to be merged from
+post.modern/9.pobi.with.anc.snps/13.pobi.with.anc.snps.bim.
+Of these, 0 are new, while 12633 are present in the base dataset.
+Error: 13 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
-  pre.modern/12.remerged/13.pobi.anc-merge.missnp.
+  post.modern/12.remerged/13.pobi.anc-merge.missnp.
   (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
   alleles probably remain in your data.  If LD between nearby SNPs is high,
   --flip-scan should detect them.)
@@ -31,4 +30,4 @@ Error: 250 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Sat Jun 24 21:33:01 2017
+End time: Mon Jun 26 15:11:32 2017

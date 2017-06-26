@@ -1,46 +1,39 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
-  --bfile pre.modern/11.merged.flipped/1.merge.flipped
-  --bmerge pre.modern/9.pobi.with.anc.snps/1.pobi.with.anc.snps
+  --bfile post.modern/11.merged.flipped/1.merge.flipped
+  --bmerge post.modern/9.pobi.with.anc.snps/1.pobi.with.anc.snps
   --make-bed
-  --out pre.modern/12.remerged/1.pobi.anc
+  --out post.modern/12.remerged/1.pobi.anc
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Sat Jun 24 20:53:54 2017
+Hostname: ebc226
+Working directory: /mmg/awwohns/selection_v4
+Start time: Mon Jun 26 15:20:22 2017
 
-Random number seed: 1498326834
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
-44 people loaded from pre.modern/11.merged.flipped/1.merge.flipped.fam.
+Random number seed: 1498479622
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+34 people loaded from post.modern/11.merged.flipped/1.merge.flipped.fam.
 101 people to be merged from
-pre.modern/9.pobi.with.anc.snps/1.pobi.with.anc.snps.fam.
+post.modern/9.pobi.with.anc.snps/1.pobi.with.anc.snps.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
 Warning: Multiple positions seen for variant 'rs12139755'.
 Warning: Multiple positions seen for variant 'rs3765967'.
 Warning: Multiple positions seen for variant 'rs11576896'.
-Warning: Multiple positions seen for variant 'rs6679294'.
 Warning: Multiple positions seen for variant 'rs2260579'.
 Warning: Multiple positions seen for variant 'rs17378839'.
 Warning: Multiple positions seen for variant 'rs12091194'.
-Warning: Multiple positions seen for variant 'rs12127727'.
 Warning: Multiple positions seen for variant 'rs12141856'.
-Warning: Multiple positions seen for variant 'rs1166587'.
-Warning: Multiple positions seen for variant 'rs11591000'.
 Warning: Multiple positions seen for variant 'rs11165867'.
 Warning: Multiple positions seen for variant 'rs12043679'.
 Warning: Multiple positions seen for variant 'rs2184953'.
-Warning: Multiple positions seen for variant 'rs703122'.
-Warning: Multiple positions seen for variant 'rs9804100'.
 Warning: Multiple positions seen for variant 'rs6681342'.
-Warning: Multiple positions seen for variant 'rs1051740'.
 Warning: Multiple positions seen for variant 'rs7520037'.
-65020 markers loaded from pre.modern/11.merged.flipped/1.merge.flipped.bim.
-65020 markers to be merged from
-pre.modern/9.pobi.with.anc.snps/1.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 65020 are present in the base dataset.
-Error: 514 variants with 3+ alleles present.
+28892 markers loaded from post.modern/11.merged.flipped/1.merge.flipped.bim.
+28892 markers to be merged from
+post.modern/9.pobi.with.anc.snps/1.pobi.with.anc.snps.bim.
+Of these, 0 are new, while 28892 are present in the base dataset.
+Error: 41 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
-  pre.modern/12.remerged/1.pobi.anc-merge.missnp.
+  post.modern/12.remerged/1.pobi.anc-merge.missnp.
   (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
   alleles probably remain in your data.  If LD between nearby SNPs is high,
   --flip-scan should detect them.)
@@ -49,4 +42,4 @@ Error: 514 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Sat Jun 24 20:53:54 2017
+End time: Mon Jun 26 15:20:23 2017

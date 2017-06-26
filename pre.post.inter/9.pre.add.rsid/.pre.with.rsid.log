@@ -8,12 +8,12 @@ Options in effect:
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sun Jun 25 21:35:39 2017
+Start time: Mon Jun 26 01:50:45 2017
 
 Note: --update-map [filename] + parameter-free --update-name deprecated.  Use
 --update-name [filename] instead.
-Random number seed: 1498415739
+Random number seed: 1498431045
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 Error: Failed to open pre.post.inter/7.pre.ped/_pre_ped.map.
 
-End time: Sun Jun 25 21:35:39 2017
+End time: Mon Jun 26 01:50:45 2017

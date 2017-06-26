@@ -5,11 +5,11 @@ Options in effect:
   --make-bed
   --out pre.post.inter/20.notriallelic.pre/20.pre.notri_tmp
 
-Hostname: ebc202
+Hostname: ebc227
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 01:25:12 2017
+Start time: Mon Jun 26 02:22:03 2017
 
-Random number seed: 1498429512
+Random number seed: 1498432923
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 194 variants loaded from .bim file.
 40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
@@ -17,4 +17,4 @@ Ambiguous sex IDs written to
 pre.post.inter/20.notriallelic.pre/20.pre.notri_tmp.nosex .
 Error: Failed to open pre.post.inter/18.remerged/20.pre.post-merge.missnp.
 
-End time: Mon Jun 26 01:25:12 2017
+End time: Mon Jun 26 02:22:03 2017

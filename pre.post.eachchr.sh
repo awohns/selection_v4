@@ -25,9 +25,9 @@ module load R
 # #Haplocall post
 # angsd -b references/post.bam.list.txt -doHaploCall 1 -doCounts 1 -out ${directory}/2.haplo.post/${cur_chr}  -r ${cur_chr} -maxMis ${maxmis_post} -sites references/pobi.snps.by.chr/${cur_chr}.se.pobi.updated.bim.chr.pos.txt
 
-# # Convert to tped
-# /storage/software/angsd-0.913-22/misc/haploToPlink ${directory}/1.haplo.pre/${cur_chr}.haplo.gz ${directory}/3.pre.tped/${cur_chr}
-# /storage/software/angsd-0.913-22/misc/haploToPlink ${directory}/2.haplo.post/${cur_chr}.haplo.gz ${directory}/4.post.tped/${cur_chr}
+# Convert to tped
+/storage/software/angsd-0.913-22/misc/haploToPlink ${directory}/1.haplo.pre/${cur_chr}.haplo.gz ${directory}/3.pre.tped/${cur_chr}
+/storage/software/angsd-0.913-22/misc/haploToPlink ${directory}/2.haplo.post/${cur_chr}.haplo.gz ${directory}/4.post.tped/${cur_chr}
 
 
 #Replace N's with 0's
@@ -63,26 +63,52 @@ cut -f2 ${directory}/13.post.intersect.pheno/${cur_chr}.post.intersected.bim > $
 plink --bfile ${directory}/9.pre.add.rsid/${cur_chr}.pre.with.rsid --extract ${directory}/14.post.snps/${cur_chr}.post.snps.txt --make-bed --out ${directory}/15.pre.with.post.snps/${cur_chr}.pre.with.post.snps
 
 #Merge pre and post
-plink --bfile ${directory}/13.post.intersect.pheno/${cur_chr}.post.intersected --bmerge ${directory}/15.pre.with.post.snps/${cur_chr}.pre.with.post.snps --make-bed --out ${directory}/16.merged/${cur_chr}.merge
+plink --bfile ${directory}/13.post.intersect.pheno/${cur_chr}.post.intersected --bmerge ${directory}/15.pre.with.post.snps/${cur_chr}.pre.with.post.snps --make-bed --allow-no-sex --out ${directory}/16.merged/${cur_chr}.merge
 
-#Flip the missnps
-plink --bfile ${directory}/13.post.intersect.pheno/${cur_chr}.post.intersected --flip ${directory}/16.merged/${cur_chr}.merge-merge.missnp --make-bed --out ${directory}/17.post.merged.flipped/${cur_chr}.post.merge.flipped
+#WRITE THE IF STATEMENT HERE CHECKING TO SEE IF MISNP EXISTS
+if [ -f ${directory}/16.merged/${cur_chr}.merge-merge.missnp ]
+then
+	#Flip the missnps
+	plink --bfile ${directory}/13.post.intersect.pheno/${cur_chr}.post.intersected --flip ${directory}/16.merged/${cur_chr}.merge-merge.missnp --make-bed --out ${directory}/17.post.merged.flipped/${cur_chr}.post.merge.flipped
 
-#Remerge after the flip
-plink --bfile ${directory}/17.post.merged.flipped/${cur_chr}.post.merge.flipped --bmerge ${directory}/15.pre.with.post.snps/${cur_chr}.pre.with.post.snps --make-bed --out ${directory}/18.remerged/${cur_chr}.pre.post
+	#Remerge after the flip
+	plink --bfile ${directory}/17.post.merged.flipped/${cur_chr}.post.merge.flipped --bmerge ${directory}/15.pre.with.post.snps/${cur_chr}.pre.with.post.snps --make-bed --allow-no-sex --out ${directory}/18.remerged/${cur_chr}.pre.post
 
-#Final exclude and merge
-plink --bfile ${directory}/17.post.merged.flipped/${cur_chr}.post.merge.flipped --exclude ${directory}/18.remerged/${cur_chr}.pre.post-merge.missnp --make-bed --out ${directory}/19.notriallelic.post/${cur_chr}.post.notri_tmp
-plink --bfile ${directory}/15.pre.with.post.snps/${cur_chr}.pre.with.post.snps --exclude ${directory}/18.remerged/${cur_chr}.pre.post-merge.missnp --make-bed --out ${directory}/20.notriallelic.pre/${cur_chr}.pre.notri_tmp
-plink --bfile ${directory}/19.notriallelic.post/${cur_chr}.post.notri_tmp --bmerge ${directory}/20.notriallelic.pre/${cur_chr}.pre.notri_tmp --make-bed --allow-no-sex --out ${directory}/21.notriallelic.pre.post/${cur_chr}.pre.post.notri
+	if [ -f ${directory}/18.remerged/${cur_chr}.pre.post-merge.missnp ]
+	then
+		#Final exclude and merge
+		plink --bfile ${directory}/17.post.merged.flipped/${cur_chr}.post.merge.flipped --exclude ${directory}/18.remerged/${cur_chr}.pre.post-merge.missnp --make-bed --out ${directory}/19.notriallelic.post/${cur_chr}.post.notri_tmp
+		plink --bfile ${directory}/15.pre.with.post.snps/${cur_chr}.pre.with.post.snps --exclude ${directory}/18.remerged/${cur_chr}.pre.post-merge.missnp --make-bed --out ${directory}/20.notriallelic.pre/${cur_chr}.pre.notri_tmp
+		plink --bfile ${directory}/19.notriallelic.post/${cur_chr}.post.notri_tmp --bmerge ${directory}/20.notriallelic.pre/${cur_chr}.pre.notri_tmp --make-bed --allow-no-sex --out ${directory}/21.notriallelic.pre.post/${cur_chr}.pre.post.notri
 
-#Find Monomorphic Problems
-Rscript lib/flip.mono.problems.R ${cur_chr} ${directory}
+		#I ALSO HAVE TO MODIFY THE R SCRIPT TO HANDLE THE CASE WHERE THERE IS NO MISSNP
+		#Find Monomorphic Problems
+		Rscript lib/flip.mono.problems.R ${cur_chr} ${directory}
 
-#Flip the monomorphic SNPs
-plink --bfile ${directory}/19.notriallelic.post/${cur_chr}.post.notri_tmp --flip ${directory}/22.snps.to.flip/${cur_chr}results.txt --make-bed --out ${directory}/23.flipped.snps.post/${cur_chr}.flipped.post.monomorphic 
+		#Flip the monomorphic SNPs
+		plink --bfile ${directory}/19.notriallelic.post/${cur_chr}.post.notri_tmp --flip ${directory}/22.snps.to.flip/${cur_chr}results.txt --make-bed --out ${directory}/23.flipped.snps.post/${cur_chr}.flipped.post.monomorphic 
 
-#Remerge the flipped sites with the pobi file
-plink --bfile ${directory}/23.flipped.snps.post/${cur_chr}.flipped.post.monomorphic   --bmerge ${directory}/20.notriallelic.pre/${cur_chr}.pre.notri_tmp  --make-bed --allow-no-sex --out ${directory}/24.flipped.merged/${cur_chr}.pre.post.no.tri.no.monomorphic
+		#Remerge the flipped sites with the pobi file
+		plink --bfile ${directory}/23.flipped.snps.post/${cur_chr}.flipped.post.monomorphic   --bmerge ${directory}/20.notriallelic.pre/${cur_chr}.pre.notri_tmp  --make-bed --allow-no-sex --out ${directory}/24.flipped.merged/${cur_chr}.pre.post.no.tri.no.monomorphic
+	else
+		#Find Monomorphic Problems
+		Rscript lib/flip.mono.problems.R ${cur_chr} no.missnp.2
+
+		#Flip the monomorphic SNPs
+		plink --bfile ${directory}/17.post.merged.flipped/${cur_chr}.post.merge.flipped --flip ${directory}/22.snps.to.flip/${cur_chr}results.txt --make-bed --out ${directory}/23.flipped.snps.post/${cur_chr}.flipped.post.monomorphic 
+
+		#Remerge the flipped sites with the pobi file
+		plink --bfile ${directory}/23.flipped.snps.post/${cur_chr}.flipped.post.monomorphic --bmerge ${directory}/15.pre.with.post.snps/${cur_chr}.pre.with.post.snps  --make-bed --allow-no-sex --out ${directory}/24.flipped.merged/${cur_chr}.pre.post.no.tri.no.monomorphic
+	fi
+else
+	#Find Monomorphic Problems
+	Rscript lib/flip.mono.problems.R ${cur_chr} no.missnp
+
+	#Flip the monomorphic SNPs
+	plink --bfile ${directory}/13.post.intersect.pheno/${cur_chr}.post.intersected --flip ${directory}/22.snps.to.flip/${cur_chr}results.txt --make-bed --out ${directory}/23.flipped.snps.post/${cur_chr}.flipped.post.monomorphic 
+
+	#Remerge the flipped sites with the pobi file
+	plink --bfile ${directory}/23.flipped.snps.post/${cur_chr}.flipped.post.monomorphic --bmerge ${directory}/15.pre.with.post.snps/${cur_chr}.pre.with.post.snps  --make-bed --allow-no-sex --out ${directory}/24.flipped.merged/${cur_chr}.pre.post.no.tri.no.monomorphic
+fi
 
 # #**********NEED STEP HERE TO FIND AMBIGUOUS SNPS*******************************

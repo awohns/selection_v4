@@ -5,13 +5,13 @@ Options in effect:
   --make-bed
   --out pre.post.inter/18.remerged/19.pre.post
 
-Hostname: ebc202
+Hostname: ebc227
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 01:25:12 2017
+Start time: Mon Jun 26 02:21:09 2017
 
-Random number seed: 1498429512
+Random number seed: 1498432869
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 Error: Failed to open
 pre.post.inter/17.post.merged.flipped/19.post.merge.flipped.bed.
 
-End time: Mon Jun 26 01:25:12 2017
+End time: Mon Jun 26 02:21:09 2017

@@ -1,15 +1,16 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
+  --allow-no-sex
   --bfile pre.post.inter/13.post.intersect.pheno/20.post.intersected
   --bmerge pre.post.inter/15.pre.with.post.snps/20.pre.with.post.snps
   --make-bed
   --out pre.post.inter/16.merged/20.merge
 
-Hostname: ebc202
+Hostname: ebc203
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 01:25:11 2017
+Start time: Mon Jun 26 15:34:29 2017
 
-Random number seed: 1498429511
+Random number seed: 1498480469
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from
 pre.post.inter/13.post.intersect.pheno/20.post.intersected.fam.
@@ -29,9 +30,15 @@ pre.post.inter/16.merged/20.merge-merge.fam .
 40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to pre.post.inter/16.merged/20.merge.nosex .
 34 phenotype values loaded from .fam.
-Error: When ambiguous-sex samples with phenotype data are present,
---make-bed/--make-just-fam/--recode/--write-covar usually cannot be combined
-with other commands.  Split them across multiple PLINK runs, or use
---allow-no-sex/--must-have-sex.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 40 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.712629.
+194 variants and 40 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 0 are controls.  (6 phenotypes are
+missing.)
+--make-bed to pre.post.inter/16.merged/20.merge.bed +
+pre.post.inter/16.merged/20.merge.bim + pre.post.inter/16.merged/20.merge.fam
+... done.
 
-End time: Mon Jun 26 01:25:12 2017
+End time: Mon Jun 26 15:34:57 2017

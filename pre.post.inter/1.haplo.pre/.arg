@@ -1,0 +1,20 @@
+	-> Command: 
+angsd -b references/pre.bam.list.txt -doHaploCall 1 -doCounts 1 -out pre.post.inter/1.haplo.pre/ -r -maxMis -sites references/pobi.snps.by.chr/.se.pobi.updated.bim.chr.pos.txt 
+	-> angsd version: 0.913-22-g10d7007-dirty (htslib: 1.3.1-58-g344c825) build(Aug 10 2016 18:27:04)
+	-> Mon Jun 26 01:50:44 2017
+----------------
+multiReader.cpp:
+	-nLines	50	(Number of lines to read)
+	-beagle	(null)	(Beagle Filename (can be .gz))
+	-vcf-GL	(null)	(vcf Filename (can be .gz))
+	-vcf-GP	(null)	(vcf Filename (can be .gz))
+	-glf	(null)	(glf Filename (can be .gz))
+	-pileup	(null)	(pileup Filename (can be .gz))
+	-intName 1	(Assume First column is chr_position)
+	-isSim	1	(Simulated data assumes ancestral is A)
+	-nInd	0		(Number of individuals)
+	-minQ	13	(minimum base quality; only used in pileupreader)
+	-fai	(null)	(fai file)
+	-minQ	13	(minimum base quality; only used in pileupreader)
+----------------
+multiReader.cpp:

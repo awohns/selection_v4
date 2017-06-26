@@ -1,32 +1,31 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
-  --bfile pre.modern/15.flipped.snps/22.flipped.monomorphic
-  --exclude /ebc_data/awwohns/selection_v4/references/ambiguous.snps.pre.modern/22ambiguous.snps.txt
+  --bfile post.modern/15.flipped.snps/22.flipped.monomorphic
+  --exclude /ebc_data/awwohns/selection_v4/references/ambiguous.snps.post.modern/22ambiguous.snps.txt
   --make-bed
-  --out pre.modern/17.ambiguous.removed/22.anc.ambiguous.removed
+  --out post.modern/17.ambiguous.removed/22.anc.ambiguous.removed
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sun Jun 25 18:25:58 2017
+Start time: Mon Jun 26 15:45:27 2017
 
-Random number seed: 1498404358
+Random number seed: 1498481127
 257661 MB RAM detected; reserving 128830 MB for main workspace.
-2407 variants loaded from .bim file.
-44 people (0 males, 0 females, 44 ambiguous) loaded from .fam.
+5501 variants loaded from .bim file.
+34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
-pre.modern/17.ambiguous.removed/22.anc.ambiguous.removed.nosex .
-44 phenotype values loaded from .fam.
---exclude: 2383 variants remaining.
+post.modern/17.ambiguous.removed/22.anc.ambiguous.removed.nosex .
+34 phenotype values loaded from .fam.
+--exclude: 5500 variants remaining.
 Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
 phenotypes to be ignored, use the --allow-no-sex flag.
 Using 1 thread (no multithreaded calculations invoked.
-Before main variant filters, 44 founders and 0 nonfounders present.
+Before main variant filters, 34 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.177584.
-2383 variants and 44 people pass filters and QC.
-Among remaining phenotypes, 44 are cases and 0 are controls.
---make-bed to pre.modern/17.ambiguous.removed/22.anc.ambiguous.removed.bed +
-pre.modern/17.ambiguous.removed/22.anc.ambiguous.removed.bim +
-pre.modern/17.ambiguous.removed/22.anc.ambiguous.removed.fam ... done.
+5500 variants and 34 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 0 are controls.
+--make-bed to post.modern/17.ambiguous.removed/22.anc.ambiguous.removed.bed +
+post.modern/17.ambiguous.removed/22.anc.ambiguous.removed.bim +
+post.modern/17.ambiguous.removed/22.anc.ambiguous.removed.fam ... done.
 
-End time: Sun Jun 25 18:25:58 2017
+End time: Mon Jun 26 15:45:27 2017

@@ -3,29 +3,29 @@ Options in effect:
   --adjust
   --allow-no-sex
   --assoc
-  --bfile pre.modern/18.ambiguous.removed.merged/13.anc.pobi.no.ambiguous
-  --out pre.modern/19.assoc.results/13.results
+  --bfile post.modern/18.ambiguous.removed.merged/13.anc.pobi.no.ambiguous
+  --out post.modern/19.assoc.results/13.results
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sun Jun 25 18:25:40 2017
+Start time: Mon Jun 26 15:45:15 2017
 
-Random number seed: 1498404340
+Random number seed: 1498481115
 257661 MB RAM detected; reserving 128830 MB for main workspace.
-28232 variants loaded from .bim file.
-145 people (49 males, 52 females, 44 ambiguous) loaded from .fam.
-Ambiguous sex IDs written to pre.modern/19.assoc.results/13.results.nosex .
-145 phenotype values loaded from .fam.
+12611 variants loaded from .bim file.
+135 people (49 males, 52 females, 34 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to post.modern/19.assoc.results/13.results.nosex .
+135 phenotype values loaded from .fam.
 Using 1 thread (no multithreaded calculations invoked.
-Before main variant filters, 145 founders and 0 nonfounders present.
+Before main variant filters, 135 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.345389.
-28232 variants and 145 people pass filters and QC.
-Among remaining phenotypes, 44 are cases and 101 are controls.
-Writing C/C --assoc report to pre.modern/19.assoc.results/13.results.assoc ...
+Total genotyping rate is 0.9998.
+12611 variants and 135 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 101 are controls.
+Writing C/C --assoc report to post.modern/19.assoc.results/13.results.assoc ...
 done.
---adjust: Genomic inflation est. lambda (based on median chisq) = 1.
---adjust values (20343 variants) written to
-pre.modern/19.assoc.results/13.results.assoc.adjusted .
+--adjust: Genomic inflation est. lambda (based on median chisq) = 47.5448.
+--adjust values (12606 variants) written to
+post.modern/19.assoc.results/13.results.assoc.adjusted .
 
-End time: Sun Jun 25 18:25:40 2017
+End time: Mon Jun 26 15:45:15 2017

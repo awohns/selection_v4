@@ -5,13 +5,13 @@ Options in effect:
   --make-bed
   --out pre.post.inter/19.notriallelic.post/15.post.notri_tmp
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Mon Jun 26 01:36:05 2017
+Hostname: ebc226
+Working directory: /mmg/awwohns/selection_v4
+Start time: Mon Jun 26 02:25:27 2017
 
-Random number seed: 1498430165
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
+Random number seed: 1498433127
+257661 MB RAM detected; reserving 128830 MB for main workspace.
 Error: Failed to open
 pre.post.inter/17.post.merged.flipped/15.post.merge.flipped.bed.
 
-End time: Mon Jun 26 01:36:07 2017
+End time: Mon Jun 26 02:25:27 2017

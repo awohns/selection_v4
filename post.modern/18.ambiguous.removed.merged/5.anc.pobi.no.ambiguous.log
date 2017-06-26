@@ -1,47 +1,47 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
   --allow-no-sex
-  --bfile pre.modern/17.ambiguous.removed/5.anc.ambiguous.removed
-  --bmerge pre.modern/17.ambiguous.removed/5.pobi.ambiguous.removed
+  --bfile post.modern/17.ambiguous.removed/5.anc.ambiguous.removed
+  --bmerge post.modern/17.ambiguous.removed/5.pobi.ambiguous.removed
   --make-bed
-  --out pre.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous
+  --out post.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sun Jun 25 18:25:21 2017
+Start time: Mon Jun 26 15:45:04 2017
 
-Random number seed: 1498404321
+Random number seed: 1498481104
 257661 MB RAM detected; reserving 128830 MB for main workspace.
-44 people loaded from
-pre.modern/17.ambiguous.removed/5.anc.ambiguous.removed.fam.
+34 people loaded from
+post.modern/17.ambiguous.removed/5.anc.ambiguous.removed.fam.
 101 people to be merged from
-pre.modern/17.ambiguous.removed/5.pobi.ambiguous.removed.fam.
+post.modern/17.ambiguous.removed/5.pobi.ambiguous.removed.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-Warning: Multiple positions seen for variant 'rs3817055'.
-47882 markers loaded from
-pre.modern/17.ambiguous.removed/5.anc.ambiguous.removed.bim.
-22072 markers to be merged from
-pre.modern/17.ambiguous.removed/5.pobi.ambiguous.removed.bim.
-Of these, 0 are new, while 22072 are present in the base dataset.
-Performing single-pass merge (145 people, 47882 variants).
+Warning: Multiple positions seen for variant 'rs10064229'.
+21203 markers loaded from
+post.modern/17.ambiguous.removed/5.anc.ambiguous.removed.bim.
+21203 markers to be merged from
+post.modern/17.ambiguous.removed/5.pobi.ambiguous.removed.bim.
+Of these, 0 are new, while 21203 are present in the base dataset.
+Performing single-pass merge (135 people, 21203 variants).
 Merged fileset written to
-pre.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous-merge.bed +
-pre.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous-merge.bim +
-pre.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous-merge.fam .
-47882 variants loaded from .bim file.
-145 people (49 males, 52 females, 44 ambiguous) loaded from .fam.
+post.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous-merge.bed +
+post.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous-merge.bim +
+post.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous-merge.fam .
+21203 variants loaded from .bim file.
+135 people (49 males, 52 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
-pre.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous.nosex .
-145 phenotype values loaded from .fam.
+post.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous.nosex .
+135 phenotype values loaded from .fam.
 Using 1 thread (no multithreaded calculations invoked.
-Before main variant filters, 145 founders and 0 nonfounders present.
+Before main variant filters, 135 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.352057.
-47882 variants and 145 people pass filters and QC.
-Among remaining phenotypes, 44 are cases and 101 are controls.
+Total genotyping rate is 0.99967.
+21203 variants and 135 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 101 are controls.
 --make-bed to
-pre.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous.bed +
-pre.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous.bim +
-pre.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous.fam ... done.
+post.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous.bed +
+post.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous.bim +
+post.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous.fam ... done.
 
-End time: Sun Jun 25 18:25:22 2017
+End time: Mon Jun 26 15:45:04 2017

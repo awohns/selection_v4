@@ -6,12 +6,12 @@ Options in effect:
   --make-bed
   --out pre.post.inter/21.notriallelic.pre.post/3.pre.post.notri
 
-Hostname: ebc212
-Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 01:25:10 2017
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Mon Jun 26 02:55:20 2017
 
-Random number seed: 1498429510
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1498434920
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 Error: Failed to open pre.post.inter/19.notriallelic.post/3.post.notri_tmp.bed.
 
-End time: Mon Jun 26 01:25:10 2017
+End time: Mon Jun 26 02:55:20 2017

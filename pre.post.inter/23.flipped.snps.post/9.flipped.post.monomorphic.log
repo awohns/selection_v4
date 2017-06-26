@@ -1,16 +1,32 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
-  --bfile pre.post.inter/19.notriallelic.post/9.post.notri_tmp
+  --bfile pre.post.inter/17.post.merged.flipped/9.post.merge.flipped
   --flip pre.post.inter/22.snps.to.flip/9results.txt
   --make-bed
   --out pre.post.inter/23.flipped.snps.post/9.flipped.post.monomorphic
 
-Hostname: ebc229
+Hostname: ebc226
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 01:23:19 2017
+Start time: Mon Jun 26 15:36:05 2017
 
-Random number seed: 1498429399
+Random number seed: 1498480565
 257661 MB RAM detected; reserving 128830 MB for main workspace.
-Error: Failed to open pre.post.inter/19.notriallelic.post/9.post.notri_tmp.bed.
+310 variants loaded from .bim file.
+34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+pre.post.inter/23.flipped.snps.post/9.flipped.post.monomorphic.nosex .
+34 phenotype values loaded from .fam.
+--flip: 3 SNPs flipped.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 34 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+310 variants and 34 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 0 are controls.
+--make-bed to
+pre.post.inter/23.flipped.snps.post/9.flipped.post.monomorphic.bed +
+pre.post.inter/23.flipped.snps.post/9.flipped.post.monomorphic.bim +
+pre.post.inter/23.flipped.snps.post/9.flipped.post.monomorphic.fam ... done.
 
-End time: Mon Jun 26 01:23:19 2017
+End time: Mon Jun 26 15:36:05 2017

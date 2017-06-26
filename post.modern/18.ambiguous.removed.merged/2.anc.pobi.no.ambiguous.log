@@ -1,53 +1,54 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
   --allow-no-sex
-  --bfile pre.modern/17.ambiguous.removed/2.anc.ambiguous.removed
-  --bmerge pre.modern/17.ambiguous.removed/2.pobi.ambiguous.removed
+  --bfile post.modern/17.ambiguous.removed/2.anc.ambiguous.removed
+  --bmerge post.modern/17.ambiguous.removed/2.pobi.ambiguous.removed
   --make-bed
-  --out pre.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous
+  --out post.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sun Jun 25 18:25:13 2017
+Start time: Mon Jun 26 15:44:59 2017
 
-Random number seed: 1498404313
+Random number seed: 1498481099
 257661 MB RAM detected; reserving 128830 MB for main workspace.
-44 people loaded from
-pre.modern/17.ambiguous.removed/2.anc.ambiguous.removed.fam.
+34 people loaded from
+post.modern/17.ambiguous.removed/2.anc.ambiguous.removed.fam.
 101 people to be merged from
-pre.modern/17.ambiguous.removed/2.pobi.ambiguous.removed.fam.
+post.modern/17.ambiguous.removed/2.pobi.ambiguous.removed.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-Warning: Multiple positions seen for variant 'rs12467735'.
+Warning: Multiple positions seen for variant 'rs1377637'.
+Warning: Multiple positions seen for variant 'rs4832616'.
 Warning: Multiple positions seen for variant 'rs4241219'.
 Warning: Multiple positions seen for variant 'rs12991226'.
 Warning: Multiple positions seen for variant 'rs17393209'.
-Warning: Multiple positions seen for variant 'rs13011637'.
 Warning: Multiple positions seen for variant 'rs7606917'.
 Warning: Multiple positions seen for variant 'rs7600835'.
-63810 markers loaded from
-pre.modern/17.ambiguous.removed/2.anc.ambiguous.removed.bim.
-29554 markers to be merged from
-pre.modern/17.ambiguous.removed/2.pobi.ambiguous.removed.bim.
-Of these, 0 are new, while 29554 are present in the base dataset.
-Performing single-pass merge (145 people, 63810 variants).
+Warning: Multiple positions seen for variant 'rs1424339'.
+28834 markers loaded from
+post.modern/17.ambiguous.removed/2.anc.ambiguous.removed.bim.
+28834 markers to be merged from
+post.modern/17.ambiguous.removed/2.pobi.ambiguous.removed.bim.
+Of these, 0 are new, while 28834 are present in the base dataset.
+Performing single-pass merge (135 people, 28834 variants).
 Merged fileset written to
-pre.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous-merge.bed +
-pre.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous-merge.bim +
-pre.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous-merge.fam .
-63810 variants loaded from .bim file.
-145 people (49 males, 52 females, 44 ambiguous) loaded from .fam.
+post.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous-merge.bed +
+post.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous-merge.bim +
+post.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous-merge.fam .
+28834 variants loaded from .bim file.
+135 people (49 males, 52 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
-pre.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous.nosex .
-145 phenotype values loaded from .fam.
+post.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous.nosex .
+135 phenotype values loaded from .fam.
 Using 1 thread (no multithreaded calculations invoked.
-Before main variant filters, 145 founders and 0 nonfounders present.
+Before main variant filters, 135 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.353724.
-63810 variants and 145 people pass filters and QC.
-Among remaining phenotypes, 44 are cases and 101 are controls.
+Total genotyping rate is 0.999694.
+28834 variants and 135 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 101 are controls.
 --make-bed to
-pre.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous.bed +
-pre.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous.bim +
-pre.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous.fam ... done.
+post.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous.bed +
+post.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous.bim +
+post.modern/18.ambiguous.removed.merged/2.anc.pobi.no.ambiguous.fam ... done.
 
-End time: Sun Jun 25 18:25:14 2017
+End time: Mon Jun 26 15:44:59 2017

@@ -5,13 +5,16 @@ Options in effect:
   --make-bed
   --out pre.post.inter/20.notriallelic.pre/14.pre.notri_tmp
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Mon Jun 26 01:36:07 2017
+Hostname: ebc219
+Working directory: /mmg/awwohns/selection_v4
+Start time: Mon Jun 26 02:27:50 2017
 
-Random number seed: 1498430167
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
-Error: Failed to open
-pre.post.inter/15.pre.with.post.snps/14.pre.with.post.snps.bed.
+Random number seed: 1498433270
+257837 MB RAM detected; reserving 128918 MB for main workspace.
+216 variants loaded from .bim file.
+40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+pre.post.inter/20.notriallelic.pre/14.pre.notri_tmp.nosex .
+Error: Failed to open pre.post.inter/18.remerged/14.pre.post-merge.missnp.
 
-End time: Mon Jun 26 01:36:07 2017
+End time: Mon Jun 26 02:27:51 2017

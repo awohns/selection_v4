@@ -5,12 +5,12 @@ Options in effect:
   --make-bed
   --out pre.post.inter/17.post.merged.flipped/17.post.merge.flipped
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Mon Jun 26 01:37:26 2017
+Hostname: ebc226
+Working directory: /mmg/awwohns/selection_v4
+Start time: Mon Jun 26 02:25:17 2017
 
-Random number seed: 1498430246
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
+Random number seed: 1498433117
+257661 MB RAM detected; reserving 128830 MB for main workspace.
 204 variants loaded from .bim file.
 34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
@@ -18,4 +18,4 @@ pre.post.inter/17.post.merged.flipped/17.post.merge.flipped.nosex .
 34 phenotype values loaded from .fam.
 Error: Failed to open pre.post.inter/16.merged/17.merge-merge.missnp.
 
-End time: Mon Jun 26 01:37:26 2017
+End time: Mon Jun 26 02:25:17 2017

@@ -1,5 +1,6 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
+  --allow-no-sex
   --bfile pre.post.inter/13.post.intersect.pheno/3.post.intersected
   --bmerge pre.post.inter/15.pre.with.post.snps/3.pre.with.post.snps
   --make-bed
@@ -7,9 +8,9 @@ Options in effect:
 
 Hostname: ebc212
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 01:25:09 2017
+Start time: Mon Jun 26 15:35:27 2017
 
-Random number seed: 1498429509
+Random number seed: 1498480527
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from
 pre.post.inter/13.post.intersect.pheno/3.post.intersected.fam.
@@ -38,4 +39,4 @@ Note: No phenotypes present.
 pre.post.inter/16.merged/3.merge.bim + pre.post.inter/16.merged/3.merge.fam ...
 done.
 
-End time: Mon Jun 26 01:25:10 2017
+End time: Mon Jun 26 15:35:43 2017

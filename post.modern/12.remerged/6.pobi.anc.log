@@ -1,60 +1,42 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
-  --bfile pre.modern/11.merged.flipped/6.merge.flipped
-  --bmerge pre.modern/9.pobi.with.anc.snps/6.pobi.with.anc.snps
+  --bfile post.modern/11.merged.flipped/6.merge.flipped
+  --bmerge post.modern/9.pobi.with.anc.snps/6.pobi.with.anc.snps
   --make-bed
-  --out pre.modern/12.remerged/6.pobi.anc
+  --out post.modern/12.remerged/6.pobi.anc
 
-Hostname: ebc217
+Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sat Jun 24 22:17:49 2017
+Start time: Mon Jun 26 15:25:19 2017
 
-Random number seed: 1498331869
+Random number seed: 1498479919
 257661 MB RAM detected; reserving 128830 MB for main workspace.
-44 people loaded from pre.modern/11.merged.flipped/6.merge.flipped.fam.
+34 people loaded from post.modern/11.merged.flipped/6.merge.flipped.fam.
 101 people to be merged from
-pre.modern/9.pobi.with.anc.snps/6.pobi.with.anc.snps.fam.
+post.modern/9.pobi.with.anc.snps/6.pobi.with.anc.snps.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-Warning: Multiple positions seen for variant 'rs9460309'.
-Warning: Multiple positions seen for variant 'rs3819299'.
-Warning: Multiple positions seen for variant 'rs2523608'.
-Warning: Multiple positions seen for variant 'rs41559422'.
 Warning: Multiple positions seen for variant 'rs12528645'.
-Warning: Multiple positions seen for variant 'rs17881233'.
-Warning: Multiple positions seen for variant 'rs11244'.
-Warning: Multiple positions seen for variant 'rs2070120'.
 Warning: Multiple positions seen for variant 'rs2621330'.
 Warning: Multiple positions seen for variant 'rs2070121'.
-Warning: Multiple positions seen for variant 'rs17501267'.
-Warning: Multiple positions seen for variant 'rs7383287'.
 Warning: Multiple positions seen for variant 'rs241447'.
-Warning: Multiple positions seen for variant 'rs4148876'.
 Warning: Multiple positions seen for variant 'rs2228397'.
 Warning: Multiple positions seen for variant 'rs1057149'.
 Warning: Multiple positions seen for variant 'rs1135216'.
 Warning: Multiple positions seen for variant 'rs2127679'.
-Warning: Multiple positions seen for variant 'rs1057141'.
-Warning: Multiple positions seen for variant 'rs1042337'.
-Warning: Multiple positions seen for variant 'rs17617321'.
-Warning: Multiple positions seen for variant 'rs17617333'.
 Warning: Multiple positions seen for variant 'rs1063478'.
-Warning: Multiple positions seen for variant 'rs3129302'.
-Warning: Multiple positions seen for variant 'rs2581'.
 Warning: Multiple positions seen for variant 'rs2582'.
 Warning: Multiple positions seen for variant 'rs375256'.
 Warning: Multiple positions seen for variant 'rs364950'.
-Warning: Multiple positions seen for variant 'rs2308931'.
 Warning: Multiple positions seen for variant 'rs1042190'.
 Warning: Multiple positions seen for variant 'rs4714901'.
-Warning: Multiple positions seen for variant 'rs1782633'.
 Warning: Multiple positions seen for variant 'rs12193425'.
-51095 markers loaded from pre.modern/11.merged.flipped/6.merge.flipped.bim.
-51095 markers to be merged from
-pre.modern/9.pobi.with.anc.snps/6.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 51095 are present in the base dataset.
-Error: 446 variants with 3+ alleles present.
+22631 markers loaded from post.modern/11.merged.flipped/6.merge.flipped.bim.
+22631 markers to be merged from
+post.modern/9.pobi.with.anc.snps/6.pobi.with.anc.snps.bim.
+Of these, 0 are new, while 22631 are present in the base dataset.
+Error: 34 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
-  pre.modern/12.remerged/6.pobi.anc-merge.missnp.
+  post.modern/12.remerged/6.pobi.anc-merge.missnp.
   (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
   alleles probably remain in your data.  If LD between nearby SNPs is high,
   --flip-scan should detect them.)
@@ -63,4 +45,4 @@ Error: 446 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Sat Jun 24 22:17:50 2017
+End time: Mon Jun 26 15:25:19 2017

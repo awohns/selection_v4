@@ -6,11 +6,11 @@ Options in effect:
   --make-bed
   --out pre.post.inter/24.flipped.merged/10.pre.post.no.tri.no.monomorphic
 
-Hostname: ebc229
+Hostname: ebc226
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 01:23:49 2017
+Start time: Mon Jun 26 15:36:05 2017
 
-Random number seed: 1498429429
+Random number seed: 1498480565
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from
 pre.post.inter/23.flipped.snps.post/10.flipped.post.monomorphic.fam.
@@ -31,16 +31,18 @@ pre.post.inter/24.flipped.merged/10.pre.post.no.tri.no.monomorphic-merge.fam .
 40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.post.inter/24.flipped.merged/10.pre.post.no.tri.no.monomorphic.nosex .
+34 phenotype values loaded from .fam.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 40 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
 Total genotyping rate is 0.697787.
 305 variants and 40 people pass filters and QC.
-Note: No phenotypes present.
+Among remaining phenotypes, 34 are cases and 0 are controls.  (6 phenotypes are
+missing.)
 --make-bed to
 pre.post.inter/24.flipped.merged/10.pre.post.no.tri.no.monomorphic.bed +
 pre.post.inter/24.flipped.merged/10.pre.post.no.tri.no.monomorphic.bim +
 pre.post.inter/24.flipped.merged/10.pre.post.no.tri.no.monomorphic.fam ...
 done.
 
-End time: Mon Jun 26 01:24:03 2017
+End time: Mon Jun 26 15:36:05 2017

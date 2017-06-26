@@ -5,11 +5,11 @@ Options in effect:
   --make-bed
   --out pre.post.inter/19.notriallelic.post/9.post.notri_tmp
 
-Hostname: ebc229
+Hostname: ebc212
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 01:23:16 2017
+Start time: Mon Jun 26 15:03:43 2017
 
-Random number seed: 1498429396
+Random number seed: 1498478623
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 310 variants loaded from .bim file.
 34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
@@ -18,4 +18,4 @@ pre.post.inter/19.notriallelic.post/9.post.notri_tmp.nosex .
 34 phenotype values loaded from .fam.
 Error: Failed to open pre.post.inter/18.remerged/9.pre.post-merge.missnp.
 
-End time: Mon Jun 26 01:23:16 2017
+End time: Mon Jun 26 15:03:43 2017

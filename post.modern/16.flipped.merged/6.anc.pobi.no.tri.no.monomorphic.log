@@ -1,74 +1,59 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
   --allow-no-sex
-  --bfile pre.modern/15.flipped.snps/6.flipped.monomorphic
-  --bmerge pre.modern/13.notriallelic/6.pobi.notri_tmp
+  --bfile post.modern/15.flipped.snps/6.flipped.monomorphic
+  --bmerge post.modern/13.notriallelic/6.pobi.notri_tmp
   --make-bed
-  --out pre.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic
+  --out post.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic
 
-Hostname: ebc217
+Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sat Jun 24 22:19:41 2017
+Start time: Mon Jun 26 15:26:15 2017
 
-Random number seed: 1498331981
+Random number seed: 1498479975
 257661 MB RAM detected; reserving 128830 MB for main workspace.
-44 people loaded from pre.modern/15.flipped.snps/6.flipped.monomorphic.fam.
-101 people to be merged from pre.modern/13.notriallelic/6.pobi.notri_tmp.fam.
+34 people loaded from post.modern/15.flipped.snps/6.flipped.monomorphic.fam.
+101 people to be merged from post.modern/13.notriallelic/6.pobi.notri_tmp.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-Warning: Multiple positions seen for variant 'rs9460309'.
-Warning: Multiple positions seen for variant 'rs3819299'.
-Warning: Multiple positions seen for variant 'rs2523608'.
-Warning: Multiple positions seen for variant 'rs41559422'.
 Warning: Multiple positions seen for variant 'rs12528645'.
-Warning: Multiple positions seen for variant 'rs17881233'.
-Warning: Multiple positions seen for variant 'rs11244'.
-Warning: Multiple positions seen for variant 'rs2070120'.
 Warning: Multiple positions seen for variant 'rs2621330'.
 Warning: Multiple positions seen for variant 'rs2070121'.
-Warning: Multiple positions seen for variant 'rs17501267'.
 Warning: Multiple positions seen for variant 'rs241447'.
-Warning: Multiple positions seen for variant 'rs4148876'.
 Warning: Multiple positions seen for variant 'rs2228397'.
 Warning: Multiple positions seen for variant 'rs1057149'.
 Warning: Multiple positions seen for variant 'rs1135216'.
 Warning: Multiple positions seen for variant 'rs2127679'.
-Warning: Multiple positions seen for variant 'rs1057141'.
-Warning: Multiple positions seen for variant 'rs1042337'.
-Warning: Multiple positions seen for variant 'rs17617321'.
-Warning: Multiple positions seen for variant 'rs17617333'.
 Warning: Multiple positions seen for variant 'rs1063478'.
-Warning: Multiple positions seen for variant 'rs3129302'.
-Warning: Multiple positions seen for variant 'rs2581'.
 Warning: Multiple positions seen for variant 'rs2582'.
 Warning: Multiple positions seen for variant 'rs375256'.
 Warning: Multiple positions seen for variant 'rs364950'.
-Warning: Multiple positions seen for variant 'rs2308931'.
 Warning: Multiple positions seen for variant 'rs1042190'.
 Warning: Multiple positions seen for variant 'rs4714901'.
-Warning: Multiple positions seen for variant 'rs1782633'.
 Warning: Multiple positions seen for variant 'rs12193425'.
-50649 markers loaded from pre.modern/15.flipped.snps/6.flipped.monomorphic.bim.
-50649 markers to be merged from
-pre.modern/13.notriallelic/6.pobi.notri_tmp.bim.
-Of these, 0 are new, while 50649 are present in the base dataset.
-Performing single-pass merge (145 people, 50649 variants).
+22597 markers loaded from
+post.modern/15.flipped.snps/6.flipped.monomorphic.bim.
+22597 markers to be merged from
+post.modern/13.notriallelic/6.pobi.notri_tmp.bim.
+Of these, 0 are new, while 22597 are present in the base dataset.
+Performing single-pass merge (135 people, 22597 variants).
 Merged fileset written to
-pre.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic-merge.bed +
-pre.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic-merge.bim +
-pre.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic-merge.fam .
-50649 variants loaded from .bim file.
-145 people (49 males, 52 females, 44 ambiguous) loaded from .fam.
+post.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic-merge.bed +
+post.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic-merge.bim +
+post.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic-merge.fam .
+22597 variants loaded from .bim file.
+135 people (49 males, 52 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
-pre.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic.nosex .
-145 phenotype values loaded from .fam.
+post.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic.nosex .
+135 phenotype values loaded from .fam.
 Using 1 thread (no multithreaded calculations invoked.
-Before main variant filters, 145 founders and 0 nonfounders present.
+Before main variant filters, 135 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.727561.
-50649 variants and 145 people pass filters and QC.
-Among remaining phenotypes, 44 are cases and 101 are controls.
---make-bed to pre.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic.bed
-+ pre.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic.bim +
-pre.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic.fam ... done.
+Total genotyping rate is 0.999671.
+22597 variants and 135 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 101 are controls.
+--make-bed to
+post.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic.bed +
+post.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic.bim +
+post.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic.fam ... done.
 
-End time: Sat Jun 24 22:19:44 2017
+End time: Mon Jun 26 15:26:15 2017

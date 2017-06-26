@@ -7,11 +7,11 @@ Options in effect:
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sun Jun 25 21:35:41 2017
+Start time: Mon Jun 26 01:50:48 2017
 
-Random number seed: 1498415741
+Random number seed: 1498431048
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 Error: Failed to open
 pre.post.inter/13.post.intersect.pheno/.post.intersected.bed.
 
-End time: Sun Jun 25 21:35:41 2017
+End time: Mon Jun 26 01:50:48 2017
