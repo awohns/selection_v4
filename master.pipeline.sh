@@ -31,7 +31,7 @@ done
 elif [ "$option" = "post.modern" ]; then
 	for i in {1..22}; do
         echo ${i}
-        maxmis=$((24-$indiv))
+        maxmis=$((35-$indiv))
         eval "sbatch anc.modern.eachchr.sh ${i} ${maxmis} post.bam.list.txt post.modern"
         sleep 1
 done

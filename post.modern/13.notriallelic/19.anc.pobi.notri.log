@@ -6,25 +6,25 @@ Options in effect:
   --make-bed
   --out post.modern/13.notriallelic/19.anc.pobi.notri
 
-Hostname: ebc217
+Hostname: ebc202
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 16:20:26 2017
+Start time: Mon Jun 26 17:48:25 2017
 
-Random number seed: 1498483226
+Random number seed: 1498488505
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from post.modern/13.notriallelic/19.anc.notri_tmp.fam.
 101 people to be merged from post.modern/13.notriallelic/19.pobi.notri_tmp.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-7667 markers loaded from post.modern/13.notriallelic/19.anc.notri_tmp.bim.
-7667 markers to be merged from
+2435 markers loaded from post.modern/13.notriallelic/19.anc.notri_tmp.bim.
+2435 markers to be merged from
 post.modern/13.notriallelic/19.pobi.notri_tmp.bim.
-Of these, 0 are new, while 7667 are present in the base dataset.
-Performing single-pass merge (135 people, 7667 variants).
+Of these, 0 are new, while 2435 are present in the base dataset.
+Performing single-pass merge (135 people, 2435 variants).
 Merged fileset written to
 post.modern/13.notriallelic/19.anc.pobi.notri-merge.bed +
 post.modern/13.notriallelic/19.anc.pobi.notri-merge.bim +
 post.modern/13.notriallelic/19.anc.pobi.notri-merge.fam .
-7667 variants loaded from .bim file.
+2435 variants loaded from .bim file.
 135 people (49 males, 52 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 post.modern/13.notriallelic/19.anc.pobi.notri.nosex .
@@ -32,11 +32,11 @@ post.modern/13.notriallelic/19.anc.pobi.notri.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 135 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.999788.
-7667 variants and 135 people pass filters and QC.
+Total genotyping rate is 0.780525.
+2435 variants and 135 people pass filters and QC.
 Among remaining phenotypes, 34 are cases and 101 are controls.
 --make-bed to post.modern/13.notriallelic/19.anc.pobi.notri.bed +
 post.modern/13.notriallelic/19.anc.pobi.notri.bim +
 post.modern/13.notriallelic/19.anc.pobi.notri.fam ... done.
 
-End time: Mon Jun 26 16:20:27 2017
+End time: Mon Jun 26 17:48:57 2017

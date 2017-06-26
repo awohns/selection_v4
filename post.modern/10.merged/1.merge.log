@@ -5,34 +5,24 @@ Options in effect:
   --make-bed
   --out post.modern/10.merged/1.merge
 
-Hostname: ebc202
+Hostname: ebc212
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 16:25:55 2017
+Start time: Mon Jun 26 17:56:00 2017
 
-Random number seed: 1498483555
+Random number seed: 1498488960
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from post.modern/7.intersect.pheno/1.intersected.anc.pobi.fam.
 101 people to be merged from
 post.modern/9.pobi.with.anc.snps/1.pobi.with.anc.snps.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
 Warning: Multiple positions seen for variant 'rs12139755'.
-Warning: Multiple positions seen for variant 'rs3765967'.
-Warning: Multiple positions seen for variant 'rs11576896'.
-Warning: Multiple positions seen for variant 'rs2260579'.
-Warning: Multiple positions seen for variant 'rs17378839'.
-Warning: Multiple positions seen for variant 'rs12091194'.
 Warning: Multiple positions seen for variant 'rs12141856'.
-Warning: Multiple positions seen for variant 'rs11165867'.
-Warning: Multiple positions seen for variant 'rs12043679'.
-Warning: Multiple positions seen for variant 'rs2184953'.
-Warning: Multiple positions seen for variant 'rs6681342'.
-Warning: Multiple positions seen for variant 'rs7520037'.
-28892 markers loaded from
+7465 markers loaded from
 post.modern/7.intersect.pheno/1.intersected.anc.pobi.bim.
-28892 markers to be merged from
+7465 markers to be merged from
 post.modern/9.pobi.with.anc.snps/1.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 28892 are present in the base dataset.
-Error: 14277 variants with 3+ alleles present.
+Of these, 0 are new, while 7465 are present in the base dataset.
+Error: 3709 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
   post.modern/10.merged/1.merge-merge.missnp.
   (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
@@ -43,4 +33,4 @@ Error: 14277 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Mon Jun 26 16:25:57 2017
+End time: Mon Jun 26 17:56:00 2017

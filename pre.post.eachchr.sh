@@ -91,6 +91,10 @@ then
 
 		#Remerge the flipped sites with the pobi file
 		plink --bfile ${directory}/23.flipped.snps.post/${cur_chr}.flipped.post.monomorphic   --bmerge ${directory}/20.notriallelic.pre/${cur_chr}.pre.notri_tmp  --make-bed --allow-no-sex --out ${directory}/24.flipped.merged/${cur_chr}.pre.post.no.tri.no.monomorphic
+	
+		#Output files for ambiguous 
+		eval 'cp ${directory}/23.flipped.snps.post/${cur_chr}.flipped.post.monomorphic.bim ${directory}/ambiguous.pre.post.for.download/${cur_chr}.post.bim'
+		eval 'cp ${directory}/20.notriallelic.pre/${cur_chr}.pre.notri_tmp.bim ${directory}/ambiguous.pre.post.for.download/${cur_chr}.pre.bim'
 	else
 		#Find Monomorphic Problems
 		Rscript lib/flip.mono.problems.R ${cur_chr} no.missnp.2
@@ -100,6 +104,10 @@ then
 
 		#Remerge the flipped sites with the pobi file
 		plink --bfile ${directory}/23.flipped.snps.post/${cur_chr}.flipped.post.monomorphic --bmerge ${directory}/15.pre.with.post.snps/${cur_chr}.pre.with.post.snps  --make-bed --allow-no-sex --out ${directory}/24.flipped.merged/${cur_chr}.pre.post.no.tri.no.monomorphic
+		
+		#Output files for ambiguous 
+		eval 'cp ${directory}/23.flipped.snps.post/${cur_chr}.flipped.post.monomorphic.bim ${directory}/ambiguous.pre.post.for.download/${cur_chr}.post.bim'
+		eval 'cp ${directory}/15.pre.with.post.snps/${cur_chr}.pre.with.post.snps.bim ${directory}/ambiguous.pre.post.for.download/${cur_chr}.pre.bim'
 	fi
 else
 	#Find Monomorphic Problems
@@ -110,6 +118,10 @@ else
 
 	#Remerge the flipped sites with the pobi file
 	plink --bfile ${directory}/23.flipped.snps.post/${cur_chr}.flipped.post.monomorphic --bmerge ${directory}/15.pre.with.post.snps/${cur_chr}.pre.with.post.snps  --make-bed --allow-no-sex --out ${directory}/24.flipped.merged/${cur_chr}.pre.post.no.tri.no.monomorphic
+
+	#Output files for ambiguous 
+	eval 'cp ${directory}/23.flipped.snps.post/${cur_chr}.flipped.post.monomorphic.bim ${directory}/ambiguous.pre.post.for.download/${cur_chr}.post.bim'
+	eval 'cp ${directory}/15.pre.with.post.snps/${cur_chr}.pre.with.post.snps.bim ${directory}/ambiguous.pre.post.for.download/${cur_chr}.pre.bim'
 fi
 
 # #**********NEED STEP HERE TO FIND AMBIGUOUS SNPS*******************************

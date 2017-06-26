@@ -18,7 +18,7 @@ module load R
 
 #Perform haplocall
 angsd -b references/${bams_list} -doHaploCall 1 -doCounts 1 -out ${folder}/1.haplo/${cur_chr}  -r ${cur_chr} -maxMis ${maxmis} -sites references/pobi.snps.by.chr/${cur_chr}.se.pobi.updated.bim.chr.pos.txt
-
+wait
 #Convert to tped
 /storage/software/angsd-0.913-22/misc/haploToPlink ${folder}/1.haplo/${cur_chr}.haplo.gz ${folder}/2.tped/${cur_chr}
 wait 

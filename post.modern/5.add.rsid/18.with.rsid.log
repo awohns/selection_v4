@@ -6,30 +6,31 @@ Options in effect:
   --update-map references/pobi.snps.by.chr/18.se.pobi.updated.bim.txt
   --update-name
 
-Hostname: ebc217
+Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 16:20:55 2017
+Start time: Mon Jun 26 17:45:00 2017
 
 Note: --update-map [filename] + parameter-free --update-name deprecated.  Use
 --update-name [filename] instead.
-Random number seed: 1498483255
+Random number seed: 1498488300
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 Scanning .ped file... done.
-Performing single-pass .bed write (10093 variants, 34 people).
+Performing single-pass .bed write (2493 variants, 34 people).
 --file: post.modern/5.add.rsid/18.with.rsid-temporary.bed +
 post.modern/5.add.rsid/18.with.rsid-temporary.bim +
 post.modern/5.add.rsid/18.with.rsid-temporary.fam written.
-10093 variants loaded from .bim file.
+2493 variants loaded from .bim file.
 34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to post.modern/5.add.rsid/18.with.rsid.nosex .
---update-name: 10093 values updated, 14238 variant IDs not present.
+--update-name: 2493 values updated, 21838 variant IDs not present.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 34 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-10093 variants and 34 people pass filters and QC.
+Total genotyping rate is 0.127663.
+2493 variants and 34 people pass filters and QC.
 Note: No phenotypes present.
 --make-bed to post.modern/5.add.rsid/18.with.rsid.bed +
 post.modern/5.add.rsid/18.with.rsid.bim +
 post.modern/5.add.rsid/18.with.rsid.fam ... done.
 
-End time: Mon Jun 26 16:20:56 2017
+End time: Mon Jun 26 17:45:01 2017

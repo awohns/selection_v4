@@ -1,0 +1,37 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --file pre.post.inter/8.post.ped/14_post_ped
+  --make-bed
+  --out pre.post.inter/10.post.add.rsid/14.post.with.rsid
+  --update-map references/pobi.snps.by.chr/14.se.pobi.updated.bim.txt
+  --update-name
+
+Hostname: ebc226
+Working directory: /mmg/awwohns/selection_v4
+Start time: Mon Jun 26 16:40:23 2017
+
+Note: --update-map [filename] + parameter-free --update-name deprecated.  Use
+--update-name [filename] instead.
+Random number seed: 1498484423
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (2893 variants, 34 people).
+--file: pre.post.inter/10.post.add.rsid/14.post.with.rsid-temporary.bed +
+pre.post.inter/10.post.add.rsid/14.post.with.rsid-temporary.bim +
+pre.post.inter/10.post.add.rsid/14.post.with.rsid-temporary.fam written.
+2893 variants loaded from .bim file.
+34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+pre.post.inter/10.post.add.rsid/14.post.with.rsid.nosex .
+--update-name: 2893 values updated, 24580 variant IDs not present.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 34 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.128007.
+2893 variants and 34 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to pre.post.inter/10.post.add.rsid/14.post.with.rsid.bed +
+pre.post.inter/10.post.add.rsid/14.post.with.rsid.bim +
+pre.post.inter/10.post.add.rsid/14.post.with.rsid.fam ... done.
+
+End time: Mon Jun 26 16:40:23 2017

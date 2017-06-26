@@ -1,0 +1,32 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile pre.post.inter/17.post.merged.flipped/17.post.merge.flipped
+  --exclude pre.post.inter/18.remerged/17.pre.post-merge.missnp
+  --make-bed
+  --out pre.post.inter/19.notriallelic.post/17.post.notri_tmp
+
+Hostname: ebc227
+Working directory: /mmg/awwohns/selection_v4
+Start time: Mon Jun 26 16:40:06 2017
+
+Random number seed: 1498484406
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+772 variants loaded from .bim file.
+34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+pre.post.inter/19.notriallelic.post/17.post.notri_tmp.nosex .
+34 phenotype values loaded from .fam.
+--exclude: 766 variants remaining.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 34 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.130433.
+766 variants and 34 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 0 are controls.
+--make-bed to pre.post.inter/19.notriallelic.post/17.post.notri_tmp.bed +
+pre.post.inter/19.notriallelic.post/17.post.notri_tmp.bim +
+pre.post.inter/19.notriallelic.post/17.post.notri_tmp.fam ... done.
+
+End time: Mon Jun 26 16:40:06 2017

@@ -6,38 +6,27 @@ Options in effect:
   --make-bed
   --out post.modern/16.flipped.merged/1.anc.pobi.no.tri.no.monomorphic
 
-Hostname: ebc226
+Hostname: ebc212
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 15:21:01 2017
+Start time: Mon Jun 26 17:57:05 2017
 
-Random number seed: 1498479661
+Random number seed: 1498489025
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from post.modern/15.flipped.snps/1.flipped.monomorphic.fam.
 101 people to be merged from post.modern/13.notriallelic/1.pobi.notri_tmp.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
 Warning: Multiple positions seen for variant 'rs12139755'.
-Warning: Multiple positions seen for variant 'rs3765967'.
-Warning: Multiple positions seen for variant 'rs11576896'.
-Warning: Multiple positions seen for variant 'rs2260579'.
-Warning: Multiple positions seen for variant 'rs17378839'.
-Warning: Multiple positions seen for variant 'rs12091194'.
 Warning: Multiple positions seen for variant 'rs12141856'.
-Warning: Multiple positions seen for variant 'rs11165867'.
-Warning: Multiple positions seen for variant 'rs12043679'.
-Warning: Multiple positions seen for variant 'rs2184953'.
-Warning: Multiple positions seen for variant 'rs6681342'.
-Warning: Multiple positions seen for variant 'rs7520037'.
-28851 markers loaded from
-post.modern/15.flipped.snps/1.flipped.monomorphic.bim.
-28851 markers to be merged from
+7382 markers loaded from post.modern/15.flipped.snps/1.flipped.monomorphic.bim.
+7382 markers to be merged from
 post.modern/13.notriallelic/1.pobi.notri_tmp.bim.
-Of these, 0 are new, while 28851 are present in the base dataset.
-Performing single-pass merge (135 people, 28851 variants).
+Of these, 0 are new, while 7382 are present in the base dataset.
+Performing single-pass merge (135 people, 7382 variants).
 Merged fileset written to
 post.modern/16.flipped.merged/1.anc.pobi.no.tri.no.monomorphic-merge.bed +
 post.modern/16.flipped.merged/1.anc.pobi.no.tri.no.monomorphic-merge.bim +
 post.modern/16.flipped.merged/1.anc.pobi.no.tri.no.monomorphic-merge.fam .
-28851 variants loaded from .bim file.
+7382 variants loaded from .bim file.
 135 people (49 males, 52 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 post.modern/16.flipped.merged/1.anc.pobi.no.tri.no.monomorphic.nosex .
@@ -45,12 +34,12 @@ post.modern/16.flipped.merged/1.anc.pobi.no.tri.no.monomorphic.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 135 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.999699.
-28851 variants and 135 people pass filters and QC.
+Total genotyping rate is 0.779972.
+7382 variants and 135 people pass filters and QC.
 Among remaining phenotypes, 34 are cases and 101 are controls.
 --make-bed to
 post.modern/16.flipped.merged/1.anc.pobi.no.tri.no.monomorphic.bed +
 post.modern/16.flipped.merged/1.anc.pobi.no.tri.no.monomorphic.bim +
 post.modern/16.flipped.merged/1.anc.pobi.no.tri.no.monomorphic.fam ... done.
 
-End time: Mon Jun 26 15:21:02 2017
+End time: Mon Jun 26 17:57:05 2017
