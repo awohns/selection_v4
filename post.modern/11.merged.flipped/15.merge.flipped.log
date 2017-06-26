@@ -5,11 +5,11 @@ Options in effect:
   --make-bed
   --out post.modern/11.merged.flipped/15.merge.flipped
 
-Hostname: ebc203
+Hostname: ebc216
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 15:09:10 2017
+Start time: Mon Jun 26 16:22:54 2017
 
-Random number seed: 1498478950
+Random number seed: 1498483374
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 10615 variants loaded from .bim file.
 34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
@@ -29,4 +29,4 @@ Among remaining phenotypes, 34 are cases and 0 are controls.
 post.modern/11.merged.flipped/15.merge.flipped.bim +
 post.modern/11.merged.flipped/15.merge.flipped.fam ... done.
 
-End time: Mon Jun 26 15:09:10 2017
+End time: Mon Jun 26 16:24:24 2017

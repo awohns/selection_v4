@@ -6,11 +6,11 @@ Options in effect:
   --make-bed
   --out post.modern/16.flipped.merged/17.anc.pobi.no.tri.no.monomorphic
 
-Hostname: ebc226
+Hostname: ebc217
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 15:09:23 2017
+Start time: Mon Jun 26 16:30:12 2017
 
-Random number seed: 1498478963
+Random number seed: 1498483812
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from post.modern/15.flipped.snps/17.flipped.monomorphic.fam.
 101 people to be merged from post.modern/13.notriallelic/17.pobi.notri_tmp.fam.
@@ -42,4 +42,4 @@ post.modern/16.flipped.merged/17.anc.pobi.no.tri.no.monomorphic.bed +
 post.modern/16.flipped.merged/17.anc.pobi.no.tri.no.monomorphic.bim +
 post.modern/16.flipped.merged/17.anc.pobi.no.tri.no.monomorphic.fam ... done.
 
-End time: Mon Jun 26 15:09:24 2017
+End time: Mon Jun 26 16:30:21 2017

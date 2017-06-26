@@ -6,11 +6,11 @@ Options in effect:
   --make-bed
   --out post.modern/13.notriallelic/19.anc.pobi.notri
 
-Hostname: ebc226
+Hostname: ebc217
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 15:05:13 2017
+Start time: Mon Jun 26 16:20:26 2017
 
-Random number seed: 1498478713
+Random number seed: 1498483226
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from post.modern/13.notriallelic/19.anc.notri_tmp.fam.
 101 people to be merged from post.modern/13.notriallelic/19.pobi.notri_tmp.fam.
@@ -39,4 +39,4 @@ Among remaining phenotypes, 34 are cases and 101 are controls.
 post.modern/13.notriallelic/19.anc.pobi.notri.bim +
 post.modern/13.notriallelic/19.anc.pobi.notri.fam ... done.
 
-End time: Mon Jun 26 15:05:13 2017
+End time: Mon Jun 26 16:20:27 2017
