@@ -6,43 +6,42 @@ Options in effect:
   --make-bed
   --out pre.post.inter/24.flipped.merged/20.pre.post.no.tri.no.monomorphic
 
-Hostname: ebc201
+Hostname: ebc215
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 16:38:49 2017
+Start time: Tue Jun 27 14:13:32 2017
 
-Random number seed: 1498484329
+Random number seed: 1498562012
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from
 pre.post.inter/23.flipped.snps.post/20.flipped.post.monomorphic.fam.
 40 people to be merged from
 pre.post.inter/20.notriallelic.pre/20.pre.notri_tmp.fam.
-Of these, 6 are new, while 34 are present in the base dataset.
+Of these, 40 are new, while 0 are present in the base dataset.
 596 markers loaded from
 pre.post.inter/23.flipped.snps.post/20.flipped.post.monomorphic.bim.
 596 markers to be merged from
 pre.post.inter/20.notriallelic.pre/20.pre.notri_tmp.bim.
 Of these, 0 are new, while 596 are present in the base dataset.
-Performing single-pass merge (40 people, 596 variants).
+Performing single-pass merge (74 people, 596 variants).
 Merged fileset written to
 pre.post.inter/24.flipped.merged/20.pre.post.no.tri.no.monomorphic-merge.bed +
 pre.post.inter/24.flipped.merged/20.pre.post.no.tri.no.monomorphic-merge.bim +
 pre.post.inter/24.flipped.merged/20.pre.post.no.tri.no.monomorphic-merge.fam .
 596 variants loaded from .bim file.
-40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
+74 people (0 males, 0 females, 74 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.post.inter/24.flipped.merged/20.pre.post.no.tri.no.monomorphic.nosex .
-34 phenotype values loaded from .fam.
+74 phenotype values loaded from .fam.
 Using 1 thread (no multithreaded calculations invoked.
-Before main variant filters, 40 founders and 0 nonfounders present.
+Before main variant filters, 74 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.229446.
-596 variants and 40 people pass filters and QC.
-Among remaining phenotypes, 34 are cases and 0 are controls.  (6 phenotypes are
-missing.)
+Total genotyping rate is 0.137221.
+596 variants and 74 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 40 are controls.
 --make-bed to
 pre.post.inter/24.flipped.merged/20.pre.post.no.tri.no.monomorphic.bed +
 pre.post.inter/24.flipped.merged/20.pre.post.no.tri.no.monomorphic.bim +
 pre.post.inter/24.flipped.merged/20.pre.post.no.tri.no.monomorphic.fam ...
 done.
 
-End time: Mon Jun 26 16:38:49 2017
+End time: Tue Jun 27 14:14:17 2017

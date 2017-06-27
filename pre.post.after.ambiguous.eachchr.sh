@@ -5,7 +5,7 @@ folder=$2
 
 #Remove Ambiguous
 #post
-plink --bfile ${folder}/23.flipped.snps.post/${cur_chr}.flipped.post.monomorphic --exclude /ebc_data/awwohns/selection_v4/references/ambiguous.snps.pre.post.${folder}/${cur_chr}ambiguous.snps.txt --make-bed --out ${folder}/25.ambiguous.removed/${cur_chr}.post.ambiguous.removed
+plink --bfile ${folder}/23.flipped.snps.post/${cur_chr}.flipped.post.monomorphic --exclude /ebc_data/awwohns/selection_v4/references/ambiguous.snps.${folder}/${cur_chr}ambiguous.snps.txt --make-bed --out ${folder}/25.ambiguous.removed/${cur_chr}.post.ambiguous.removed
 
 #pre
 plink --bfile ${folder}/20.notriallelic.pre/${cur_chr}.pre.notri_tmp --exclude /ebc_data/awwohns/selection_v4/references/ambiguous.snps.${folder}/${cur_chr}ambiguous.snps.txt --make-bed --out ${folder}/25.ambiguous.removed/${cur_chr}.pre.ambiguous.removed

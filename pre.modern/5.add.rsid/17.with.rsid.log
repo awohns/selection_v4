@@ -6,31 +6,31 @@ Options in effect:
   --update-map references/pobi.snps.by.chr/17.se.pobi.updated.bim.txt
   --update-name
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Sat Jun 24 22:14:18 2017
+Hostname: ebc215
+Working directory: /mmg/awwohns/selection_v4
+Start time: Tue Jun 27 14:45:19 2017
 
 Note: --update-map [filename] + parameter-free --update-name deprecated.  Use
 --update-name [filename] instead.
-Random number seed: 1498331658
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
+Random number seed: 1498563919
+257661 MB RAM detected; reserving 128830 MB for main workspace.
 Scanning .ped file... done.
-Performing single-pass .bed write (23084 variants, 44 people).
+Performing single-pass .bed write (23075 variants, 40 people).
 --file: pre.modern/5.add.rsid/17.with.rsid-temporary.bed +
 pre.modern/5.add.rsid/17.with.rsid-temporary.bim +
 pre.modern/5.add.rsid/17.with.rsid-temporary.fam written.
-23084 variants loaded from .bim file.
-44 people (0 males, 0 females, 44 ambiguous) loaded from .fam.
+23075 variants loaded from .bim file.
+40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to pre.modern/5.add.rsid/17.with.rsid.nosex .
---update-name: 23084 values updated, 1162 variant IDs not present.
+--update-name: 23075 values updated, 1171 variant IDs not present.
 Using 1 thread (no multithreaded calculations invoked.
-Before main variant filters, 44 founders and 0 nonfounders present.
+Before main variant filters, 40 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.108996.
-23084 variants and 44 people pass filters and QC.
+Total genotyping rate is 0.080169.
+23075 variants and 40 people pass filters and QC.
 Note: No phenotypes present.
 --make-bed to pre.modern/5.add.rsid/17.with.rsid.bed +
 pre.modern/5.add.rsid/17.with.rsid.bim + pre.modern/5.add.rsid/17.with.rsid.fam
 ... done.
 
-End time: Sat Jun 24 22:14:20 2017
+End time: Tue Jun 27 14:45:19 2017

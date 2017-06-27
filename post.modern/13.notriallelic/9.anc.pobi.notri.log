@@ -6,26 +6,25 @@ Options in effect:
   --make-bed
   --out post.modern/13.notriallelic/9.anc.pobi.notri
 
-Hostname: ebc226
+Hostname: ebc215
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 17:55:14 2017
+Start time: Tue Jun 27 15:04:49 2017
 
-Random number seed: 1498488914
+Random number seed: 1498565089
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from post.modern/13.notriallelic/9.anc.notri_tmp.fam.
 101 people to be merged from post.modern/13.notriallelic/9.pobi.notri_tmp.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-Warning: Multiple positions seen for variant 'rs7861759'.
-3985 markers loaded from post.modern/13.notriallelic/9.anc.notri_tmp.bim.
-3985 markers to be merged from
+1105 markers loaded from post.modern/13.notriallelic/9.anc.notri_tmp.bim.
+1105 markers to be merged from
 post.modern/13.notriallelic/9.pobi.notri_tmp.bim.
-Of these, 0 are new, while 3985 are present in the base dataset.
-Performing single-pass merge (135 people, 3985 variants).
+Of these, 0 are new, while 1105 are present in the base dataset.
+Performing single-pass merge (135 people, 1105 variants).
 Merged fileset written to
 post.modern/13.notriallelic/9.anc.pobi.notri-merge.bed +
 post.modern/13.notriallelic/9.anc.pobi.notri-merge.bim +
 post.modern/13.notriallelic/9.anc.pobi.notri-merge.fam .
-3985 variants loaded from .bim file.
+1105 variants loaded from .bim file.
 135 people (49 males, 52 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to post.modern/13.notriallelic/9.anc.pobi.notri.nosex
 .
@@ -33,11 +32,11 @@ Ambiguous sex IDs written to post.modern/13.notriallelic/9.anc.pobi.notri.nosex
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 135 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.779973.
-3985 variants and 135 people pass filters and QC.
+Total genotyping rate is 0.786828.
+1105 variants and 135 people pass filters and QC.
 Among remaining phenotypes, 34 are cases and 101 are controls.
 --make-bed to post.modern/13.notriallelic/9.anc.pobi.notri.bed +
 post.modern/13.notriallelic/9.anc.pobi.notri.bim +
 post.modern/13.notriallelic/9.anc.pobi.notri.fam ... done.
 
-End time: Mon Jun 26 17:55:41 2017
+End time: Tue Jun 27 15:04:50 2017

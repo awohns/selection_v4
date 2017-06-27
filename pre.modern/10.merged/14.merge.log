@@ -5,23 +5,23 @@ Options in effect:
   --make-bed
   --out pre.modern/10.merged/14.merge
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Sat Jun 24 21:37:09 2017
+Hostname: ebc227
+Working directory: /mmg/awwohns/selection_v4
+Start time: Tue Jun 27 14:45:33 2017
 
-Random number seed: 1498329429
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
-44 people loaded from pre.modern/7.intersect.pheno/14.intersected.anc.pobi.fam.
+Random number seed: 1498563933
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+40 people loaded from pre.modern/7.intersect.pheno/14.intersected.anc.pobi.fam.
 101 people to be merged from
 pre.modern/9.pobi.with.anc.snps/14.pobi.with.anc.snps.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
 Warning: Multiple positions seen for variant 'rs12435258'.
-25884 markers loaded from
+25821 markers loaded from
 pre.modern/7.intersect.pheno/14.intersected.anc.pobi.bim.
-25884 markers to be merged from
+25821 markers to be merged from
 pre.modern/9.pobi.with.anc.snps/14.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 25884 are present in the base dataset.
-Error: 12846 variants with 3+ alleles present.
+Of these, 0 are new, while 25821 are present in the base dataset.
+Error: 12813 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
   pre.modern/10.merged/14.merge-merge.missnp.
   (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
@@ -32,4 +32,4 @@ Error: 12846 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Sat Jun 24 21:37:09 2017
+End time: Tue Jun 27 14:45:33 2017

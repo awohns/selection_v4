@@ -1,7 +1,7 @@
 	-> Command: 
 angsd -b references/pre.bam.list.txt -doHaploCall 1 -doCounts 1 -out pre.modern/1.haplo/14 -r 14 -maxMis 39 -sites references/pobi.snps.by.chr/14.se.pobi.updated.bim.chr.pos.txt 
 	-> angsd version: 0.913-22-g10d7007-dirty (htslib: 1.3.1-58-g344c825) build(Aug 10 2016 18:27:04)
-	-> Sat Jun 24 20:59:36 2017
+	-> Tue Jun 27 14:41:19 2017
 ----------------
 multiReader.cpp:
 	-nLines	50	(Number of lines to read)
@@ -128,3 +128,8 @@ abcHaploCall.cpp:
 Optional
 	-minMinor	0	Minimum observed minor alleles
 	-maxMis	39	Maximum missing bases (per site)
+		->"pre.modern/1.haplo/14.arg"
+		->"pre.modern/1.haplo/14.haplo.gz"
+
+	[ALL done] cpu-time used =  227.48 sec
+	[ALL done] walltime used =  235.00 sec

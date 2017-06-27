@@ -1,0 +1,47 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --allow-no-sex
+  --bfile pre.post.inter/25.ambiguous.removed/15.pre.ambiguous.removed
+  --bmerge pre.post.inter/25.ambiguous.removed/15.post.ambiguous.removed
+  --make-bed
+  --out pre.post.inter/26.ambiguous.removed.merged/15.pre.post.no.ambiguous
+
+Hostname: ebc201
+Working directory: /mmg/awwohns/selection_v4
+Start time: Tue Jun 27 14:21:13 2017
+
+Random number seed: 1498562473
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+40 people loaded from
+pre.post.inter/25.ambiguous.removed/15.pre.ambiguous.removed.fam.
+34 people to be merged from
+pre.post.inter/25.ambiguous.removed/15.post.ambiguous.removed.fam.
+Of these, 34 are new, while 0 are present in the base dataset.
+604 markers loaded from
+pre.post.inter/25.ambiguous.removed/15.pre.ambiguous.removed.bim.
+604 markers to be merged from
+pre.post.inter/25.ambiguous.removed/15.post.ambiguous.removed.bim.
+Of these, 0 are new, while 604 are present in the base dataset.
+Performing single-pass merge (74 people, 604 variants).
+Merged fileset written to
+pre.post.inter/26.ambiguous.removed.merged/15.pre.post.no.ambiguous-merge.bed +
+pre.post.inter/26.ambiguous.removed.merged/15.pre.post.no.ambiguous-merge.bim +
+pre.post.inter/26.ambiguous.removed.merged/15.pre.post.no.ambiguous-merge.fam .
+604 variants loaded from .bim file.
+74 people (0 males, 0 females, 74 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+pre.post.inter/26.ambiguous.removed.merged/15.pre.post.no.ambiguous.nosex .
+74 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 74 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.136836.
+604 variants and 74 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 40 are controls.
+--make-bed to
+pre.post.inter/26.ambiguous.removed.merged/15.pre.post.no.ambiguous.bed +
+pre.post.inter/26.ambiguous.removed.merged/15.pre.post.no.ambiguous.bim +
+pre.post.inter/26.ambiguous.removed.merged/15.pre.post.no.ambiguous.fam ...
+done.
+
+End time: Tue Jun 27 14:21:13 2017

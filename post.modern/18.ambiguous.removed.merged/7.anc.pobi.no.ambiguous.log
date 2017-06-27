@@ -8,32 +8,29 @@ Options in effect:
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 15:45:07 2017
+Start time: Tue Jun 27 14:43:36 2017
 
-Random number seed: 1498481107
+Random number seed: 1498563816
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from
 post.modern/17.ambiguous.removed/7.anc.ambiguous.removed.fam.
 101 people to be merged from
 post.modern/17.ambiguous.removed/7.pobi.ambiguous.removed.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-Warning: Multiple positions seen for variant 'rs1404416'.
 Warning: Multiple positions seen for variant 'rs190647'.
-Warning: Multiple positions seen for variant 'rs12666800'.
 Warning: Multiple positions seen for variant 'rs10274325'.
 Warning: Multiple positions seen for variant 'rs983926'.
-Warning: Multiple positions seen for variant 'rs9690381'.
-18861 markers loaded from
+4594 markers loaded from
 post.modern/17.ambiguous.removed/7.anc.ambiguous.removed.bim.
-18861 markers to be merged from
+4594 markers to be merged from
 post.modern/17.ambiguous.removed/7.pobi.ambiguous.removed.bim.
-Of these, 0 are new, while 18861 are present in the base dataset.
-Performing single-pass merge (135 people, 18861 variants).
+Of these, 0 are new, while 4594 are present in the base dataset.
+Performing single-pass merge (135 people, 4594 variants).
 Merged fileset written to
 post.modern/18.ambiguous.removed.merged/7.anc.pobi.no.ambiguous-merge.bed +
 post.modern/18.ambiguous.removed.merged/7.anc.pobi.no.ambiguous-merge.bim +
 post.modern/18.ambiguous.removed.merged/7.anc.pobi.no.ambiguous-merge.fam .
-18861 variants loaded from .bim file.
+4594 variants loaded from .bim file.
 135 people (49 males, 52 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 post.modern/18.ambiguous.removed.merged/7.anc.pobi.no.ambiguous.nosex .
@@ -41,12 +38,12 @@ post.modern/18.ambiguous.removed.merged/7.anc.pobi.no.ambiguous.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 135 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.999698.
-18861 variants and 135 people pass filters and QC.
+Total genotyping rate is 0.78003.
+4594 variants and 135 people pass filters and QC.
 Among remaining phenotypes, 34 are cases and 101 are controls.
 --make-bed to
 post.modern/18.ambiguous.removed.merged/7.anc.pobi.no.ambiguous.bed +
 post.modern/18.ambiguous.removed.merged/7.anc.pobi.no.ambiguous.bim +
 post.modern/18.ambiguous.removed.merged/7.anc.pobi.no.ambiguous.fam ... done.
 
-End time: Mon Jun 26 15:45:07 2017
+End time: Tue Jun 27 14:43:36 2017

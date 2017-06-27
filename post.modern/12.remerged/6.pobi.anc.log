@@ -5,33 +5,24 @@ Options in effect:
   --make-bed
   --out post.modern/12.remerged/6.pobi.anc
 
-Hostname: ebc229
+Hostname: ebc215
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 17:50:23 2017
+Start time: Tue Jun 27 15:06:31 2017
 
-Random number seed: 1498488623
+Random number seed: 1498565191
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from post.modern/11.merged.flipped/6.merge.flipped.fam.
 101 people to be merged from
 post.modern/9.pobi.with.anc.snps/6.pobi.with.anc.snps.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-Warning: Multiple positions seen for variant 'rs3819299'.
 Warning: Multiple positions seen for variant 'rs12528645'.
-Warning: Multiple positions seen for variant 'rs241447'.
-Warning: Multiple positions seen for variant 'rs4148876'.
-Warning: Multiple positions seen for variant 'rs1135216'.
-Warning: Multiple positions seen for variant 'rs2127679'.
-Warning: Multiple positions seen for variant 'rs1063478'.
-Warning: Multiple positions seen for variant 'rs2582'.
-Warning: Multiple positions seen for variant 'rs375256'.
 Warning: Multiple positions seen for variant 'rs364950'.
-Warning: Multiple positions seen for variant 'rs1042190'.
 Warning: Multiple positions seen for variant 'rs4714901'.
-5734 markers loaded from post.modern/11.merged.flipped/6.merge.flipped.bim.
-5734 markers to be merged from
+1550 markers loaded from post.modern/11.merged.flipped/6.merge.flipped.bim.
+1550 markers to be merged from
 post.modern/9.pobi.with.anc.snps/6.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 5734 are present in the base dataset.
-Error: 40 variants with 3+ alleles present.
+Of these, 0 are new, while 1550 are present in the base dataset.
+Error: 13 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
   post.modern/12.remerged/6.pobi.anc-merge.missnp.
   (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
@@ -42,4 +33,4 @@ Error: 40 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Mon Jun 26 17:50:23 2017
+End time: Tue Jun 27 15:06:32 2017

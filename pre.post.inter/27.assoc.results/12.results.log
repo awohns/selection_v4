@@ -1,0 +1,31 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --adjust
+  --allow-no-sex
+  --assoc
+  --bfile pre.post.inter/26.ambiguous.removed.merged/12.pre.post.no.ambiguous
+  --out pre.post.inter/27.assoc.results/12.results
+
+Hostname: ebc201
+Working directory: /mmg/awwohns/selection_v4
+Start time: Tue Jun 27 14:21:07 2017
+
+Random number seed: 1498562467
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+895 variants loaded from .bim file.
+74 people (0 males, 0 females, 74 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to pre.post.inter/27.assoc.results/12.results.nosex .
+74 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 74 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.136117.
+895 variants and 74 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 40 are controls.
+Writing C/C --assoc report to pre.post.inter/27.assoc.results/12.results.assoc
+... done.
+--adjust: Genomic inflation est. lambda (based on median chisq) = 3.94737.
+--adjust values (745 variants) written to
+pre.post.inter/27.assoc.results/12.results.assoc.adjusted .
+
+End time: Tue Jun 27 14:21:08 2017

@@ -5,12 +5,12 @@ Options in effect:
   --make-bed
   --out post.modern/12.remerged/19.pobi.anc
 
-Hostname: ebc202
-Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 17:47:48 2017
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Tue Jun 27 15:00:39 2017
 
-Random number seed: 1498488468
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1498564839
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 34 people loaded from post.modern/11.merged.flipped/19.merge.flipped.fam.
 101 people to be merged from
 post.modern/9.pobi.with.anc.snps/19.pobi.with.anc.snps.fam.
@@ -30,4 +30,4 @@ Error: 22 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Mon Jun 26 17:47:48 2017
+End time: Tue Jun 27 15:00:39 2017

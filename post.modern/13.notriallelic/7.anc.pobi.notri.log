@@ -6,28 +6,26 @@ Options in effect:
   --make-bed
   --out post.modern/13.notriallelic/7.anc.pobi.notri
 
-Hostname: ebc230
+Hostname: ebc215
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 17:51:21 2017
+Start time: Tue Jun 27 15:07:38 2017
 
-Random number seed: 1498488681
+Random number seed: 1498565258
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from post.modern/13.notriallelic/7.anc.notri_tmp.fam.
 101 people to be merged from post.modern/13.notriallelic/7.pobi.notri_tmp.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
 Warning: Multiple positions seen for variant 'rs190647'.
-Warning: Multiple positions seen for variant 'rs10274325'.
-Warning: Multiple positions seen for variant 'rs983926'.
-4630 markers loaded from post.modern/13.notriallelic/7.anc.notri_tmp.bim.
-4630 markers to be merged from
+1228 markers loaded from post.modern/13.notriallelic/7.anc.notri_tmp.bim.
+1228 markers to be merged from
 post.modern/13.notriallelic/7.pobi.notri_tmp.bim.
-Of these, 0 are new, while 4630 are present in the base dataset.
-Performing single-pass merge (135 people, 4630 variants).
+Of these, 0 are new, while 1228 are present in the base dataset.
+Performing single-pass merge (135 people, 1228 variants).
 Merged fileset written to
 post.modern/13.notriallelic/7.anc.pobi.notri-merge.bed +
 post.modern/13.notriallelic/7.anc.pobi.notri-merge.bim +
 post.modern/13.notriallelic/7.anc.pobi.notri-merge.fam .
-4630 variants loaded from .bim file.
+1228 variants loaded from .bim file.
 135 people (49 males, 52 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to post.modern/13.notriallelic/7.anc.pobi.notri.nosex
 .
@@ -35,11 +33,11 @@ Ambiguous sex IDs written to post.modern/13.notriallelic/7.anc.pobi.notri.nosex
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 135 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.780029.
-4630 variants and 135 people pass filters and QC.
+Total genotyping rate is 0.786886.
+1228 variants and 135 people pass filters and QC.
 Among remaining phenotypes, 34 are cases and 101 are controls.
 --make-bed to post.modern/13.notriallelic/7.anc.pobi.notri.bed +
 post.modern/13.notriallelic/7.anc.pobi.notri.bim +
 post.modern/13.notriallelic/7.anc.pobi.notri.fam ... done.
 
-End time: Mon Jun 26 17:51:43 2017
+End time: Tue Jun 27 15:08:45 2017

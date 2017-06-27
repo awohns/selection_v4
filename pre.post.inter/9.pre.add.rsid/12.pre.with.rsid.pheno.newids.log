@@ -1,0 +1,32 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile pre.post.inter/9.pre.add.rsid/12.pre.with.rsid.pheno
+  --make-bed
+  --out pre.post.inter/9.pre.add.rsid/12.pre.with.rsid.pheno.newids
+  --update-ids references/update.ids.pre.txt
+
+Hostname: ebc226
+Working directory: /mmg/awwohns/selection_v4
+Start time: Tue Jun 27 14:10:06 2017
+
+Random number seed: 1498561806
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+6435 variants loaded from .bim file.
+40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+pre.post.inter/9.pre.add.rsid/12.pre.with.rsid.pheno.newids.nosex .
+40 phenotype values loaded from .fam.
+--update-ids: 40 people updated.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 40 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.140171.
+6435 variants and 40 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 40 are controls.
+--make-bed to pre.post.inter/9.pre.add.rsid/12.pre.with.rsid.pheno.newids.bed +
+pre.post.inter/9.pre.add.rsid/12.pre.with.rsid.pheno.newids.bim +
+pre.post.inter/9.pre.add.rsid/12.pre.with.rsid.pheno.newids.fam ... done.
+
+End time: Tue Jun 27 14:11:03 2017

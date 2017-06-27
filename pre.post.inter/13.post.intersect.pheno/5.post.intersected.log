@@ -7,9 +7,9 @@ Options in effect:
 
 Hostname: ebc213
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 16:43:10 2017
+Start time: Tue Jun 27 13:14:46 2017
 
-Random number seed: 1498484590
+Random number seed: 1498558486
 257688 MB RAM detected; reserving 128844 MB for main workspace.
 5255 variants loaded from .bim file.
 34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
@@ -27,4 +27,4 @@ pre.post.inter/12.post.intersected.with.pre/5.post.intersected.bed +
 pre.post.inter/12.post.intersected.with.pre/5.post.intersected.bim +
 pre.post.inter/12.post.intersected.with.pre/5.post.intersected.fam ... done.
 
-End time: Mon Jun 26 16:43:10 2017
+End time: Tue Jun 27 13:15:31 2017

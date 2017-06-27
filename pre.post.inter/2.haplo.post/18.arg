@@ -1,7 +1,7 @@
 	-> Command: 
 angsd -b references/post.bam.list.txt -doHaploCall 1 -doCounts 1 -out pre.post.inter/2.haplo.post/18 -r 18 -maxMis 30 -sites references/pobi.snps.by.chr/18.se.pobi.updated.bim.chr.pos.txt 
 	-> angsd version: 0.913-22-g10d7007-dirty (htslib: 1.3.1-58-g344c825) build(Aug 10 2016 18:27:04)
-	-> Mon Jun 26 16:37:11 2017
+	-> Mon Jun 26 18:22:05 2017
 ----------------
 multiReader.cpp:
 	-nLines	50	(Number of lines to read)
@@ -131,5 +131,5 @@ Optional
 		->"pre.post.inter/2.haplo.post/18.arg"
 		->"pre.post.inter/2.haplo.post/18.haplo.gz"
 
-	[ALL done] cpu-time used =  125.13 sec
+	[ALL done] cpu-time used =  124.65 sec
 	[ALL done] walltime used =  130.00 sec

@@ -8,11 +8,11 @@ Options in effect:
 
 Hostname: ebc212
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 16:45:10 2017
+Start time: Tue Jun 27 14:04:06 2017
 
 Note: --update-map [filename] + parameter-free --update-name deprecated.  Use
 --update-name [filename] instead.
-Random number seed: 1498484710
+Random number seed: 1498561446
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 Scanning .ped file... done.
 Performing single-pass .bed write (6985 variants, 40 people).
@@ -34,4 +34,4 @@ Note: No phenotypes present.
 pre.post.inter/9.pre.add.rsid/10.pre.with.rsid.bim +
 pre.post.inter/9.pre.add.rsid/10.pre.with.rsid.fam ... done.
 
-End time: Mon Jun 26 16:45:10 2017
+End time: Tue Jun 27 14:06:14 2017

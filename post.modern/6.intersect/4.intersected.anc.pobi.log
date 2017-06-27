@@ -5,25 +5,25 @@ Options in effect:
   --make-bed
   --out post.modern/6.intersect/4.intersected.anc.pobi
 
-Hostname: ebc212
+Hostname: ebc227
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 17:52:42 2017
+Start time: Tue Jun 27 15:06:30 2017
 
-Random number seed: 1498488762
+Random number seed: 1498565190
 257661 MB RAM detected; reserving 128830 MB for main workspace.
-4687 variants loaded from .bim file.
+1191 variants loaded from .bim file.
 34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 post.modern/6.intersect/4.intersected.anc.pobi.nosex .
---extract: 4687 variants remaining.
+--extract: 1191 variants remaining.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 34 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.126759.
-4687 variants and 34 people pass filters and QC.
+Total genotyping rate is 0.154072.
+1191 variants and 34 people pass filters and QC.
 Note: No phenotypes present.
 --make-bed to post.modern/6.intersect/4.intersected.anc.pobi.bed +
 post.modern/6.intersect/4.intersected.anc.pobi.bim +
 post.modern/6.intersect/4.intersected.anc.pobi.fam ... done.
 
-End time: Mon Jun 26 17:53:43 2017
+End time: Tue Jun 27 15:06:56 2017

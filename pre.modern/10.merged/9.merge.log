@@ -5,25 +5,25 @@ Options in effect:
   --make-bed
   --out pre.modern/10.merged/9.merge
 
-Hostname: ebc215
+Hostname: ebc226
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sat Jun 24 22:02:27 2017
+Start time: Tue Jun 27 14:47:00 2017
 
-Random number seed: 1498330947
+Random number seed: 1498564020
 257661 MB RAM detected; reserving 128830 MB for main workspace.
-44 people loaded from pre.modern/7.intersect.pheno/9.intersected.anc.pobi.fam.
+40 people loaded from pre.modern/7.intersect.pheno/9.intersected.anc.pobi.fam.
 101 people to be merged from
 pre.modern/9.pobi.with.anc.snps/9.pobi.with.anc.snps.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
 Warning: Multiple positions seen for variant 'rs13285529'.
 Warning: Multiple positions seen for variant 'rs7861759'.
 Warning: Multiple positions seen for variant 'rs7019702'.
-35791 markers loaded from
+35653 markers loaded from
 pre.modern/7.intersect.pheno/9.intersected.anc.pobi.bim.
-35791 markers to be merged from
+35653 markers to be merged from
 pre.modern/9.pobi.with.anc.snps/9.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 35791 are present in the base dataset.
-Error: 17863 variants with 3+ alleles present.
+Of these, 0 are new, while 35653 are present in the base dataset.
+Error: 17789 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
   pre.modern/10.merged/9.merge-merge.missnp.
   (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
@@ -34,4 +34,4 @@ Error: 17863 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Sat Jun 24 22:02:28 2017
+End time: Tue Jun 27 14:47:01 2017

@@ -8,40 +8,39 @@ Options in effect:
 
 Hostname: ebc213
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 16:42:06 2017
+Start time: Tue Jun 27 14:13:18 2017
 
-Random number seed: 1498484526
+Random number seed: 1498561998
 257688 MB RAM detected; reserving 128844 MB for main workspace.
 34 people loaded from
 pre.post.inter/23.flipped.snps.post/7.flipped.post.monomorphic.fam.
 40 people to be merged from
 pre.post.inter/20.notriallelic.pre/7.pre.notri_tmp.fam.
-Of these, 6 are new, while 34 are present in the base dataset.
+Of these, 40 are new, while 0 are present in the base dataset.
 953 markers loaded from
 pre.post.inter/23.flipped.snps.post/7.flipped.post.monomorphic.bim.
 953 markers to be merged from
 pre.post.inter/20.notriallelic.pre/7.pre.notri_tmp.bim.
 Of these, 0 are new, while 953 are present in the base dataset.
-Performing single-pass merge (40 people, 953 variants).
+Performing single-pass merge (74 people, 953 variants).
 Merged fileset written to
 pre.post.inter/24.flipped.merged/7.pre.post.no.tri.no.monomorphic-merge.bed +
 pre.post.inter/24.flipped.merged/7.pre.post.no.tri.no.monomorphic-merge.bim +
 pre.post.inter/24.flipped.merged/7.pre.post.no.tri.no.monomorphic-merge.fam .
 953 variants loaded from .bim file.
-40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
+74 people (0 males, 0 females, 74 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.post.inter/24.flipped.merged/7.pre.post.no.tri.no.monomorphic.nosex .
-34 phenotype values loaded from .fam.
+74 phenotype values loaded from .fam.
 Using 1 thread (no multithreaded calculations invoked.
-Before main variant filters, 40 founders and 0 nonfounders present.
+Before main variant filters, 74 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.22862.
-953 variants and 40 people pass filters and QC.
-Among remaining phenotypes, 34 are cases and 0 are controls.  (6 phenotypes are
-missing.)
+Total genotyping rate is 0.13566.
+953 variants and 74 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 40 are controls.
 --make-bed to
 pre.post.inter/24.flipped.merged/7.pre.post.no.tri.no.monomorphic.bed +
 pre.post.inter/24.flipped.merged/7.pre.post.no.tri.no.monomorphic.bim +
 pre.post.inter/24.flipped.merged/7.pre.post.no.tri.no.monomorphic.fam ... done.
 
-End time: Mon Jun 26 16:42:06 2017
+End time: Tue Jun 27 14:13:38 2017

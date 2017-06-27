@@ -7,9 +7,9 @@ Options in effect:
 
 Hostname: ebc229
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 16:45:56 2017
+Start time: Tue Jun 27 14:05:39 2017
 
-Random number seed: 1498484756
+Random number seed: 1498561539
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 7250 variants loaded from .bim file.
 34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
@@ -27,4 +27,4 @@ pre.post.inter/12.post.intersected.with.pre/2.post.intersected.bed +
 pre.post.inter/12.post.intersected.with.pre/2.post.intersected.bim +
 pre.post.inter/12.post.intersected.with.pre/2.post.intersected.fam ... done.
 
-End time: Mon Jun 26 16:45:56 2017
+End time: Tue Jun 27 14:06:16 2017

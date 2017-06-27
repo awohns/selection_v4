@@ -5,28 +5,28 @@ Options in effect:
   --make-bed
   --out pre.modern/11.merged.flipped/18.merge.flipped
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Sat Jun 24 22:14:44 2017
+Hostname: ebc215
+Working directory: /mmg/awwohns/selection_v4
+Start time: Tue Jun 27 14:45:00 2017
 
-Random number seed: 1498331684
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
-22900 variants loaded from .bim file.
-44 people (0 males, 0 females, 44 ambiguous) loaded from .fam.
+Random number seed: 1498563900
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+22805 variants loaded from .bim file.
+40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.modern/11.merged.flipped/18.merge.flipped.nosex .
-44 phenotype values loaded from .fam.
---flip: 11462 SNPs flipped.
+40 phenotype values loaded from .fam.
+--flip: 11397 SNPs flipped.
 Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
 phenotypes to be ignored, use the --allow-no-sex flag.
 Using 1 thread (no multithreaded calculations invoked.
-Before main variant filters, 44 founders and 0 nonfounders present.
+Before main variant filters, 40 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.102589.
-22900 variants and 44 people pass filters and QC.
-Among remaining phenotypes, 44 are cases and 0 are controls.
+Total genotyping rate is 0.0739761.
+22805 variants and 40 people pass filters and QC.
+Among remaining phenotypes, 40 are cases and 0 are controls.
 --make-bed to pre.modern/11.merged.flipped/18.merge.flipped.bed +
 pre.modern/11.merged.flipped/18.merge.flipped.bim +
 pre.modern/11.merged.flipped/18.merge.flipped.fam ... done.
 
-End time: Sat Jun 24 22:14:44 2017
+End time: Tue Jun 27 14:45:00 2017

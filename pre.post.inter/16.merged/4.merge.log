@@ -8,15 +8,15 @@ Options in effect:
 
 Hostname: ebc230
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 16:43:12 2017
+Start time: Tue Jun 27 14:08:29 2017
 
-Random number seed: 1498484592
+Random number seed: 1498561709
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from
 pre.post.inter/13.post.intersect.pheno/4.post.intersected.fam.
 40 people to be merged from
 pre.post.inter/15.pre.with.post.snps/4.pre.with.post.snps.fam.
-Of these, 6 are new, while 34 are present in the base dataset.
+Of these, 40 are new, while 0 are present in the base dataset.
 890 markers loaded from
 pre.post.inter/13.post.intersect.pheno/4.post.intersected.bim.
 890 markers to be merged from
@@ -33,4 +33,4 @@ Error: 10 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Mon Jun 26 16:43:12 2017
+End time: Tue Jun 27 14:08:31 2017

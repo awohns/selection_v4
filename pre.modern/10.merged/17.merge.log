@@ -5,13 +5,13 @@ Options in effect:
   --make-bed
   --out pre.modern/10.merged/17.merge
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Sat Jun 24 22:14:22 2017
+Hostname: ebc215
+Working directory: /mmg/awwohns/selection_v4
+Start time: Tue Jun 27 14:45:21 2017
 
-Random number seed: 1498331662
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
-44 people loaded from pre.modern/7.intersect.pheno/17.intersected.anc.pobi.fam.
+Random number seed: 1498563921
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+40 people loaded from pre.modern/7.intersect.pheno/17.intersected.anc.pobi.fam.
 101 people to be merged from
 pre.modern/9.pobi.with.anc.snps/17.pobi.with.anc.snps.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
@@ -19,12 +19,12 @@ Warning: Multiple positions seen for variant 'rs2430968'.
 Warning: Multiple positions seen for variant 'rs2530012'.
 Warning: Multiple positions seen for variant 'rs2668622'.
 Warning: Multiple positions seen for variant 'rs2362394'.
-23084 markers loaded from
+23075 markers loaded from
 pre.modern/7.intersect.pheno/17.intersected.anc.pobi.bim.
-23084 markers to be merged from
+23075 markers to be merged from
 pre.modern/9.pobi.with.anc.snps/17.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 23084 are present in the base dataset.
-Error: 11402 variants with 3+ alleles present.
+Of these, 0 are new, while 23075 are present in the base dataset.
+Error: 11391 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
   pre.modern/10.merged/17.merge-merge.missnp.
   (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
@@ -35,4 +35,4 @@ Error: 11402 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Sat Jun 24 22:14:22 2017
+End time: Tue Jun 27 14:45:21 2017

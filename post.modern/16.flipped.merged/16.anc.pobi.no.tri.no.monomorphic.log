@@ -6,26 +6,25 @@ Options in effect:
   --make-bed
   --out post.modern/16.flipped.merged/16.anc.pobi.no.tri.no.monomorphic
 
-Hostname: ebc227
+Hostname: ebc217
 Working directory: /mmg/awwohns/selection_v4
-Start time: Mon Jun 26 17:54:06 2017
+Start time: Tue Jun 27 15:01:28 2017
 
-Random number seed: 1498488846
+Random number seed: 1498564888
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from post.modern/15.flipped.snps/16.flipped.monomorphic.fam.
 101 people to be merged from post.modern/13.notriallelic/16.pobi.notri_tmp.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-3158 markers loaded from
-post.modern/15.flipped.snps/16.flipped.monomorphic.bim.
-3158 markers to be merged from
+912 markers loaded from post.modern/15.flipped.snps/16.flipped.monomorphic.bim.
+912 markers to be merged from
 post.modern/13.notriallelic/16.pobi.notri_tmp.bim.
-Of these, 0 are new, while 3158 are present in the base dataset.
-Performing single-pass merge (135 people, 3158 variants).
+Of these, 0 are new, while 912 are present in the base dataset.
+Performing single-pass merge (135 people, 912 variants).
 Merged fileset written to
 post.modern/16.flipped.merged/16.anc.pobi.no.tri.no.monomorphic-merge.bed +
 post.modern/16.flipped.merged/16.anc.pobi.no.tri.no.monomorphic-merge.bim +
 post.modern/16.flipped.merged/16.anc.pobi.no.tri.no.monomorphic-merge.fam .
-3158 variants loaded from .bim file.
+912 variants loaded from .bim file.
 135 people (49 males, 52 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 post.modern/16.flipped.merged/16.anc.pobi.no.tri.no.monomorphic.nosex .
@@ -33,12 +32,12 @@ post.modern/16.flipped.merged/16.anc.pobi.no.tri.no.monomorphic.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 135 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.780292.
-3158 variants and 135 people pass filters and QC.
+Total genotyping rate is 0.787061.
+912 variants and 135 people pass filters and QC.
 Among remaining phenotypes, 34 are cases and 101 are controls.
 --make-bed to
 post.modern/16.flipped.merged/16.anc.pobi.no.tri.no.monomorphic.bed +
 post.modern/16.flipped.merged/16.anc.pobi.no.tri.no.monomorphic.bim +
 post.modern/16.flipped.merged/16.anc.pobi.no.tri.no.monomorphic.fam ... done.
 
-End time: Mon Jun 26 17:54:44 2017
+End time: Tue Jun 27 15:01:53 2017
