@@ -1,15 +1,16 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
+  --allow-no-sex
   --bfile post.modern/11.merged.flipped/5.merge.flipped
   --bmerge post.modern/9.pobi.with.anc.snps/5.pobi.with.anc.snps
   --make-bed
   --out post.modern/12.remerged/5.pobi.anc
 
-Hostname: ebc227
+Hostname: ebc229
 Working directory: /mmg/awwohns/selection_v4
-Start time: Tue Jun 27 15:07:37 2017
+Start time: Tue Jun 27 17:53:17 2017
 
-Random number seed: 1498565257
+Random number seed: 1498575197
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from post.modern/11.merged.flipped/5.merge.flipped.fam.
 101 people to be merged from
@@ -31,4 +32,4 @@ Error: 19 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Tue Jun 27 15:07:38 2017
+End time: Tue Jun 27 17:53:17 2017

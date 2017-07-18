@@ -5,25 +5,25 @@ Options in effect:
   --make-bed
   --out inter.files/6.intersect/6.intersected.anc.pobi
 
-Hostname: ebc227
-Working directory: /mmg/awwohns/selection_v4
-Start time: Sat May 20 18:04:49 2017
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Tue Jul 18 22:14:20 2017
 
-Random number seed: 1495292689
-257661 MB RAM detected; reserving 128830 MB for main workspace.
-38737 variants loaded from .bim file.
+Random number seed: 1500405260
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
+4486 variants loaded from .bim file.
 86 people (0 males, 0 females, 86 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 inter.files/6.intersect/6.intersected.anc.pobi.nosex .
---extract: 38737 variants remaining.
+--extract: 4436 variants remaining.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 86 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.0825624.
-38737 variants and 86 people pass filters and QC.
+Total genotyping rate is 0.126554.
+4436 variants and 86 people pass filters and QC.
 Note: No phenotypes present.
 --make-bed to inter.files/6.intersect/6.intersected.anc.pobi.bed +
 inter.files/6.intersect/6.intersected.anc.pobi.bim +
 inter.files/6.intersect/6.intersected.anc.pobi.fam ... done.
 
-End time: Sat May 20 18:05:50 2017
+End time: Tue Jul 18 22:14:20 2017

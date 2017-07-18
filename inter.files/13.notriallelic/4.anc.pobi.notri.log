@@ -6,38 +6,43 @@ Options in effect:
   --make-bed
   --out inter.files/13.notriallelic/4.anc.pobi.notri
 
-Hostname: ebc226
+Hostname: ebc213
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sat May 20 18:14:29 2017
+Start time: Tue Jul 18 21:55:21 2017
 
-Random number seed: 1495293269
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1500404121
+257688 MB RAM detected; reserving 128844 MB for main workspace.
 86 people loaded from inter.files/13.notriallelic/4.anc.notri_tmp.fam.
 101 people to be merged from inter.files/13.notriallelic/4.pobi.notri_tmp.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-33735 markers loaded from inter.files/13.notriallelic/4.anc.notri_tmp.bim.
-33735 markers to be merged from
+Warning: Multiple positions seen for variant 'rs11943701'.
+Warning: Multiple positions seen for variant 'rs3756205'.
+Warning: Multiple positions seen for variant 'rs6837562'.
+Warning: Multiple positions seen for variant 'rs997476'.
+Warning: Multiple positions seen for variant 'rs17299889'.
+Warning: Multiple positions seen for variant 'rs10007330'.
+17510 markers loaded from inter.files/13.notriallelic/4.anc.notri_tmp.bim.
+17510 markers to be merged from
 inter.files/13.notriallelic/4.pobi.notri_tmp.bim.
-Of these, 0 are new, while 33735 are present in the base dataset.
-Performing single-pass merge (187 people, 33735 variants).
+Of these, 0 are new, while 17510 are present in the base dataset.
+Performing single-pass merge (187 people, 17510 variants).
 Merged fileset written to
 inter.files/13.notriallelic/4.anc.pobi.notri-merge.bed +
 inter.files/13.notriallelic/4.anc.pobi.notri-merge.bim +
 inter.files/13.notriallelic/4.anc.pobi.notri-merge.fam .
-33735 variants loaded from .bim file.
+17510 variants loaded from .bim file.
 187 people (49 males, 52 females, 86 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to inter.files/13.notriallelic/4.anc.pobi.notri.nosex
 .
-101 phenotype values loaded from .fam.
+187 phenotype values loaded from .fam.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 187 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.577088.
-33735 variants and 187 people pass filters and QC.
-Among remaining phenotypes, 0 are cases and 101 are controls.  (86 phenotypes
-are missing.)
+Total genotyping rate is 0.58432.
+17510 variants and 187 people pass filters and QC.
+Among remaining phenotypes, 86 are cases and 101 are controls.
 --make-bed to inter.files/13.notriallelic/4.anc.pobi.notri.bed +
 inter.files/13.notriallelic/4.anc.pobi.notri.bim +
 inter.files/13.notriallelic/4.anc.pobi.notri.fam ... done.
 
-End time: Sat May 20 18:14:30 2017
+End time: Tue Jul 18 21:55:21 2017

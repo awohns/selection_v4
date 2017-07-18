@@ -1,0 +1,46 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --allow-no-sex
+  --bfile inter.files/17.ambiguous.removed/14.anc.ambiguous.removed
+  --bmerge inter.files/17.ambiguous.removed/14.pobi.ambiguous.removed
+  --make-bed
+  --out inter.files/18.ambiguous.removed.merged/14.anc.pobi.no.ambiguous
+
+Hostname: ebc201
+Working directory: /mmg/awwohns/selection_v4
+Start time: Wed Jul 19 01:07:17 2017
+
+Random number seed: 1500415637
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+86 people loaded from
+inter.files/17.ambiguous.removed/14.anc.ambiguous.removed.fam.
+101 people to be merged from
+inter.files/17.ambiguous.removed/14.pobi.ambiguous.removed.fam.
+Of these, 101 are new, while 0 are present in the base dataset.
+2279 markers loaded from
+inter.files/17.ambiguous.removed/14.anc.ambiguous.removed.bim.
+2279 markers to be merged from
+inter.files/17.ambiguous.removed/14.pobi.ambiguous.removed.bim.
+Of these, 0 are new, while 2279 are present in the base dataset.
+Performing single-pass merge (187 people, 2279 variants).
+Merged fileset written to
+inter.files/18.ambiguous.removed.merged/14.anc.pobi.no.ambiguous-merge.bed +
+inter.files/18.ambiguous.removed.merged/14.anc.pobi.no.ambiguous-merge.bim +
+inter.files/18.ambiguous.removed.merged/14.anc.pobi.no.ambiguous-merge.fam .
+2279 variants loaded from .bim file.
+187 people (49 males, 52 females, 86 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+inter.files/18.ambiguous.removed.merged/14.anc.pobi.no.ambiguous.nosex .
+187 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 187 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.598004.
+2279 variants and 187 people pass filters and QC.
+Among remaining phenotypes, 86 are cases and 101 are controls.
+--make-bed to
+inter.files/18.ambiguous.removed.merged/14.anc.pobi.no.ambiguous.bed +
+inter.files/18.ambiguous.removed.merged/14.anc.pobi.no.ambiguous.bim +
+inter.files/18.ambiguous.removed.merged/14.anc.pobi.no.ambiguous.fam ... done.
+
+End time: Wed Jul 19 01:07:17 2017

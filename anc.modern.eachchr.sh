@@ -32,7 +32,7 @@ eval 'cp ${folder}/2.tped/${cur_chr}.tfam ${folder}/3.tped.nto0/temp.${cur_chr}.
 plink --tfile ${folder}/3.tped.nto0/temp.${cur_chr} --recode --out ${folder}/4.ped/${cur_chr}_ped
 
 #Add the rsids
-plink --file ${folder}/4.ped/${cur_chr}_ped --update-map references/pobi.snps.by.chr/${cur_chr}.se.pobi.updated.bim.txt --update-name --make-bed --out ${folder}/5.add.rsid/${cur_chr}.with.rsid
+plink --file ${folder}/4.ped/${cur_chr}_ped --update-map references/pobi.snps.by.chr/${cur_chr}.se.pobi.updated.bim.txt.fixed --update-name --make-bed --out ${folder}/5.add.rsid/${cur_chr}.with.rsid
 
 #Find intersected SNPS between ancient and pobi
 plink --bfile ${folder}/5.add.rsid/${cur_chr}.with.rsid --extract references/pobi.snps/${cur_chr}.se.pobi.bim.snps.only.txt --make-bed --out ${folder}/6.intersect/${cur_chr}.intersected.anc.pobi
@@ -60,7 +60,7 @@ plink --bfile ${folder}/7.intersect.pheno/${cur_chr}.intersected.anc.pobi --bmer
 plink --bfile ${folder}/7.intersect.pheno/${cur_chr}.intersected.anc.pobi --flip ${folder}/10.merged/${cur_chr}.merge-merge.missnp --make-bed --out ${folder}/11.merged.flipped/${cur_chr}.merge.flipped
 
 #Remerge after the flip
-plink --bfile ${folder}/11.merged.flipped/${cur_chr}.merge.flipped --bmerge ${folder}/9.pobi.with.anc.snps/${cur_chr}.pobi.with.anc.snps --make-bed --out ${folder}/12.remerged/${cur_chr}.pobi.anc
+plink --bfile ${folder}/11.merged.flipped/${cur_chr}.merge.flipped --bmerge ${folder}/9.pobi.with.anc.snps/${cur_chr}.pobi.with.anc.snps --make-bed --allow-no-sex --out ${folder}/12.remerged/${cur_chr}.pobi.anc
 
 #Final exclude and merge
 plink --bfile ${folder}/11.merged.flipped/${cur_chr}.merge.flipped --exclude ${folder}/12.remerged/${cur_chr}.pobi.anc-merge.missnp --make-bed --out ${folder}/13.notriallelic/${cur_chr}.anc.notri_tmp

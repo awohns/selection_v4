@@ -6,26 +6,25 @@ Options in effect:
   --make-bed
   --out post.modern/16.flipped.merged/18.anc.pobi.no.tri.no.monomorphic
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Tue Jun 27 15:03:49 2017
+Hostname: ebc215
+Working directory: /mmg/awwohns/selection_v4
+Start time: Tue Jun 27 17:49:14 2017
 
-Random number seed: 1498565029
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
+Random number seed: 1498574954
+257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from post.modern/15.flipped.snps/18.flipped.monomorphic.fam.
 101 people to be merged from post.modern/13.notriallelic/18.pobi.notri_tmp.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-2464 markers loaded from
-post.modern/15.flipped.snps/18.flipped.monomorphic.bim.
-2464 markers to be merged from
+682 markers loaded from post.modern/15.flipped.snps/18.flipped.monomorphic.bim.
+682 markers to be merged from
 post.modern/13.notriallelic/18.pobi.notri_tmp.bim.
-Of these, 0 are new, while 2464 are present in the base dataset.
-Performing single-pass merge (135 people, 2464 variants).
+Of these, 0 are new, while 682 are present in the base dataset.
+Performing single-pass merge (135 people, 682 variants).
 Merged fileset written to
 post.modern/16.flipped.merged/18.anc.pobi.no.tri.no.monomorphic-merge.bed +
 post.modern/16.flipped.merged/18.anc.pobi.no.tri.no.monomorphic-merge.bim +
 post.modern/16.flipped.merged/18.anc.pobi.no.tri.no.monomorphic-merge.fam .
-2464 variants loaded from .bim file.
+682 variants loaded from .bim file.
 135 people (49 males, 52 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 post.modern/16.flipped.merged/18.anc.pobi.no.tri.no.monomorphic.nosex .
@@ -33,12 +32,12 @@ post.modern/16.flipped.merged/18.anc.pobi.no.tri.no.monomorphic.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 135 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.780219.
-2464 variants and 135 people pass filters and QC.
+Total genotyping rate is 0.787053.
+682 variants and 135 people pass filters and QC.
 Among remaining phenotypes, 34 are cases and 101 are controls.
 --make-bed to
 post.modern/16.flipped.merged/18.anc.pobi.no.tri.no.monomorphic.bed +
 post.modern/16.flipped.merged/18.anc.pobi.no.tri.no.monomorphic.bim +
 post.modern/16.flipped.merged/18.anc.pobi.no.tri.no.monomorphic.fam ... done.
 
-End time: Tue Jun 27 15:04:03 2017
+End time: Tue Jun 27 17:49:31 2017

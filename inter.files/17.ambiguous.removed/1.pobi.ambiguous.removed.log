@@ -1,20 +1,28 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
   --bfile inter.files/13.notriallelic/1.pobi.notri_tmp
-  --exclude /ebc_data/awwohns/selection_v4/references/ambiguous.snps.anc.modern/1ambigious.snps.txt
+  --exclude /ebc_data/awwohns/selection_v4/references/ambiguous.snps.inter.files/1ambiguous.snps.txt
   --make-bed
   --out inter.files/17.ambiguous.removed/1.pobi.ambiguous.removed
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Fri May 19 17:52:04 2017
+Start time: Wed Jul 19 01:06:54 2017
 
-Random number seed: 1495205524
+Random number seed: 1500415614
 257661 MB RAM detected; reserving 128830 MB for main workspace.
-49614 variants loaded from .bim file.
+27562 variants loaded from .bim file.
 101 people (49 males, 52 females) loaded from .fam.
 101 phenotype values loaded from .fam.
-Error: Failed to open
-/ebc_data/awwohns/selection_v4/references/ambiguous.snps.anc.modern/1ambigious.snps.txt.
+--exclude: 27236 variants remaining.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 101 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.999629.
+27236 variants and 101 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 101 are controls.
+--make-bed to inter.files/17.ambiguous.removed/1.pobi.ambiguous.removed.bed +
+inter.files/17.ambiguous.removed/1.pobi.ambiguous.removed.bim +
+inter.files/17.ambiguous.removed/1.pobi.ambiguous.removed.fam ... done.
 
-End time: Fri May 19 17:52:04 2017
+End time: Wed Jul 19 01:06:55 2017

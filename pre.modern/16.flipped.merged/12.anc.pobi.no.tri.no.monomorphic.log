@@ -6,28 +6,24 @@ Options in effect:
   --make-bed
   --out pre.modern/16.flipped.merged/12.anc.pobi.no.tri.no.monomorphic
 
-Hostname: ebc227
+Hostname: ebc215
 Working directory: /mmg/awwohns/selection_v4
-Start time: Tue Jun 27 14:50:01 2017
+Start time: Tue Jul 18 11:58:56 2017
 
-Random number seed: 1498564201
+Random number seed: 1500368336
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 40 people loaded from pre.modern/15.flipped.snps/12.flipped.monomorphic.fam.
 101 people to be merged from pre.modern/13.notriallelic/12.pobi.notri_tmp.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-Warning: Multiple positions seen for variant 'rs34397802'.
-Warning: Multiple positions seen for variant 'rs12820701'.
-38760 markers loaded from
-pre.modern/15.flipped.snps/12.flipped.monomorphic.bim.
-38760 markers to be merged from
-pre.modern/13.notriallelic/12.pobi.notri_tmp.bim.
-Of these, 0 are new, while 38760 are present in the base dataset.
-Performing single-pass merge (141 people, 38760 variants).
+957 markers loaded from pre.modern/15.flipped.snps/12.flipped.monomorphic.bim.
+957 markers to be merged from pre.modern/13.notriallelic/12.pobi.notri_tmp.bim.
+Of these, 0 are new, while 957 are present in the base dataset.
+Performing single-pass merge (141 people, 957 variants).
 Merged fileset written to
 pre.modern/16.flipped.merged/12.anc.pobi.no.tri.no.monomorphic-merge.bed +
 pre.modern/16.flipped.merged/12.anc.pobi.no.tri.no.monomorphic-merge.bim +
 pre.modern/16.flipped.merged/12.anc.pobi.no.tri.no.monomorphic-merge.fam .
-38760 variants loaded from .bim file.
+957 variants loaded from .bim file.
 141 people (49 males, 52 females, 40 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.modern/16.flipped.merged/12.anc.pobi.no.tri.no.monomorphic.nosex .
@@ -35,12 +31,12 @@ pre.modern/16.flipped.merged/12.anc.pobi.no.tri.no.monomorphic.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 141 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.737269.
-38760 variants and 141 people pass filters and QC.
+Total genotyping rate is 0.768373.
+957 variants and 141 people pass filters and QC.
 Among remaining phenotypes, 40 are cases and 101 are controls.
 --make-bed to
 pre.modern/16.flipped.merged/12.anc.pobi.no.tri.no.monomorphic.bed +
 pre.modern/16.flipped.merged/12.anc.pobi.no.tri.no.monomorphic.bim +
 pre.modern/16.flipped.merged/12.anc.pobi.no.tri.no.monomorphic.fam ... done.
 
-End time: Tue Jun 27 14:51:41 2017
+End time: Tue Jul 18 11:59:27 2017

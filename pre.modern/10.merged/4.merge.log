@@ -5,37 +5,22 @@ Options in effect:
   --make-bed
   --out pre.modern/10.merged/4.merge
 
-Hostname: ebc229
+Hostname: ebc226
 Working directory: /mmg/awwohns/selection_v4
-Start time: Tue Jun 27 14:47:07 2017
+Start time: Tue Jul 18 11:57:24 2017
 
-Random number seed: 1498564027
+Random number seed: 1500368244
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 40 people loaded from pre.modern/7.intersect.pheno/4.intersected.anc.pobi.fam.
 101 people to be merged from
 pre.modern/9.pobi.with.anc.snps/4.pobi.with.anc.snps.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-Warning: Multiple positions seen for variant 'rs2291151'.
-Warning: Multiple positions seen for variant 'rs11943701'.
-Warning: Multiple positions seen for variant 'rs3756205'.
-Warning: Multiple positions seen for variant 'rs7688187'.
-Warning: Multiple positions seen for variant 'rs13137431'.
-Warning: Multiple positions seen for variant 'rs13113314'.
-Warning: Multiple positions seen for variant 'rs7670115'.
-Warning: Multiple positions seen for variant 'rs6837562'.
-Warning: Multiple positions seen for variant 'rs997476'.
-Warning: Multiple positions seen for variant 'rs12644014'.
-Warning: Multiple positions seen for variant 'rs6534323'.
-Warning: Multiple positions seen for variant 'rs11942835'.
-Warning: Multiple positions seen for variant 'rs17614841'.
-Warning: Multiple positions seen for variant 'rs17299889'.
-Warning: Multiple positions seen for variant 'rs10007330'.
-46364 markers loaded from
+854 markers loaded from
 pre.modern/7.intersect.pheno/4.intersected.anc.pobi.bim.
-46364 markers to be merged from
+854 markers to be merged from
 pre.modern/9.pobi.with.anc.snps/4.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 46364 are present in the base dataset.
-Error: 23279 variants with 3+ alleles present.
+Of these, 0 are new, while 854 are present in the base dataset.
+Error: 461 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
   pre.modern/10.merged/4.merge-merge.missnp.
   (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
@@ -46,4 +31,4 @@ Error: 23279 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Tue Jun 27 14:47:07 2017
+End time: Tue Jul 18 11:57:25 2017

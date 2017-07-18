@@ -1,0 +1,29 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --bfile /ebc_data/awwohns/selection_v4/references/se.england.pobi/pobi.9.10.11.with.rsid
+  --make-bed
+  --out se.england.pobi/9.10.11.updated.map
+  --update-map dbsnp.files.for.update.map/allchrs.dbsnp.update.map.txt
+
+Hostname: ebc201
+Working directory: /mmg/awwohns/selection_v4/references
+Start time: Tue Jul 18 09:00:26 2017
+
+Random number seed: 1500357626
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+827147 variants loaded from .bim file.
+204 people (104 males, 100 females) loaded from .fam.
+204 phenotype values loaded from .fam.
+--update-map: 821580 values updated, 148576730 variant IDs not present.
+Warning: Base-pair positions are now unsorted!
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 204 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.999551.
+827147 variants and 204 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 204 are controls.
+--make-bed to se.england.pobi/9.10.11.updated.map.bed +
+se.england.pobi/9.10.11.updated.map.bim +
+se.england.pobi/9.10.11.updated.map.fam ... done.
+
+End time: Tue Jul 18 09:00:37 2017

@@ -1,25 +1,35 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
+  --allow-no-sex
   --bfile inter.files/11.merged.flipped/1.merge.flipped
   --bmerge inter.files/9.pobi.with.anc.snps/1.pobi.with.anc.snps
   --make-bed
   --out inter.files/12.remerged/1.pobi.anc
 
-Hostname: ebc226
+Hostname: ebc213
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sat May 20 18:14:37 2017
+Start time: Tue Jul 18 21:58:28 2017
 
-Random number seed: 1495293277
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1500404308
+257688 MB RAM detected; reserving 128844 MB for main workspace.
 86 people loaded from inter.files/11.merged.flipped/1.merge.flipped.fam.
 101 people to be merged from
 inter.files/9.pobi.with.anc.snps/1.pobi.with.anc.snps.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-50058 markers loaded from inter.files/11.merged.flipped/1.merge.flipped.bim.
-50058 markers to be merged from
+Warning: Multiple positions seen for variant 'rs12139755'.
+Warning: Multiple positions seen for variant 'rs3765967'.
+Warning: Multiple positions seen for variant 'rs6679294'.
+Warning: Multiple positions seen for variant 'rs2260579'.
+Warning: Multiple positions seen for variant 'rs17378839'.
+Warning: Multiple positions seen for variant 'rs12141856'.
+Warning: Multiple positions seen for variant 'rs11591000'.
+Warning: Multiple positions seen for variant 'rs2184953'.
+Warning: Multiple positions seen for variant 'rs6681342'.
+27808 markers loaded from inter.files/11.merged.flipped/1.merge.flipped.bim.
+27808 markers to be merged from
 inter.files/9.pobi.with.anc.snps/1.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 50058 are present in the base dataset.
-Error: 444 variants with 3+ alleles present.
+Of these, 0 are new, while 27808 are present in the base dataset.
+Error: 246 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
   inter.files/12.remerged/1.pobi.anc-merge.missnp.
   (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
@@ -30,4 +40,4 @@ Error: 444 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Sat May 20 18:14:37 2017
+End time: Tue Jul 18 21:58:28 2017

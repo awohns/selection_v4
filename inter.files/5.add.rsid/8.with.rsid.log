@@ -3,34 +3,34 @@ Options in effect:
   --file inter.files/4.ped/8_ped
   --make-bed
   --out inter.files/5.add.rsid/8.with.rsid
-  --update-map references/pobi.snps.by.chr/8.se.pobi.bim.txt
+  --update-map references/pobi.snps.by.chr/8.se.pobi.updated.bim.txt.fixed
   --update-name
 
-Hostname: ebc227
-Working directory: /mmg/awwohns/selection_v4
-Start time: Sat May 20 17:42:59 2017
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Tue Jul 18 22:01:44 2017
 
 Note: --update-map [filename] + parameter-free --update-name deprecated.  Use
 --update-name [filename] instead.
-Random number seed: 1495291379
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1500404504
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 Scanning .ped file... done.
-Performing single-pass .bed write (31896 variants, 86 people).
+Performing single-pass .bed write (3742 variants, 86 people).
 --file: inter.files/5.add.rsid/8.with.rsid-temporary.bed +
 inter.files/5.add.rsid/8.with.rsid-temporary.bim +
 inter.files/5.add.rsid/8.with.rsid-temporary.fam written.
-31896 variants loaded from .bim file.
+3742 variants loaded from .bim file.
 86 people (0 males, 0 females, 86 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to inter.files/5.add.rsid/8.with.rsid.nosex .
---update-name: 31896 values updated, 12652 variant IDs not present.
+--update-name: 3714 values updated, 40667 variant IDs not present.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 86 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.0826538.
-31896 variants and 86 people pass filters and QC.
+Total genotyping rate is 0.126266.
+3742 variants and 86 people pass filters and QC.
 Note: No phenotypes present.
 --make-bed to inter.files/5.add.rsid/8.with.rsid.bed +
 inter.files/5.add.rsid/8.with.rsid.bim + inter.files/5.add.rsid/8.with.rsid.fam
 ... done.
 
-End time: Sat May 20 17:43:00 2017
+End time: Tue Jul 18 22:01:45 2017

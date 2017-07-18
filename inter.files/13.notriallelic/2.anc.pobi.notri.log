@@ -6,25 +6,34 @@ Options in effect:
   --make-bed
   --out inter.files/13.notriallelic/2.anc.pobi.notri
 
-Hostname: ebc226
+Hostname: ebc213
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sat May 20 18:14:40 2017
+Start time: Tue Jul 18 21:58:28 2017
 
-Random number seed: 1495293280
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1500404308
+257688 MB RAM detected; reserving 128844 MB for main workspace.
 86 people loaded from inter.files/13.notriallelic/2.anc.notri_tmp.fam.
 101 people to be merged from inter.files/13.notriallelic/2.pobi.notri_tmp.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-48802 markers loaded from inter.files/13.notriallelic/2.anc.notri_tmp.bim.
-48802 markers to be merged from
+Warning: Multiple positions seen for variant 'rs12991420'.
+Warning: Multiple positions seen for variant 'rs12467735'.
+Warning: Multiple positions seen for variant 'rs4241219'.
+Warning: Multiple positions seen for variant 'rs12991226'.
+Warning: Multiple positions seen for variant 'rs12373810'.
+Warning: Multiple positions seen for variant 'rs17393209'.
+Warning: Multiple positions seen for variant 'rs13011637'.
+Warning: Multiple positions seen for variant 'rs7606917'.
+Warning: Multiple positions seen for variant 'rs7600835'.
+26602 markers loaded from inter.files/13.notriallelic/2.anc.notri_tmp.bim.
+26602 markers to be merged from
 inter.files/13.notriallelic/2.pobi.notri_tmp.bim.
-Of these, 0 are new, while 48802 are present in the base dataset.
-Performing single-pass merge (187 people, 48802 variants).
+Of these, 0 are new, while 26602 are present in the base dataset.
+Performing single-pass merge (187 people, 26602 variants).
 Merged fileset written to
 inter.files/13.notriallelic/2.anc.pobi.notri-merge.bed +
 inter.files/13.notriallelic/2.anc.pobi.notri-merge.bim +
 inter.files/13.notriallelic/2.anc.pobi.notri-merge.fam .
-48802 variants loaded from .bim file.
+26602 variants loaded from .bim file.
 187 people (49 males, 52 females, 86 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to inter.files/13.notriallelic/2.anc.pobi.notri.nosex
 .
@@ -32,11 +41,11 @@ Ambiguous sex IDs written to inter.files/13.notriallelic/2.anc.pobi.notri.nosex
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 187 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.57776.
-48802 variants and 187 people pass filters and QC.
+Total genotyping rate is 0.58481.
+26602 variants and 187 people pass filters and QC.
 Among remaining phenotypes, 86 are cases and 101 are controls.
 --make-bed to inter.files/13.notriallelic/2.anc.pobi.notri.bed +
 inter.files/13.notriallelic/2.anc.pobi.notri.bim +
 inter.files/13.notriallelic/2.anc.pobi.notri.fam ... done.
 
-End time: Sat May 20 18:14:40 2017
+End time: Tue Jul 18 21:58:29 2017

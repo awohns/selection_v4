@@ -1,25 +1,26 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
+  --allow-no-sex
   --bfile inter.files/11.merged.flipped/8.merge.flipped
   --bmerge inter.files/9.pobi.with.anc.snps/8.pobi.with.anc.snps
   --make-bed
   --out inter.files/12.remerged/8.pobi.anc
 
-Hostname: ebc227
-Working directory: /mmg/awwohns/selection_v4
-Start time: Sat May 20 17:43:12 2017
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Tue Jul 18 22:01:46 2017
 
-Random number seed: 1495291392
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1500404506
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 86 people loaded from inter.files/11.merged.flipped/8.merge.flipped.fam.
 101 people to be merged from
 inter.files/9.pobi.with.anc.snps/8.pobi.with.anc.snps.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-31896 markers loaded from inter.files/11.merged.flipped/8.merge.flipped.bim.
-31896 markers to be merged from
+3714 markers loaded from inter.files/11.merged.flipped/8.merge.flipped.bim.
+3714 markers to be merged from
 inter.files/9.pobi.with.anc.snps/8.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 31896 are present in the base dataset.
-Error: 324 variants with 3+ alleles present.
+Of these, 0 are new, while 3714 are present in the base dataset.
+Error: 42 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
   inter.files/12.remerged/8.pobi.anc-merge.missnp.
   (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
@@ -30,4 +31,4 @@ Error: 324 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Sat May 20 17:43:12 2017
+End time: Tue Jul 18 22:01:46 2017

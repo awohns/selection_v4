@@ -6,25 +6,25 @@ Options in effect:
   --make-bed
   --out inter.files/13.notriallelic/13.anc.pobi.notri
 
-Hostname: ebc206
-Working directory: /mmg/awwohns/selection_v4
-Start time: Sat May 20 18:09:14 2017
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Tue Jul 18 22:14:46 2017
 
-Random number seed: 1495292954
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1500405286
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 86 people loaded from inter.files/13.notriallelic/13.anc.notri_tmp.fam.
 101 people to be merged from inter.files/13.notriallelic/13.pobi.notri_tmp.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-21161 markers loaded from inter.files/13.notriallelic/13.anc.notri_tmp.bim.
-21161 markers to be merged from
+2196 markers loaded from inter.files/13.notriallelic/13.anc.notri_tmp.bim.
+2196 markers to be merged from
 inter.files/13.notriallelic/13.pobi.notri_tmp.bim.
-Of these, 0 are new, while 21161 are present in the base dataset.
-Performing single-pass merge (187 people, 21161 variants).
+Of these, 0 are new, while 2196 are present in the base dataset.
+Performing single-pass merge (187 people, 2196 variants).
 Merged fileset written to
 inter.files/13.notriallelic/13.anc.pobi.notri-merge.bed +
 inter.files/13.notriallelic/13.anc.pobi.notri-merge.bim +
 inter.files/13.notriallelic/13.anc.pobi.notri-merge.fam .
-21161 variants loaded from .bim file.
+2196 variants loaded from .bim file.
 187 people (49 males, 52 females, 86 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 inter.files/13.notriallelic/13.anc.pobi.notri.nosex .
@@ -32,11 +32,11 @@ inter.files/13.notriallelic/13.anc.pobi.notri.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 187 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.577476.
-21161 variants and 187 people pass filters and QC.
+Total genotyping rate is 0.597959.
+2196 variants and 187 people pass filters and QC.
 Among remaining phenotypes, 86 are cases and 101 are controls.
 --make-bed to inter.files/13.notriallelic/13.anc.pobi.notri.bed +
 inter.files/13.notriallelic/13.anc.pobi.notri.bim +
 inter.files/13.notriallelic/13.anc.pobi.notri.fam ... done.
 
-End time: Sat May 20 18:10:46 2017
+End time: Tue Jul 18 22:14:46 2017

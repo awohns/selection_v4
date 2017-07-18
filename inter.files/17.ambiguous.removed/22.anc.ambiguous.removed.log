@@ -1,22 +1,32 @@
 PLINK v1.90b3.27 64-bit (13 Dec 2015)
 Options in effect:
   --bfile inter.files/15.flipped.snps/22.flipped.monomorphic
-  --exclude /ebc_data/awwohns/selection_v4/references/ambiguous.snps.anc.modern/22ambigious.snps.txt
+  --exclude /ebc_data/awwohns/selection_v4/references/ambiguous.snps.inter.files/22ambiguous.snps.txt
   --make-bed
   --out inter.files/17.ambiguous.removed/22.anc.ambiguous.removed
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Fri May 19 15:55:43 2017
+Start time: Wed Jul 19 01:07:30 2017
 
-Random number seed: 1495198543
+Random number seed: 1500415650
 257661 MB RAM detected; reserving 128830 MB for main workspace.
-10118 variants loaded from .bim file.
+1664 variants loaded from .bim file.
 86 people (0 males, 0 females, 86 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 inter.files/17.ambiguous.removed/22.anc.ambiguous.removed.nosex .
 86 phenotype values loaded from .fam.
-Error: Failed to open
-/ebc_data/awwohns/selection_v4/references/ambiguous.snps.anc.modern/22ambigious.snps.txt.
+--exclude: 1656 variants remaining.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 86 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.128026.
+1656 variants and 86 people pass filters and QC.
+Among remaining phenotypes, 86 are cases and 0 are controls.
+--make-bed to inter.files/17.ambiguous.removed/22.anc.ambiguous.removed.bed +
+inter.files/17.ambiguous.removed/22.anc.ambiguous.removed.bim +
+inter.files/17.ambiguous.removed/22.anc.ambiguous.removed.fam ... done.
 
-End time: Fri May 19 15:55:43 2017
+End time: Wed Jul 19 01:07:30 2017

@@ -6,55 +6,27 @@ Options in effect:
   --make-bed
   --out pre.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic
 
-Hostname: ebc230
+Hostname: ebc226
 Working directory: /mmg/awwohns/selection_v4
-Start time: Tue Jun 27 14:49:07 2017
+Start time: Tue Jul 18 12:00:51 2017
 
-Random number seed: 1498564147
+Random number seed: 1500368451
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 40 people loaded from pre.modern/15.flipped.snps/6.flipped.monomorphic.fam.
 101 people to be merged from pre.modern/13.notriallelic/6.pobi.notri_tmp.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-Warning: Multiple positions seen for variant 'rs9460309'.
-Warning: Multiple positions seen for variant 'rs3819299'.
-Warning: Multiple positions seen for variant 'rs2523608'.
 Warning: Multiple positions seen for variant 'rs41559422'.
-Warning: Multiple positions seen for variant 'rs12528645'.
-Warning: Multiple positions seen for variant 'rs17881233'.
-Warning: Multiple positions seen for variant 'rs2070120'.
-Warning: Multiple positions seen for variant 'rs2621330'.
-Warning: Multiple positions seen for variant 'rs2070121'.
-Warning: Multiple positions seen for variant 'rs17501267'.
-Warning: Multiple positions seen for variant 'rs7383287'.
-Warning: Multiple positions seen for variant 'rs241447'.
-Warning: Multiple positions seen for variant 'rs4148876'.
-Warning: Multiple positions seen for variant 'rs2228397'.
-Warning: Multiple positions seen for variant 'rs1057149'.
-Warning: Multiple positions seen for variant 'rs1135216'.
-Warning: Multiple positions seen for variant 'rs2127679'.
-Warning: Multiple positions seen for variant 'rs1057141'.
-Warning: Multiple positions seen for variant 'rs1042337'.
 Warning: Multiple positions seen for variant 'rs17617321'.
-Warning: Multiple positions seen for variant 'rs17617333'.
 Warning: Multiple positions seen for variant 'rs1063478'.
-Warning: Multiple positions seen for variant 'rs3129302'.
-Warning: Multiple positions seen for variant 'rs2581'.
-Warning: Multiple positions seen for variant 'rs2582'.
-Warning: Multiple positions seen for variant 'rs375256'.
-Warning: Multiple positions seen for variant 'rs364950'.
-Warning: Multiple positions seen for variant 'rs2308931'.
-Warning: Multiple positions seen for variant 'rs1042190'.
-Warning: Multiple positions seen for variant 'rs1782633'.
-50629 markers loaded from pre.modern/15.flipped.snps/6.flipped.monomorphic.bim.
-50629 markers to be merged from
-pre.modern/13.notriallelic/6.pobi.notri_tmp.bim.
-Of these, 0 are new, while 50629 are present in the base dataset.
-Performing single-pass merge (141 people, 50629 variants).
+1184 markers loaded from pre.modern/15.flipped.snps/6.flipped.monomorphic.bim.
+1184 markers to be merged from pre.modern/13.notriallelic/6.pobi.notri_tmp.bim.
+Of these, 0 are new, while 1184 are present in the base dataset.
+Performing single-pass merge (141 people, 1184 variants).
 Merged fileset written to
 pre.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic-merge.bed +
 pre.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic-merge.bim +
 pre.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic-merge.fam .
-50629 variants loaded from .bim file.
+1184 variants loaded from .bim file.
 141 people (49 males, 52 females, 40 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic.nosex .
@@ -62,11 +34,11 @@ pre.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 141 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.737024.
-50629 variants and 141 people pass filters and QC.
+Total genotyping rate is 0.767964.
+1184 variants and 141 people pass filters and QC.
 Among remaining phenotypes, 40 are cases and 101 are controls.
 --make-bed to pre.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic.bed
 + pre.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic.bim +
 pre.modern/16.flipped.merged/6.anc.pobi.no.tri.no.monomorphic.fam ... done.
 
-End time: Tue Jun 27 14:49:42 2017
+End time: Tue Jul 18 12:00:51 2017

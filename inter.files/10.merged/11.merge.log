@@ -5,23 +5,24 @@ Options in effect:
   --make-bed
   --out inter.files/10.merged/11.merge
 
-Hostname: ebc205
+Hostname: ebc215
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sat May 20 17:45:06 2017
+Start time: Tue Jul 18 22:11:12 2017
 
-Random number seed: 1495291506
+Random number seed: 1500405072
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 86 people loaded from
 inter.files/7.intersect.pheno/11.intersected.anc.pobi.fam.
 101 people to be merged from
 inter.files/9.pobi.with.anc.snps/11.pobi.with.anc.snps.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-29931 markers loaded from
+Warning: Multiple positions seen for variant 'rs3127'.
+16595 markers loaded from
 inter.files/7.intersect.pheno/11.intersected.anc.pobi.bim.
-29931 markers to be merged from
+16595 markers to be merged from
 inter.files/9.pobi.with.anc.snps/11.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 29931 are present in the base dataset.
-Error: 14795 variants with 3+ alleles present.
+Of these, 0 are new, while 16595 are present in the base dataset.
+Error: 8221 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
   inter.files/10.merged/11.merge-merge.missnp.
   (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
@@ -32,4 +33,4 @@ Error: 14795 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Sat May 20 17:45:06 2017
+End time: Tue Jul 18 22:11:12 2017

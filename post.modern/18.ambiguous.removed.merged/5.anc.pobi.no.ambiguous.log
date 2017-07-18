@@ -8,9 +8,9 @@ Options in effect:
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Tue Jun 27 14:43:34 2017
+Start time: Tue Jun 27 18:05:01 2017
 
-Random number seed: 1498563814
+Random number seed: 1498575901
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from
 post.modern/17.ambiguous.removed/5.anc.ambiguous.removed.fam.
@@ -18,18 +18,17 @@ post.modern/17.ambiguous.removed/5.anc.ambiguous.removed.fam.
 post.modern/17.ambiguous.removed/5.pobi.ambiguous.removed.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
 Warning: Multiple positions seen for variant 'rs3817055'.
-Warning: Multiple positions seen for variant 'rs10064229'.
-5150 markers loaded from
+1306 markers loaded from
 post.modern/17.ambiguous.removed/5.anc.ambiguous.removed.bim.
-5150 markers to be merged from
+1306 markers to be merged from
 post.modern/17.ambiguous.removed/5.pobi.ambiguous.removed.bim.
-Of these, 0 are new, while 5150 are present in the base dataset.
-Performing single-pass merge (135 people, 5150 variants).
+Of these, 0 are new, while 1306 are present in the base dataset.
+Performing single-pass merge (135 people, 1306 variants).
 Merged fileset written to
 post.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous-merge.bed +
 post.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous-merge.bim +
 post.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous-merge.fam .
-5150 variants loaded from .bim file.
+1306 variants loaded from .bim file.
 135 people (49 males, 52 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 post.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous.nosex .
@@ -37,12 +36,12 @@ post.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 135 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.779684.
-5150 variants and 135 people pass filters and QC.
+Total genotyping rate is 0.786229.
+1306 variants and 135 people pass filters and QC.
 Among remaining phenotypes, 34 are cases and 101 are controls.
 --make-bed to
 post.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous.bed +
 post.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous.bim +
 post.modern/18.ambiguous.removed.merged/5.anc.pobi.no.ambiguous.fam ... done.
 
-End time: Tue Jun 27 14:43:34 2017
+End time: Tue Jun 27 18:05:02 2017

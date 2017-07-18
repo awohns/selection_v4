@@ -5,22 +5,31 @@ Options in effect:
   --make-bed
   --out inter.files/10.merged/2.merge
 
-Hostname: ebc226
+Hostname: ebc213
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sat May 20 18:14:39 2017
+Start time: Tue Jul 18 21:58:28 2017
 
-Random number seed: 1495293279
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1500404308
+257688 MB RAM detected; reserving 128844 MB for main workspace.
 86 people loaded from inter.files/7.intersect.pheno/2.intersected.anc.pobi.fam.
 101 people to be merged from
 inter.files/9.pobi.with.anc.snps/2.pobi.with.anc.snps.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-49247 markers loaded from
+Warning: Multiple positions seen for variant 'rs12991420'.
+Warning: Multiple positions seen for variant 'rs12467735'.
+Warning: Multiple positions seen for variant 'rs4241219'.
+Warning: Multiple positions seen for variant 'rs12991226'.
+Warning: Multiple positions seen for variant 'rs12373810'.
+Warning: Multiple positions seen for variant 'rs17393209'.
+Warning: Multiple positions seen for variant 'rs13011637'.
+Warning: Multiple positions seen for variant 'rs7606917'.
+Warning: Multiple positions seen for variant 'rs7600835'.
+26844 markers loaded from
 inter.files/7.intersect.pheno/2.intersected.anc.pobi.bim.
-49247 markers to be merged from
+26844 markers to be merged from
 inter.files/9.pobi.with.anc.snps/2.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 49247 are present in the base dataset.
-Error: 24517 variants with 3+ alleles present.
+Of these, 0 are new, while 26844 are present in the base dataset.
+Error: 13372 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
   inter.files/10.merged/2.merge-merge.missnp.
   (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
@@ -31,4 +40,4 @@ Error: 24517 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Sat May 20 18:14:39 2017
+End time: Tue Jul 18 21:58:28 2017

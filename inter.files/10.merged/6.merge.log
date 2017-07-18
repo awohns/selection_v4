@@ -5,22 +5,31 @@ Options in effect:
   --make-bed
   --out inter.files/10.merged/6.merge
 
-Hostname: ebc227
-Working directory: /mmg/awwohns/selection_v4
-Start time: Sat May 20 18:08:11 2017
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Tue Jul 18 22:14:21 2017
 
-Random number seed: 1495292891
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1500405261
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 86 people loaded from inter.files/7.intersect.pheno/6.intersected.anc.pobi.fam.
 101 people to be merged from
 inter.files/9.pobi.with.anc.snps/6.pobi.with.anc.snps.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-38737 markers loaded from
+Warning: Multiple positions seen for variant 'rs41559422'.
+Warning: Multiple positions seen for variant 'rs12528645'.
+Warning: Multiple positions seen for variant 'rs1135216'.
+Warning: Multiple positions seen for variant 'rs2127679'.
+Warning: Multiple positions seen for variant 'rs17617321'.
+Warning: Multiple positions seen for variant 'rs1063478'.
+Warning: Multiple positions seen for variant 'rs375256'.
+Warning: Multiple positions seen for variant 'rs364950'.
+Warning: Multiple positions seen for variant 'rs1042190'.
+4436 markers loaded from
 inter.files/7.intersect.pheno/6.intersected.anc.pobi.bim.
-38737 markers to be merged from
+4436 markers to be merged from
 inter.files/9.pobi.with.anc.snps/6.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 38737 are present in the base dataset.
-Error: 19358 variants with 3+ alleles present.
+Of these, 0 are new, while 4436 are present in the base dataset.
+Error: 2249 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
   inter.files/10.merged/6.merge-merge.missnp.
   (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
@@ -31,4 +40,4 @@ Error: 19358 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Sat May 20 18:08:13 2017
+End time: Tue Jul 18 22:14:21 2017

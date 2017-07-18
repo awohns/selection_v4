@@ -1,0 +1,55 @@
+PLINK v1.90b3.27 64-bit (13 Dec 2015)
+Options in effect:
+  --allow-no-sex
+  --bfile inter.files/17.ambiguous.removed/6.anc.ambiguous.removed
+  --bmerge inter.files/17.ambiguous.removed/6.pobi.ambiguous.removed
+  --make-bed
+  --out inter.files/18.ambiguous.removed.merged/6.anc.pobi.no.ambiguous
+
+Hostname: ebc201
+Working directory: /mmg/awwohns/selection_v4
+Start time: Wed Jul 19 01:07:04 2017
+
+Random number seed: 1500415624
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+86 people loaded from
+inter.files/17.ambiguous.removed/6.anc.ambiguous.removed.fam.
+101 people to be merged from
+inter.files/17.ambiguous.removed/6.pobi.ambiguous.removed.fam.
+Of these, 101 are new, while 0 are present in the base dataset.
+Warning: Multiple positions seen for variant 'rs41559422'.
+Warning: Multiple positions seen for variant 'rs12528645'.
+Warning: Multiple positions seen for variant 'rs1135216'.
+Warning: Multiple positions seen for variant 'rs2127679'.
+Warning: Multiple positions seen for variant 'rs17617321'.
+Warning: Multiple positions seen for variant 'rs1063478'.
+Warning: Multiple positions seen for variant 'rs375256'.
+Warning: Multiple positions seen for variant 'rs364950'.
+Warning: Multiple positions seen for variant 'rs1042190'.
+4343 markers loaded from
+inter.files/17.ambiguous.removed/6.anc.ambiguous.removed.bim.
+4343 markers to be merged from
+inter.files/17.ambiguous.removed/6.pobi.ambiguous.removed.bim.
+Of these, 0 are new, while 4343 are present in the base dataset.
+Performing single-pass merge (187 people, 4343 variants).
+Merged fileset written to
+inter.files/18.ambiguous.removed.merged/6.anc.pobi.no.ambiguous-merge.bed +
+inter.files/18.ambiguous.removed.merged/6.anc.pobi.no.ambiguous-merge.bim +
+inter.files/18.ambiguous.removed.merged/6.anc.pobi.no.ambiguous-merge.fam .
+4343 variants loaded from .bim file.
+187 people (49 males, 52 females, 86 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+inter.files/18.ambiguous.removed.merged/6.anc.pobi.no.ambiguous.nosex .
+187 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 187 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.597906.
+4343 variants and 187 people pass filters and QC.
+Among remaining phenotypes, 86 are cases and 101 are controls.
+--make-bed to
+inter.files/18.ambiguous.removed.merged/6.anc.pobi.no.ambiguous.bed +
+inter.files/18.ambiguous.removed.merged/6.anc.pobi.no.ambiguous.bim +
+inter.files/18.ambiguous.removed.merged/6.anc.pobi.no.ambiguous.fam ... done.
+
+End time: Wed Jul 19 01:07:04 2017

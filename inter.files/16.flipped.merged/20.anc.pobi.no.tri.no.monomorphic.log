@@ -6,26 +6,26 @@ Options in effect:
   --make-bed
   --out inter.files/16.flipped.merged/20.anc.pobi.no.tri.no.monomorphic
 
-Hostname: ebc207
+Hostname: ebc215
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sat May 20 17:38:38 2017
+Start time: Tue Jul 18 22:25:58 2017
 
-Random number seed: 1495291118
-257837 MB RAM detected; reserving 128918 MB for main workspace.
+Random number seed: 1500405958
+257661 MB RAM detected; reserving 128830 MB for main workspace.
 86 people loaded from inter.files/15.flipped.snps/20.flipped.monomorphic.fam.
 101 people to be merged from inter.files/13.notriallelic/20.pobi.notri_tmp.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-15881 markers loaded from
+9215 markers loaded from
 inter.files/15.flipped.snps/20.flipped.monomorphic.bim.
-15881 markers to be merged from
+9215 markers to be merged from
 inter.files/13.notriallelic/20.pobi.notri_tmp.bim.
-Of these, 0 are new, while 15881 are present in the base dataset.
-Performing single-pass merge (187 people, 15881 variants).
+Of these, 0 are new, while 9215 are present in the base dataset.
+Performing single-pass merge (187 people, 9215 variants).
 Merged fileset written to
 inter.files/16.flipped.merged/20.anc.pobi.no.tri.no.monomorphic-merge.bed +
 inter.files/16.flipped.merged/20.anc.pobi.no.tri.no.monomorphic-merge.bim +
 inter.files/16.flipped.merged/20.anc.pobi.no.tri.no.monomorphic-merge.fam .
-15881 variants loaded from .bim file.
+9215 variants loaded from .bim file.
 187 people (49 males, 52 females, 86 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 inter.files/16.flipped.merged/20.anc.pobi.no.tri.no.monomorphic.nosex .
@@ -33,12 +33,12 @@ inter.files/16.flipped.merged/20.anc.pobi.no.tri.no.monomorphic.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 187 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.578802.
-15881 variants and 187 people pass filters and QC.
+Total genotyping rate is 0.585549.
+9215 variants and 187 people pass filters and QC.
 Among remaining phenotypes, 86 are cases and 101 are controls.
 --make-bed to
 inter.files/16.flipped.merged/20.anc.pobi.no.tri.no.monomorphic.bed +
 inter.files/16.flipped.merged/20.anc.pobi.no.tri.no.monomorphic.bim +
 inter.files/16.flipped.merged/20.anc.pobi.no.tri.no.monomorphic.fam ... done.
 
-End time: Sat May 20 17:38:38 2017
+End time: Tue Jul 18 22:25:58 2017

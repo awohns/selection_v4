@@ -6,25 +6,25 @@ Options in effect:
   --make-bed
   --out inter.files/13.notriallelic/11.anc.pobi.notri
 
-Hostname: ebc205
+Hostname: ebc215
 Working directory: /mmg/awwohns/selection_v4
-Start time: Sat May 20 17:45:07 2017
+Start time: Tue Jul 18 22:11:13 2017
 
-Random number seed: 1495291507
+Random number seed: 1500405073
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 86 people loaded from inter.files/13.notriallelic/11.anc.notri_tmp.fam.
 101 people to be merged from inter.files/13.notriallelic/11.pobi.notri_tmp.fam.
 Of these, 101 are new, while 0 are present in the base dataset.
-29654 markers loaded from inter.files/13.notriallelic/11.anc.notri_tmp.bim.
-29654 markers to be merged from
+16453 markers loaded from inter.files/13.notriallelic/11.anc.notri_tmp.bim.
+16453 markers to be merged from
 inter.files/13.notriallelic/11.pobi.notri_tmp.bim.
-Of these, 0 are new, while 29654 are present in the base dataset.
-Performing single-pass merge (187 people, 29654 variants).
+Of these, 0 are new, while 16453 are present in the base dataset.
+Performing single-pass merge (187 people, 16453 variants).
 Merged fileset written to
 inter.files/13.notriallelic/11.anc.pobi.notri-merge.bed +
 inter.files/13.notriallelic/11.anc.pobi.notri-merge.bim +
 inter.files/13.notriallelic/11.anc.pobi.notri-merge.fam .
-29654 variants loaded from .bim file.
+16453 variants loaded from .bim file.
 187 people (49 males, 52 females, 86 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 inter.files/13.notriallelic/11.anc.pobi.notri.nosex .
@@ -32,11 +32,11 @@ inter.files/13.notriallelic/11.anc.pobi.notri.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 187 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.578193.
-29654 variants and 187 people pass filters and QC.
+Total genotyping rate is 0.58518.
+16453 variants and 187 people pass filters and QC.
 Among remaining phenotypes, 86 are cases and 101 are controls.
 --make-bed to inter.files/13.notriallelic/11.anc.pobi.notri.bed +
 inter.files/13.notriallelic/11.anc.pobi.notri.bim +
 inter.files/13.notriallelic/11.anc.pobi.notri.fam ... done.
 
-End time: Sat May 20 17:45:09 2017
+End time: Tue Jul 18 22:11:13 2017

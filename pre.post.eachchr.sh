@@ -44,8 +44,8 @@ module load R
 # plink --tfile ${directory}/6.post.tped.nto0/temp.${cur_chr} --recode --out ${directory}/8.post.ped/${cur_chr}_post_ped
 
 #Add the rsids
-plink --file ${directory}/7.pre.ped/${cur_chr}_pre_ped --update-map references/pobi.snps.by.chr/${cur_chr}.se.pobi.updated.bim.txt --update-name --make-bed --out ${directory}/9.pre.add.rsid/${cur_chr}.pre.with.rsid
-plink --file ${directory}/8.post.ped/${cur_chr}_post_ped --update-map references/pobi.snps.by.chr/${cur_chr}.se.pobi.updated.bim.txt --update-name --make-bed --out ${directory}/10.post.add.rsid/${cur_chr}.post.with.rsid
+plink --file ${directory}/7.pre.ped/${cur_chr}_pre_ped --update-map references/pobi.snps.by.chr/${cur_chr}.se.pobi.updated.bim.txt.fixed --update-name --make-bed --out ${directory}/9.pre.add.rsid/${cur_chr}.pre.with.rsid
+plink --file ${directory}/8.post.ped/${cur_chr}_post_ped --update-map references/pobi.snps.by.chr/${cur_chr}.se.pobi.updated.bim.txt.fixed --update-name --make-bed --out ${directory}/10.post.add.rsid/${cur_chr}.post.with.rsid
 
 #Get list of rsids from pre
 cut -f2 ${directory}/9.pre.add.rsid/${cur_chr}.pre.with.rsid.bim > ${directory}/11.pre.snps/${cur_chr}.pre.snps.txt
