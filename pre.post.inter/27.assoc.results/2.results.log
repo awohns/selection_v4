@@ -8,10 +8,11 @@ Options in effect:
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Tue Jun 27 14:20:47 2017
+Start time: Thu Jul 20 03:37:36 2017
 
-Random number seed: 1498562447
+Random number seed: 1500511056
 257661 MB RAM detected; reserving 128830 MB for main workspace.
+Allocated 96622 MB successfully, after larger attempt(s) failed.
 1452 variants loaded from .bim file.
 74 people (0 males, 0 females, 74 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to pre.post.inter/27.assoc.results/2.results.nosex .
@@ -28,4 +29,4 @@ Writing C/C --assoc report to pre.post.inter/27.assoc.results/2.results.assoc
 --adjust values (1232 variants) written to
 pre.post.inter/27.assoc.results/2.results.assoc.adjusted .
 
-End time: Tue Jun 27 14:20:47 2017
+End time: Thu Jul 20 03:37:36 2017

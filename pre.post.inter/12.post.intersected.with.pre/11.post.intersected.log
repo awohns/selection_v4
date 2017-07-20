@@ -5,12 +5,12 @@ Options in effect:
   --make-bed
   --out pre.post.inter/12.post.intersected.with.pre/11.post.intersected
 
-Hostname: ebc212
-Working directory: /mmg/awwohns/selection_v4
-Start time: Tue Jun 27 14:08:09 2017
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Thu Jul 20 00:45:54 2017
 
-Random number seed: 1498561689
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1500500754
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 4298 variants loaded from .bim file.
 34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
@@ -27,4 +27,4 @@ pre.post.inter/12.post.intersected.with.pre/11.post.intersected.bed +
 pre.post.inter/12.post.intersected.with.pre/11.post.intersected.bim +
 pre.post.inter/12.post.intersected.with.pre/11.post.intersected.fam ... done.
 
-End time: Tue Jun 27 14:09:53 2017
+End time: Thu Jul 20 00:46:01 2017

@@ -6,21 +6,21 @@ Options in effect:
   --make-bed
   --out pre.modern/12.remerged/16.pobi.anc
 
-Hostname: ebc216
-Working directory: /mmg/awwohns/selection_v4
-Start time: Tue Jul 18 11:57:10 2017
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Wed Jul 19 10:35:11 2017
 
-Random number seed: 1500368230
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1500449711
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 40 people loaded from pre.modern/11.merged.flipped/16.merge.flipped.fam.
-101 people to be merged from
+204 people to be merged from
 pre.modern/9.pobi.with.anc.snps/16.pobi.with.anc.snps.fam.
-Of these, 101 are new, while 0 are present in the base dataset.
+Of these, 204 are new, while 0 are present in the base dataset.
 833 markers loaded from pre.modern/11.merged.flipped/16.merge.flipped.bim.
 833 markers to be merged from
 pre.modern/9.pobi.with.anc.snps/16.pobi.with.anc.snps.bim.
 Of these, 0 are new, while 833 are present in the base dataset.
-Error: 10 variants with 3+ alleles present.
+Error: 12 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
   pre.modern/12.remerged/16.pobi.anc-merge.missnp.
   (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
@@ -31,4 +31,4 @@ Error: 10 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Tue Jul 18 11:57:11 2017
+End time: Wed Jul 19 10:35:11 2017

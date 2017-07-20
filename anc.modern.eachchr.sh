@@ -51,7 +51,7 @@ cut -f2 ${folder}/7.intersect.pheno/${cur_chr}.intersected.anc.pobi.bim > ${fold
 
 
 #Extract the overlapping SNPs from POBI
-plink --bfile references/se.england.pobi/se.england.pobi --extract ${folder}/8.anc.snps/${cur_chr}.anc.snps.txt --make-bed --out ${folder}/9.pobi.with.anc.snps/${cur_chr}.pobi.with.anc.snps
+plink --bfile references/se.england.pobi/9.10.11.updated.map --extract ${folder}/8.anc.snps/${cur_chr}.anc.snps.txt --make-bed --out ${folder}/9.pobi.with.anc.snps/${cur_chr}.pobi.with.anc.snps
 
 #Merge pobi and ancient
 plink --bfile ${folder}/7.intersect.pheno/${cur_chr}.intersected.anc.pobi --bmerge ${folder}/9.pobi.with.anc.snps/${cur_chr}.pobi.with.anc.snps --make-bed --out ${folder}/10.merged/${cur_chr}.merge

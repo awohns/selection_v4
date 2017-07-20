@@ -8,39 +8,39 @@ Options in effect:
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Wed Jul 19 02:43:36 2017
+Start time: Wed Jul 19 09:29:18 2017
 
-Random number seed: 1500421416
+Random number seed: 1500445758
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 40 people loaded from
 pre.modern/17.ambiguous.removed/7.anc.ambiguous.removed.fam.
-101 people to be merged from
+204 people to be merged from
 pre.modern/17.ambiguous.removed/7.pobi.ambiguous.removed.fam.
-Of these, 101 are new, while 0 are present in the base dataset.
+Of these, 204 are new, while 0 are present in the base dataset.
 971 markers loaded from
 pre.modern/17.ambiguous.removed/7.anc.ambiguous.removed.bim.
 971 markers to be merged from
 pre.modern/17.ambiguous.removed/7.pobi.ambiguous.removed.bim.
 Of these, 0 are new, while 971 are present in the base dataset.
-Performing single-pass merge (141 people, 971 variants).
+Performing single-pass merge (244 people, 971 variants).
 Merged fileset written to
 pre.modern/18.ambiguous.removed.merged/7.anc.pobi.no.ambiguous-merge.bed +
 pre.modern/18.ambiguous.removed.merged/7.anc.pobi.no.ambiguous-merge.bim +
 pre.modern/18.ambiguous.removed.merged/7.anc.pobi.no.ambiguous-merge.fam .
 971 variants loaded from .bim file.
-141 people (49 males, 52 females, 40 ambiguous) loaded from .fam.
+244 people (104 males, 100 females, 40 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.modern/18.ambiguous.removed.merged/7.anc.pobi.no.ambiguous.nosex .
-141 phenotype values loaded from .fam.
+244 phenotype values loaded from .fam.
 Using 1 thread (no multithreaded calculations invoked.
-Before main variant filters, 141 founders and 0 nonfounders present.
+Before main variant filters, 244 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.768507.
-971 variants and 141 people pass filters and QC.
-Among remaining phenotypes, 40 are cases and 101 are controls.
+Total genotyping rate is 0.866143.
+971 variants and 244 people pass filters and QC.
+Among remaining phenotypes, 40 are cases and 204 are controls.
 --make-bed to
 pre.modern/18.ambiguous.removed.merged/7.anc.pobi.no.ambiguous.bed +
 pre.modern/18.ambiguous.removed.merged/7.anc.pobi.no.ambiguous.bim +
 pre.modern/18.ambiguous.removed.merged/7.anc.pobi.no.ambiguous.fam ... done.
 
-End time: Wed Jul 19 02:43:36 2017
+End time: Wed Jul 19 09:29:18 2017

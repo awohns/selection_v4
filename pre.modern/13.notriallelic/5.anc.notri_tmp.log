@@ -5,12 +5,12 @@ Options in effect:
   --make-bed
   --out pre.modern/13.notriallelic/5.anc.notri_tmp
 
-Hostname: ebc226
-Working directory: /mmg/awwohns/selection_v4
-Start time: Tue Jul 18 11:58:25 2017
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Wed Jul 19 10:10:44 2017
 
-Random number seed: 1500368305
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1500448244
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 1063 variants loaded from .bim file.
 40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to pre.modern/13.notriallelic/5.anc.notri_tmp.nosex .
@@ -28,4 +28,4 @@ Among remaining phenotypes, 40 are cases and 0 are controls.
 pre.modern/13.notriallelic/5.anc.notri_tmp.bim +
 pre.modern/13.notriallelic/5.anc.notri_tmp.fam ... done.
 
-End time: Tue Jul 18 11:59:23 2017
+End time: Wed Jul 19 10:10:45 2017

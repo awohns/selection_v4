@@ -3,16 +3,16 @@ Options in effect:
   --file pre.post.inter/7.pre.ped/1_pre_ped
   --make-bed
   --out pre.post.inter/9.pre.add.rsid/1.pre.with.rsid
-  --update-map references/pobi.snps.by.chr/1.se.pobi.updated.bim.txt
+  --update-map references/pobi.snps.by.chr/1.se.pobi.updated.bim.txt.fixed
   --update-name
 
 Hostname: ebc229
 Working directory: /mmg/awwohns/selection_v4
-Start time: Tue Jun 27 14:03:56 2017
+Start time: Thu Jul 20 03:39:41 2017
 
 Note: --update-map [filename] + parameter-free --update-name deprecated.  Use
 --update-name [filename] instead.
-Random number seed: 1498561436
+Random number seed: 1500511181
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 Scanning .ped file... done.
 Performing single-pass .bed write (10998 variants, 40 people).
@@ -23,7 +23,7 @@ pre.post.inter/9.pre.add.rsid/1.pre.with.rsid-temporary.fam written.
 40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.post.inter/9.pre.add.rsid/1.pre.with.rsid.nosex .
---update-name: 10998 values updated, 57900 variant IDs not present.
+--update-name: 10884 values updated, 57530 variant IDs not present.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 40 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
@@ -34,4 +34,4 @@ Note: No phenotypes present.
 pre.post.inter/9.pre.add.rsid/1.pre.with.rsid.bim +
 pre.post.inter/9.pre.add.rsid/1.pre.with.rsid.fam ... done.
 
-End time: Tue Jun 27 14:03:56 2017
+End time: Thu Jul 20 03:39:41 2017

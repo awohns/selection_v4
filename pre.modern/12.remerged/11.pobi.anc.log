@@ -6,16 +6,16 @@ Options in effect:
   --make-bed
   --out pre.modern/12.remerged/11.pobi.anc
 
-Hostname: ebc227
-Working directory: /mmg/awwohns/selection_v4
-Start time: Tue Jul 18 11:56:19 2017
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Wed Jul 19 10:30:56 2017
 
-Random number seed: 1500368179
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1500449456
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 40 people loaded from pre.modern/11.merged.flipped/11.merge.flipped.fam.
-101 people to be merged from
+204 people to be merged from
 pre.modern/9.pobi.with.anc.snps/11.pobi.with.anc.snps.fam.
-Of these, 101 are new, while 0 are present in the base dataset.
+Of these, 204 are new, while 0 are present in the base dataset.
 974 markers loaded from pre.modern/11.merged.flipped/11.merge.flipped.bim.
 974 markers to be merged from
 pre.modern/9.pobi.with.anc.snps/11.pobi.with.anc.snps.bim.
@@ -31,4 +31,4 @@ Error: 7 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Tue Jul 18 11:56:19 2017
+End time: Wed Jul 19 10:30:56 2017

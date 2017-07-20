@@ -6,12 +6,12 @@ Options in effect:
   --make-bed
   --out pre.post.inter/18.remerged/20.pre.post
 
-Hostname: ebc215
-Working directory: /mmg/awwohns/selection_v4
-Start time: Tue Jun 27 14:10:25 2017
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Thu Jul 20 00:46:42 2017
 
-Random number seed: 1498561825
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1500500802
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 34 people loaded from
 pre.post.inter/17.post.merged.flipped/20.post.merge.flipped.fam.
 40 people to be merged from
@@ -33,4 +33,4 @@ Error: 7 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Tue Jun 27 14:10:26 2017
+End time: Thu Jul 20 00:46:43 2017

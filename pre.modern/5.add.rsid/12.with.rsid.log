@@ -6,14 +6,14 @@ Options in effect:
   --update-map references/pobi.snps.by.chr/12.se.pobi.updated.bim.txt.fixed
   --update-name
 
-Hostname: ebc215
-Working directory: /mmg/awwohns/selection_v4
-Start time: Tue Jul 18 11:51:38 2017
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Wed Jul 19 10:30:55 2017
 
 Note: --update-map [filename] + parameter-free --update-name deprecated.  Use
 --update-name [filename] instead.
-Random number seed: 1500367898
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1500449455
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 Scanning .ped file... done.
 Performing single-pass .bed write (970 variants, 40 people).
 --file: pre.modern/5.add.rsid/12.with.rsid-temporary.bed +
@@ -26,11 +26,11 @@ Ambiguous sex IDs written to pre.modern/5.add.rsid/12.with.rsid.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 40 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.183918.
+Total genotyping rate is 0.183969.
 970 variants and 40 people pass filters and QC.
 Note: No phenotypes present.
 --make-bed to pre.modern/5.add.rsid/12.with.rsid.bed +
 pre.modern/5.add.rsid/12.with.rsid.bim + pre.modern/5.add.rsid/12.with.rsid.fam
 ... done.
 
-End time: Tue Jul 18 11:53:49 2017
+End time: Wed Jul 19 10:30:55 2017

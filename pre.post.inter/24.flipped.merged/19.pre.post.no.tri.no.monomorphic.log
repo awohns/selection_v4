@@ -6,12 +6,12 @@ Options in effect:
   --make-bed
   --out pre.post.inter/24.flipped.merged/19.pre.post.no.tri.no.monomorphic
 
-Hostname: ebc227
-Working directory: /mmg/awwohns/selection_v4
-Start time: Tue Jun 27 14:15:09 2017
+Hostname: atlas.hpc.ut.ee
+Working directory: /ebc_data/awwohns/selection_v4
+Start time: Thu Jul 20 00:46:16 2017
 
-Random number seed: 1498562109
-257661 MB RAM detected; reserving 128830 MB for main workspace.
+Random number seed: 1500500776
+2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 34 people loaded from
 pre.post.inter/23.flipped.snps.post/19.flipped.post.monomorphic.fam.
 40 people to be merged from
@@ -44,4 +44,4 @@ pre.post.inter/24.flipped.merged/19.pre.post.no.tri.no.monomorphic.bim +
 pre.post.inter/24.flipped.merged/19.pre.post.no.tri.no.monomorphic.fam ...
 done.
 
-End time: Tue Jun 27 14:15:35 2017
+End time: Thu Jul 20 00:46:16 2017

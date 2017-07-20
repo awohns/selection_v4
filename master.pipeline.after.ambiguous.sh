@@ -14,6 +14,7 @@ if [ "$option" == "anc.modern" ]; then
 done
 
 elif [ "$option" = "pre.post" ]; then
+    eval "rm pre.post.inter/28.manhattan.data/assoc.results.all.chrs.no.ambiguous.txt"
 	for i in {1..22}; do
         echo ${i}
         eval "./pre.post.after.ambiguous.eachchr.sh ${i} pre.post.inter"
