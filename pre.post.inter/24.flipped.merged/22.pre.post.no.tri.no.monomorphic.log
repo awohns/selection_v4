@@ -8,26 +8,26 @@ Options in effect:
 
 Hostname: atlas.hpc.ut.ee
 Working directory: /ebc_data/awwohns/selection_v4
-Start time: Thu Jul 20 00:46:44 2017
+Start time: Tue Jul 25 20:21:25 2017
 
-Random number seed: 1500500804
+Random number seed: 1501003285
 2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 34 people loaded from
 pre.post.inter/23.flipped.snps.post/22.flipped.post.monomorphic.fam.
 40 people to be merged from
 pre.post.inter/20.notriallelic.pre/22.pre.notri_tmp.fam.
 Of these, 40 are new, while 0 are present in the base dataset.
-488 markers loaded from
+160 markers loaded from
 pre.post.inter/23.flipped.snps.post/22.flipped.post.monomorphic.bim.
-488 markers to be merged from
+160 markers to be merged from
 pre.post.inter/20.notriallelic.pre/22.pre.notri_tmp.bim.
-Of these, 0 are new, while 488 are present in the base dataset.
-Performing single-pass merge (74 people, 488 variants).
+Of these, 0 are new, while 160 are present in the base dataset.
+Performing single-pass merge (74 people, 160 variants).
 Merged fileset written to
 pre.post.inter/24.flipped.merged/22.pre.post.no.tri.no.monomorphic-merge.bed +
 pre.post.inter/24.flipped.merged/22.pre.post.no.tri.no.monomorphic-merge.bim +
 pre.post.inter/24.flipped.merged/22.pre.post.no.tri.no.monomorphic-merge.fam .
-488 variants loaded from .bim file.
+160 variants loaded from .bim file.
 74 people (0 males, 0 females, 74 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.post.inter/24.flipped.merged/22.pre.post.no.tri.no.monomorphic.nosex .
@@ -35,8 +35,8 @@ pre.post.inter/24.flipped.merged/22.pre.post.no.tri.no.monomorphic.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 74 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.13807.
-488 variants and 74 people pass filters and QC.
+Total genotyping rate is 0.149662.
+160 variants and 74 people pass filters and QC.
 Among remaining phenotypes, 34 are cases and 40 are controls.
 --make-bed to
 pre.post.inter/24.flipped.merged/22.pre.post.no.tri.no.monomorphic.bed +
@@ -44,4 +44,4 @@ pre.post.inter/24.flipped.merged/22.pre.post.no.tri.no.monomorphic.bim +
 pre.post.inter/24.flipped.merged/22.pre.post.no.tri.no.monomorphic.fam ...
 done.
 
-End time: Thu Jul 20 00:46:44 2017
+End time: Tue Jul 25 20:21:25 2017

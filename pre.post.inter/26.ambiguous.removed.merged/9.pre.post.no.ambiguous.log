@@ -8,27 +8,26 @@ Options in effect:
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Thu Jul 20 03:37:47 2017
+Start time: Wed Jul 26 00:28:27 2017
 
-Random number seed: 1500511067
+Random number seed: 1501018107
 257661 MB RAM detected; reserving 128830 MB for main workspace.
-Allocated 96622 MB successfully, after larger attempt(s) failed.
 40 people loaded from
 pre.post.inter/25.ambiguous.removed/9.pre.ambiguous.removed.fam.
 34 people to be merged from
 pre.post.inter/25.ambiguous.removed/9.post.ambiguous.removed.fam.
 Of these, 34 are new, while 0 are present in the base dataset.
-833 markers loaded from
+1 marker loaded from
 pre.post.inter/25.ambiguous.removed/9.pre.ambiguous.removed.bim.
-833 markers to be merged from
+1 marker to be merged from
 pre.post.inter/25.ambiguous.removed/9.post.ambiguous.removed.bim.
-Of these, 0 are new, while 833 are present in the base dataset.
-Performing single-pass merge (74 people, 833 variants).
+Of these, 0 are new, while 1 is present in the base dataset.
+Performing single-pass merge (74 people, 1 variant).
 Merged fileset written to
 pre.post.inter/26.ambiguous.removed.merged/9.pre.post.no.ambiguous-merge.bed +
 pre.post.inter/26.ambiguous.removed.merged/9.pre.post.no.ambiguous-merge.bim +
 pre.post.inter/26.ambiguous.removed.merged/9.pre.post.no.ambiguous-merge.fam .
-833 variants loaded from .bim file.
+1 variant loaded from .bim file.
 74 people (0 males, 0 females, 74 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.post.inter/26.ambiguous.removed.merged/9.pre.post.no.ambiguous.nosex .
@@ -36,8 +35,8 @@ pre.post.inter/26.ambiguous.removed.merged/9.pre.post.no.ambiguous.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 74 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.136741.
-833 variants and 74 people pass filters and QC.
+Total genotyping rate is 0.189189.
+1 variant and 74 people pass filters and QC.
 Among remaining phenotypes, 34 are cases and 40 are controls.
 --make-bed to
 pre.post.inter/26.ambiguous.removed.merged/9.pre.post.no.ambiguous.bed +
@@ -45,4 +44,4 @@ pre.post.inter/26.ambiguous.removed.merged/9.pre.post.no.ambiguous.bim +
 pre.post.inter/26.ambiguous.removed.merged/9.pre.post.no.ambiguous.fam ...
 done.
 
-End time: Thu Jul 20 03:37:47 2017
+End time: Wed Jul 26 00:28:27 2017

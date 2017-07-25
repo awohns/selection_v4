@@ -5,29 +5,29 @@ Options in effect:
   --make-bed
   --out pre.post.inter/23.flipped.snps.post/3.flipped.post.monomorphic
 
-Hostname: ebc213
+Hostname: ebc226
 Working directory: /mmg/awwohns/selection_v4
-Start time: Thu Jul 20 00:45:21 2017
+Start time: Tue Jul 25 20:34:29 2017
 
-Random number seed: 1500500721
-257688 MB RAM detected; reserving 128844 MB for main workspace.
-1134 variants loaded from .bim file.
+Random number seed: 1501004069
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+361 variants loaded from .bim file.
 34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.post.inter/23.flipped.snps.post/3.flipped.post.monomorphic.nosex .
 34 phenotype values loaded from .fam.
---flip: 2 SNPs flipped.
+--flip: 0 SNPs flipped.
 Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
 phenotypes to be ignored, use the --allow-no-sex flag.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 34 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.129111.
-1134 variants and 34 people pass filters and QC.
+Total genotyping rate is 0.153903.
+361 variants and 34 people pass filters and QC.
 Among remaining phenotypes, 34 are cases and 0 are controls.
 --make-bed to
 pre.post.inter/23.flipped.snps.post/3.flipped.post.monomorphic.bed +
 pre.post.inter/23.flipped.snps.post/3.flipped.post.monomorphic.bim +
 pre.post.inter/23.flipped.snps.post/3.flipped.post.monomorphic.fam ... done.
 
-End time: Thu Jul 20 00:45:34 2017
+End time: Tue Jul 25 20:34:29 2017

@@ -5,28 +5,28 @@ Options in effect:
   --make-bed
   --out pre.post.inter/17.post.merged.flipped/14.post.merge.flipped
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Thu Jul 20 00:46:02 2017
+Hostname: ebc216
+Working directory: /mmg/awwohns/selection_v4
+Start time: Tue Jul 25 20:25:00 2017
 
-Random number seed: 1500500762
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
-625 variants loaded from .bim file.
+Random number seed: 1501003500
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+1 variant loaded from .bim file.
 34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.post.inter/17.post.merged.flipped/14.post.merge.flipped.nosex .
 34 phenotype values loaded from .fam.
---flip: 4 SNPs flipped.
+--flip: 0 SNPs flipped, 1 SNP ID not present.
 Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
 phenotypes to be ignored, use the --allow-no-sex flag.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 34 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.129271.
-625 variants and 34 people pass filters and QC.
+Total genotyping rate is 0.147059.
+1 variant and 34 people pass filters and QC.
 Among remaining phenotypes, 34 are cases and 0 are controls.
 --make-bed to pre.post.inter/17.post.merged.flipped/14.post.merge.flipped.bed +
 pre.post.inter/17.post.merged.flipped/14.post.merge.flipped.bim +
 pre.post.inter/17.post.merged.flipped/14.post.merge.flipped.fam ... done.
 
-End time: Thu Jul 20 00:46:02 2017
+End time: Tue Jul 25 20:25:00 2017

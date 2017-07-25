@@ -5,26 +5,16 @@ Options in effect:
   --make-bed
   --out pre.post.inter/12.post.intersected.with.pre/5.post.intersected
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Thu Jul 20 00:43:27 2017
+Hostname: ebc227
+Working directory: /mmg/awwohns/selection_v4
+Start time: Tue Jul 25 20:32:31 2017
 
-Random number seed: 1500500607
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
-5255 variants loaded from .bim file.
+Random number seed: 1501003951
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+1339 variants loaded from .bim file.
 34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.post.inter/12.post.intersected.with.pre/5.post.intersected.nosex .
---extract: 1023 variants remaining.
-Using 1 thread (no multithreaded calculations invoked.
-Before main variant filters, 34 founders and 0 nonfounders present.
-Calculating allele frequencies... done.
-Total genotyping rate is 0.128601.
-1023 variants and 34 people pass filters and QC.
-Note: No phenotypes present.
---make-bed to
-pre.post.inter/12.post.intersected.with.pre/5.post.intersected.bed +
-pre.post.inter/12.post.intersected.with.pre/5.post.intersected.bim +
-pre.post.inter/12.post.intersected.with.pre/5.post.intersected.fam ... done.
+Error: No variants remaining after --extract.
 
-End time: Thu Jul 20 00:43:40 2017
+End time: Tue Jul 25 20:32:31 2017

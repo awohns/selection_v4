@@ -6,27 +6,27 @@ Options in effect:
   --make-bed
   --out pre.post.inter/21.notriallelic.pre.post/1.pre.post.notri
 
-Hostname: ebc229
+Hostname: ebc226
 Working directory: /mmg/awwohns/selection_v4
-Start time: Thu Jul 20 03:39:43 2017
+Start time: Tue Jul 25 20:35:17 2017
 
-Random number seed: 1500511183
+Random number seed: 1501004117
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from pre.post.inter/19.notriallelic.post/1.post.notri_tmp.fam.
 40 people to be merged from
 pre.post.inter/20.notriallelic.pre/1.pre.notri_tmp.fam.
 Of these, 40 are new, while 0 are present in the base dataset.
-1622 markers loaded from
+490 markers loaded from
 pre.post.inter/19.notriallelic.post/1.post.notri_tmp.bim.
-1622 markers to be merged from
+4 markers to be merged from
 pre.post.inter/20.notriallelic.pre/1.pre.notri_tmp.bim.
-Of these, 0 are new, while 1622 are present in the base dataset.
-Performing single-pass merge (74 people, 1622 variants).
+Of these, 0 are new, while 4 are present in the base dataset.
+Performing single-pass merge (74 people, 490 variants).
 Merged fileset written to
 pre.post.inter/21.notriallelic.pre.post/1.pre.post.notri-merge.bed +
 pre.post.inter/21.notriallelic.pre.post/1.pre.post.notri-merge.bim +
 pre.post.inter/21.notriallelic.pre.post/1.pre.post.notri-merge.fam .
-1622 variants loaded from .bim file.
+490 variants loaded from .bim file.
 74 people (0 males, 0 females, 74 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.post.inter/21.notriallelic.pre.post/1.pre.post.notri.nosex .
@@ -34,11 +34,11 @@ pre.post.inter/21.notriallelic.pre.post/1.pre.post.notri.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 74 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.135743.
-1622 variants and 74 people pass filters and QC.
+Total genotyping rate is 0.0720353.
+490 variants and 74 people pass filters and QC.
 Among remaining phenotypes, 34 are cases and 40 are controls.
 --make-bed to pre.post.inter/21.notriallelic.pre.post/1.pre.post.notri.bed +
 pre.post.inter/21.notriallelic.pre.post/1.pre.post.notri.bim +
 pre.post.inter/21.notriallelic.pre.post/1.pre.post.notri.fam ... done.
 
-End time: Thu Jul 20 03:39:43 2017
+End time: Tue Jul 25 20:35:17 2017

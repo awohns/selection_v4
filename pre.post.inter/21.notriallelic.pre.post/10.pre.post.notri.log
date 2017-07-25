@@ -6,28 +6,28 @@ Options in effect:
   --make-bed
   --out pre.post.inter/21.notriallelic.pre.post/10.pre.post.notri
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Thu Jul 20 00:46:03 2017
+Hostname: ebc215
+Working directory: /mmg/awwohns/selection_v4
+Start time: Tue Jul 25 20:27:56 2017
 
-Random number seed: 1500500763
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
+Random number seed: 1501003676
+257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from
 pre.post.inter/19.notriallelic.post/10.post.notri_tmp.fam.
 40 people to be merged from
 pre.post.inter/20.notriallelic.pre/10.pre.notri_tmp.fam.
 Of these, 40 are new, while 0 are present in the base dataset.
-996 markers loaded from
+2 markers loaded from
 pre.post.inter/19.notriallelic.post/10.post.notri_tmp.bim.
-996 markers to be merged from
+2 markers to be merged from
 pre.post.inter/20.notriallelic.pre/10.pre.notri_tmp.bim.
-Of these, 0 are new, while 996 are present in the base dataset.
-Performing single-pass merge (74 people, 996 variants).
+Of these, 0 are new, while 2 are present in the base dataset.
+Performing single-pass merge (74 people, 2 variants).
 Merged fileset written to
 pre.post.inter/21.notriallelic.pre.post/10.pre.post.notri-merge.bed +
 pre.post.inter/21.notriallelic.pre.post/10.pre.post.notri-merge.bim +
 pre.post.inter/21.notriallelic.pre.post/10.pre.post.notri-merge.fam .
-996 variants loaded from .bim file.
+2 variants loaded from .bim file.
 74 people (0 males, 0 females, 74 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.post.inter/21.notriallelic.pre.post/10.pre.post.notri.nosex .
@@ -35,11 +35,11 @@ pre.post.inter/21.notriallelic.pre.post/10.pre.post.notri.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 74 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.136628.
-996 variants and 74 people pass filters and QC.
+Total genotyping rate is 0.216216.
+2 variants and 74 people pass filters and QC.
 Among remaining phenotypes, 34 are cases and 40 are controls.
 --make-bed to pre.post.inter/21.notriallelic.pre.post/10.pre.post.notri.bed +
 pre.post.inter/21.notriallelic.pre.post/10.pre.post.notri.bim +
 pre.post.inter/21.notriallelic.pre.post/10.pre.post.notri.fam ... done.
 
-End time: Thu Jul 20 00:46:03 2017
+End time: Tue Jul 25 20:27:56 2017

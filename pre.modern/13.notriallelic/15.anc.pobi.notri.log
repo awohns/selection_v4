@@ -6,24 +6,25 @@ Options in effect:
   --make-bed
   --out pre.modern/13.notriallelic/15.anc.pobi.notri
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Wed Jul 19 10:30:05 2017
+Hostname: ebc215
+Working directory: /mmg/awwohns/selection_v4
+Start time: Sun Jul 23 06:45:58 2017
 
-Random number seed: 1500449405
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
+Random number seed: 1500781558
+257661 MB RAM detected; reserving 128830 MB for main workspace.
 40 people loaded from pre.modern/13.notriallelic/15.anc.notri_tmp.fam.
 204 people to be merged from pre.modern/13.notriallelic/15.pobi.notri_tmp.fam.
 Of these, 204 are new, while 0 are present in the base dataset.
-644 markers loaded from pre.modern/13.notriallelic/15.anc.notri_tmp.bim.
-644 markers to be merged from pre.modern/13.notriallelic/15.pobi.notri_tmp.bim.
-Of these, 0 are new, while 644 are present in the base dataset.
-Performing single-pass merge (244 people, 644 variants).
+23549 markers loaded from pre.modern/13.notriallelic/15.anc.notri_tmp.bim.
+23549 markers to be merged from
+pre.modern/13.notriallelic/15.pobi.notri_tmp.bim.
+Of these, 0 are new, while 23549 are present in the base dataset.
+Performing single-pass merge (244 people, 23549 variants).
 Merged fileset written to
 pre.modern/13.notriallelic/15.anc.pobi.notri-merge.bed +
 pre.modern/13.notriallelic/15.anc.pobi.notri-merge.bim +
 pre.modern/13.notriallelic/15.anc.pobi.notri-merge.fam .
-644 variants loaded from .bim file.
+23549 variants loaded from .bim file.
 244 people (104 males, 100 females, 40 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to pre.modern/13.notriallelic/15.anc.pobi.notri.nosex
 .
@@ -31,11 +32,11 @@ Ambiguous sex IDs written to pre.modern/13.notriallelic/15.anc.pobi.notri.nosex
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 244 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.866199.
-644 variants and 244 people pass filters and QC.
+Total genotyping rate is 0.848229.
+23549 variants and 244 people pass filters and QC.
 Among remaining phenotypes, 40 are cases and 204 are controls.
 --make-bed to pre.modern/13.notriallelic/15.anc.pobi.notri.bed +
 pre.modern/13.notriallelic/15.anc.pobi.notri.bim +
 pre.modern/13.notriallelic/15.anc.pobi.notri.fam ... done.
 
-End time: Wed Jul 19 10:30:05 2017
+End time: Sun Jul 23 06:45:59 2017

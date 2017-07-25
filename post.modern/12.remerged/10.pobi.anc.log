@@ -6,20 +6,20 @@ Options in effect:
   --make-bed
   --out post.modern/12.remerged/10.pobi.anc
 
-Hostname: ebc226
+Hostname: ebc203
 Working directory: /mmg/awwohns/selection_v4
-Start time: Tue Jun 27 17:54:07 2017
+Start time: Tue Jul 25 20:22:49 2017
 
-Random number seed: 1498575247
+Random number seed: 1501003369
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from post.modern/11.merged.flipped/10.merge.flipped.fam.
-101 people to be merged from
+204 people to be merged from
 post.modern/9.pobi.with.anc.snps/10.pobi.with.anc.snps.fam.
-Of these, 101 are new, while 0 are present in the base dataset.
-1296 markers loaded from post.modern/11.merged.flipped/10.merge.flipped.bim.
-1296 markers to be merged from
+Of these, 204 are new, while 0 are present in the base dataset.
+1284 markers loaded from post.modern/11.merged.flipped/10.merge.flipped.bim.
+1284 markers to be merged from
 post.modern/9.pobi.with.anc.snps/10.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 1296 are present in the base dataset.
+Of these, 0 are new, while 1284 are present in the base dataset.
 Error: 14 variants with 3+ alleles present.
 * If you believe this is due to strand inconsistency, try --flip with
   post.modern/12.remerged/10.pobi.anc-merge.missnp.
@@ -31,4 +31,4 @@ Error: 14 variants with 3+ alleles present.
   another tool/script, and then importing the result; PLINK is not yet suited
   to handling them.
 
-End time: Tue Jun 27 17:54:07 2017
+End time: Tue Jul 25 20:22:49 2017

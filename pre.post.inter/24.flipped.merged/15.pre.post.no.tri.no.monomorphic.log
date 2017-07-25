@@ -6,28 +6,28 @@ Options in effect:
   --make-bed
   --out pre.post.inter/24.flipped.merged/15.pre.post.no.tri.no.monomorphic
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Thu Jul 20 00:46:15 2017
+Hostname: ebc216
+Working directory: /mmg/awwohns/selection_v4
+Start time: Tue Jul 25 20:24:14 2017
 
-Random number seed: 1500500775
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
+Random number seed: 1501003454
+257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from
 pre.post.inter/23.flipped.snps.post/15.flipped.post.monomorphic.fam.
 40 people to be merged from
 pre.post.inter/20.notriallelic.pre/15.pre.notri_tmp.fam.
 Of these, 40 are new, while 0 are present in the base dataset.
-627 markers loaded from
+2 markers loaded from
 pre.post.inter/23.flipped.snps.post/15.flipped.post.monomorphic.bim.
-627 markers to be merged from
+2 markers to be merged from
 pre.post.inter/20.notriallelic.pre/15.pre.notri_tmp.bim.
-Of these, 0 are new, while 627 are present in the base dataset.
-Performing single-pass merge (74 people, 627 variants).
+Of these, 0 are new, while 2 are present in the base dataset.
+Performing single-pass merge (74 people, 2 variants).
 Merged fileset written to
 pre.post.inter/24.flipped.merged/15.pre.post.no.tri.no.monomorphic-merge.bed +
 pre.post.inter/24.flipped.merged/15.pre.post.no.tri.no.monomorphic-merge.bim +
 pre.post.inter/24.flipped.merged/15.pre.post.no.tri.no.monomorphic-merge.fam .
-627 variants loaded from .bim file.
+2 variants loaded from .bim file.
 74 people (0 males, 0 females, 74 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.post.inter/24.flipped.merged/15.pre.post.no.tri.no.monomorphic.nosex .
@@ -35,8 +35,8 @@ pre.post.inter/24.flipped.merged/15.pre.post.no.tri.no.monomorphic.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 74 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.136752.
-627 variants and 74 people pass filters and QC.
+Total genotyping rate is 0.216216.
+2 variants and 74 people pass filters and QC.
 Among remaining phenotypes, 34 are cases and 40 are controls.
 --make-bed to
 pre.post.inter/24.flipped.merged/15.pre.post.no.tri.no.monomorphic.bed +
@@ -44,4 +44,4 @@ pre.post.inter/24.flipped.merged/15.pre.post.no.tri.no.monomorphic.bim +
 pre.post.inter/24.flipped.merged/15.pre.post.no.tri.no.monomorphic.fam ...
 done.
 
-End time: Thu Jul 20 00:46:15 2017
+End time: Tue Jul 25 20:24:14 2017

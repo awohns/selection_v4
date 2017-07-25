@@ -5,28 +5,28 @@ Options in effect:
   --make-bed
   --out pre.post.inter/20.notriallelic.pre/17.pre.notri_tmp
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Thu Jul 20 00:46:14 2017
+Hostname: ebc217
+Working directory: /mmg/awwohns/selection_v4
+Start time: Tue Jul 25 20:23:58 2017
 
-Random number seed: 1500500774
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
-772 variants loaded from .bim file.
+Random number seed: 1501003438
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+3 variants loaded from .bim file.
 40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.post.inter/20.notriallelic.pre/17.pre.notri_tmp.nosex .
 40 phenotype values loaded from .fam.
---exclude: 766 variants remaining.
+--exclude: 3 variants remaining.
 Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
 phenotypes to be ignored, use the --allow-no-sex flag.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 40 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.143995.
-766 variants and 40 people pass filters and QC.
+Total genotyping rate is 0.258333.
+3 variants and 40 people pass filters and QC.
 Among remaining phenotypes, 0 are cases and 40 are controls.
 --make-bed to pre.post.inter/20.notriallelic.pre/17.pre.notri_tmp.bed +
 pre.post.inter/20.notriallelic.pre/17.pre.notri_tmp.bim +
 pre.post.inter/20.notriallelic.pre/17.pre.notri_tmp.fam ... done.
 
-End time: Thu Jul 20 00:46:14 2017
+End time: Tue Jul 25 20:23:58 2017

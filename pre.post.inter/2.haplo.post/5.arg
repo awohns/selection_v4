@@ -1,7 +1,7 @@
 	-> Command: 
-angsd -b references/post.bam.list.txt -doHaploCall 1 -doCounts 1 -out pre.post.inter/2.haplo.post/5 -r 5 -maxMis 30 -sites references/pobi.snps.by.chr/5.se.pobi.updated.bim.chr.pos.txt 
+angsd -b references/post.bam.list.txt -doHaploCall 1 -doCounts 1 -out pre.post.inter/2.haplo.post/5 -r 5 -maxMis 24 -sites references/pobi.snps.by.chr/5.se.pobi.updated.bim.chr.pos.txt 
 	-> angsd version: 0.913-22-g10d7007-dirty (htslib: 1.3.1-58-g344c825) build(Aug 10 2016 18:27:04)
-	-> Mon Jun 26 18:24:13 2017
+	-> Tue Jul 25 20:26:35 2017
 ----------------
 multiReader.cpp:
 	-nLines	50	(Number of lines to read)
@@ -127,9 +127,9 @@ abcHaploCall.cpp:
 	-doCounts	1	Must choose -doCount 1
 Optional
 	-minMinor	0	Minimum observed minor alleles
-	-maxMis	30	Maximum missing bases (per site)
+	-maxMis	24	Maximum missing bases (per site)
 		->"pre.post.inter/2.haplo.post/5.arg"
 		->"pre.post.inter/2.haplo.post/5.haplo.gz"
 
-	[ALL done] cpu-time used =  215.24 sec
-	[ALL done] walltime used =  229.00 sec
+	[ALL done] cpu-time used =  323.46 sec
+	[ALL done] walltime used =  355.00 sec

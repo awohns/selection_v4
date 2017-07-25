@@ -8,30 +8,30 @@ Options in effect:
 
 Hostname: atlas.hpc.ut.ee
 Working directory: /ebc_data/awwohns/selection_v4
-Start time: Thu Jul 20 00:46:41 2017
+Start time: Tue Jul 25 20:21:22 2017
 
 Note: --update-map [filename] + parameter-free --update-name deprecated.  Use
 --update-name [filename] instead.
-Random number seed: 1500500801
+Random number seed: 1501003282
 2068000 MB RAM detected; reserving 1034000 MB for main workspace.
 Scanning .ped file... done.
-Performing single-pass .bed write (1789 variants, 34 people).
+Performing single-pass .bed write (528 variants, 34 people).
 --file: pre.post.inter/10.post.add.rsid/22.post.with.rsid-temporary.bed +
 pre.post.inter/10.post.add.rsid/22.post.with.rsid-temporary.bim +
 pre.post.inter/10.post.add.rsid/22.post.with.rsid-temporary.fam written.
-1789 variants loaded from .bim file.
+528 variants loaded from .bim file.
 34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.post.inter/10.post.add.rsid/22.post.with.rsid.nosex .
---update-name: 1770 values updated, 11110 variant IDs not present.
+--update-name: 521 values updated, 12359 variant IDs not present.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 34 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.128547.
-1789 variants and 34 people pass filters and QC.
+Total genotyping rate is 0.154857.
+528 variants and 34 people pass filters and QC.
 Note: No phenotypes present.
 --make-bed to pre.post.inter/10.post.add.rsid/22.post.with.rsid.bed +
 pre.post.inter/10.post.add.rsid/22.post.with.rsid.bim +
 pre.post.inter/10.post.add.rsid/22.post.with.rsid.fam ... done.
 
-End time: Thu Jul 20 00:46:41 2017
+End time: Tue Jul 25 20:21:23 2017

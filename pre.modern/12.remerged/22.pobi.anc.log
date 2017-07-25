@@ -6,36 +6,29 @@ Options in effect:
   --make-bed
   --out pre.modern/12.remerged/22.pobi.anc
 
-Hostname: ebc210
+Hostname: ebc216
 Working directory: /mmg/awwohns/selection_v4
-Start time: Wed Jul 19 10:33:12 2017
+Start time: Sun Jul 23 06:43:59 2017
 
-Random number seed: 1500449592
+Random number seed: 1500781439
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 40 people loaded from pre.modern/11.merged.flipped/22.merge.flipped.fam.
 204 people to be merged from
 pre.modern/9.pobi.with.anc.snps/22.pobi.with.anc.snps.fam.
 Of these, 204 are new, while 0 are present in the base dataset.
-15 markers loaded from pre.modern/11.merged.flipped/22.merge.flipped.bim.
-15 markers to be merged from
+12331 markers loaded from pre.modern/11.merged.flipped/22.merge.flipped.bim.
+12331 markers to be merged from
 pre.modern/9.pobi.with.anc.snps/22.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 15 are present in the base dataset.
-Performing single-pass merge (244 people, 15 variants).
-Merged fileset written to pre.modern/12.remerged/22.pobi.anc-merge.bed +
-pre.modern/12.remerged/22.pobi.anc-merge.bim +
-pre.modern/12.remerged/22.pobi.anc-merge.fam .
-15 variants loaded from .bim file.
-244 people (104 males, 100 females, 40 ambiguous) loaded from .fam.
-Ambiguous sex IDs written to pre.modern/12.remerged/22.pobi.anc.nosex .
-244 phenotype values loaded from .fam.
-Using 1 thread (no multithreaded calculations invoked.
-Before main variant filters, 244 founders and 0 nonfounders present.
-Calculating allele frequencies... done.
-Total genotyping rate is 0.877596.
-15 variants and 244 people pass filters and QC.
-Among remaining phenotypes, 40 are cases and 204 are controls.
---make-bed to pre.modern/12.remerged/22.pobi.anc.bed +
-pre.modern/12.remerged/22.pobi.anc.bim + pre.modern/12.remerged/22.pobi.anc.fam
-... done.
+Of these, 0 are new, while 12331 are present in the base dataset.
+Error: 70 variants with 3+ alleles present.
+* If you believe this is due to strand inconsistency, try --flip with
+  pre.modern/12.remerged/22.pobi.anc-merge.missnp.
+  (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
+  alleles probably remain in your data.  If LD between nearby SNPs is high,
+  --flip-scan should detect them.)
+* If you are dealing with genuine multiallelic variants, we recommend exporting
+  that subset of the data to VCF (via e.g. '--recode vcf'), merging with
+  another tool/script, and then importing the result; PLINK is not yet suited
+  to handling them.
 
-End time: Wed Jul 19 10:33:12 2017
+End time: Sun Jul 23 06:43:59 2017

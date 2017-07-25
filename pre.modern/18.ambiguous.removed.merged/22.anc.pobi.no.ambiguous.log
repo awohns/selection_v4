@@ -8,9 +8,9 @@ Options in effect:
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Wed Jul 19 09:29:42 2017
+Start time: Thu Jul 20 21:50:48 2017
 
-Random number seed: 1500445782
+Random number seed: 1500576648
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 40 people loaded from
 pre.modern/17.ambiguous.removed/22.anc.ambiguous.removed.fam.
@@ -43,4 +43,4 @@ pre.modern/18.ambiguous.removed.merged/22.anc.pobi.no.ambiguous.bed +
 pre.modern/18.ambiguous.removed.merged/22.anc.pobi.no.ambiguous.bim +
 pre.modern/18.ambiguous.removed.merged/22.anc.pobi.no.ambiguous.fam ... done.
 
-End time: Wed Jul 19 09:29:42 2017
+End time: Thu Jul 20 21:50:48 2017

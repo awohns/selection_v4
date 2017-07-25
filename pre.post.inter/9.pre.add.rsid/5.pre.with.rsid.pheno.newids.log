@@ -5,13 +5,13 @@ Options in effect:
   --out pre.post.inter/9.pre.add.rsid/5.pre.with.rsid.pheno.newids
   --update-ids references/update.ids.pre.txt
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Thu Jul 20 00:43:42 2017
+Hostname: ebc227
+Working directory: /mmg/awwohns/selection_v4
+Start time: Tue Jul 25 20:32:31 2017
 
-Random number seed: 1500500622
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
-7528 variants loaded from .bim file.
+Random number seed: 1501003951
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+15 variants loaded from .bim file.
 40 people (0 males, 0 females, 40 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.post.inter/9.pre.add.rsid/5.pre.with.rsid.pheno.newids.nosex .
@@ -22,11 +22,11 @@ phenotypes to be ignored, use the --allow-no-sex flag.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 40 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.140143.
-7528 variants and 40 people pass filters and QC.
+Total genotyping rate is 0.26.
+15 variants and 40 people pass filters and QC.
 Among remaining phenotypes, 0 are cases and 40 are controls.
 --make-bed to pre.post.inter/9.pre.add.rsid/5.pre.with.rsid.pheno.newids.bed +
 pre.post.inter/9.pre.add.rsid/5.pre.with.rsid.pheno.newids.bim +
 pre.post.inter/9.pre.add.rsid/5.pre.with.rsid.pheno.newids.fam ... done.
 
-End time: Thu Jul 20 00:43:54 2017
+End time: Tue Jul 25 20:32:31 2017

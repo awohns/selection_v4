@@ -5,26 +5,16 @@ Options in effect:
   --make-bed
   --out pre.post.inter/12.post.intersected.with.pre/1.post.intersected
 
-Hostname: ebc229
+Hostname: ebc226
 Working directory: /mmg/awwohns/selection_v4
-Start time: Thu Jul 20 03:39:42 2017
+Start time: Tue Jul 25 20:35:16 2017
 
-Random number seed: 1500511182
+Random number seed: 1501004116
 257661 MB RAM detected; reserving 128830 MB for main workspace.
-7465 variants loaded from .bim file.
+1 variant loaded from .bim file.
 34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.post.inter/12.post.intersected.with.pre/1.post.intersected.nosex .
---extract: 1641 variants remaining.
-Using 1 thread (no multithreaded calculations invoked.
-Before main variant filters, 34 founders and 0 nonfounders present.
-Calculating allele frequencies... done.
-Total genotyping rate is 0.12858.
-1641 variants and 34 people pass filters and QC.
-Note: No phenotypes present.
---make-bed to
-pre.post.inter/12.post.intersected.with.pre/1.post.intersected.bed +
-pre.post.inter/12.post.intersected.with.pre/1.post.intersected.bim +
-pre.post.inter/12.post.intersected.with.pre/1.post.intersected.fam ... done.
+Error: No variants remaining after --extract.
 
-End time: Thu Jul 20 03:39:42 2017
+End time: Tue Jul 25 20:35:16 2017

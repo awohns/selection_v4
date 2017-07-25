@@ -8,24 +8,24 @@ Options in effect:
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Thu Jul 20 03:37:59 2017
+Start time: Wed Jul 26 00:28:36 2017
 
-Random number seed: 1500511079
+Random number seed: 1501018116
 257661 MB RAM detected; reserving 128830 MB for main workspace.
-775 variants loaded from .bim file.
+2 variants loaded from .bim file.
 74 people (0 males, 0 females, 74 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to pre.post.inter/27.assoc.results/16.results.nosex .
 74 phenotype values loaded from .fam.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 74 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.138413.
-775 variants and 74 people pass filters and QC.
+Total genotyping rate is 0.216216.
+2 variants and 74 people pass filters and QC.
 Among remaining phenotypes, 34 are cases and 40 are controls.
 Writing C/C --assoc report to pre.post.inter/27.assoc.results/16.results.assoc
 ... done.
---adjust: Genomic inflation est. lambda (based on median chisq) = 3.94737.
---adjust values (680 variants) written to
+--adjust: Genomic inflation est. lambda (based on median chisq) = 4.64866.
+--adjust values (2 variants) written to
 pre.post.inter/27.assoc.results/16.results.assoc.adjusted .
 
-End time: Thu Jul 20 03:37:59 2017
+End time: Wed Jul 26 00:28:36 2017

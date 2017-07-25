@@ -19,29 +19,29 @@ module load angsd-0.913-22
 module load plink-1.9.0
 module load R
 
-# #Perform haplocall pre
-# angsd -b references/pre.bam.list.txt -doHaploCall 1 -doCounts 1 -out ${directory}/1.haplo.pre/${cur_chr}  -r ${cur_chr} -maxMis ${maxmis_pre} -sites references/pobi.snps.by.chr/${cur_chr}.se.pobi.updated.bim.chr.pos.txt
+#Perform haplocall pre
+angsd -b references/pre.bam.list.txt -doHaploCall 1 -doCounts 1 -out ${directory}/1.haplo.pre/${cur_chr}  -r ${cur_chr} -maxMis ${maxmis_pre} -sites references/pobi.snps.by.chr/${cur_chr}.se.pobi.updated.bim.chr.pos.txt
 
-# #Haplocall post
-# angsd -b references/post.bam.list.txt -doHaploCall 1 -doCounts 1 -out ${directory}/2.haplo.post/${cur_chr}  -r ${cur_chr} -maxMis ${maxmis_post} -sites references/pobi.snps.by.chr/${cur_chr}.se.pobi.updated.bim.chr.pos.txt
+#Haplocall post
+angsd -b references/post.bam.list.txt -doHaploCall 1 -doCounts 1 -out ${directory}/2.haplo.post/${cur_chr}  -r ${cur_chr} -maxMis ${maxmis_post} -sites references/pobi.snps.by.chr/${cur_chr}.se.pobi.updated.bim.chr.pos.txt
 
-# # Convert to tped
-# /storage/software/angsd-0.913-22/misc/haploToPlink ${directory}/1.haplo.pre/${cur_chr}.haplo.gz ${directory}/3.pre.tped/${cur_chr}
-# /storage/software/angsd-0.913-22/misc/haploToPlink ${directory}/2.haplo.post/${cur_chr}.haplo.gz ${directory}/4.post.tped/${cur_chr}
+# Convert to tped
+/storage/software/angsd-0.913-22/misc/haploToPlink ${directory}/1.haplo.pre/${cur_chr}.haplo.gz ${directory}/3.pre.tped/${cur_chr}
+/storage/software/angsd-0.913-22/misc/haploToPlink ${directory}/2.haplo.post/${cur_chr}.haplo.gz ${directory}/4.post.tped/${cur_chr}
 
-# wait
+wait
 
-# #Replace N's with 0's
-# eval 'sed 's/N/0/g' ${directory}/3.pre.tped/${cur_chr}.tped  > ${directory}/5.pre.tped.nto0/temp.${cur_chr}.tped'
-# eval 'sed 's/N/0/g' ${directory}/4.post.tped/${cur_chr}.tped  > ${directory}/6.post.tped.nto0/temp.${cur_chr}.tped'
+#Replace N's with 0's
+eval 'sed 's/N/0/g' ${directory}/3.pre.tped/${cur_chr}.tped  > ${directory}/5.pre.tped.nto0/temp.${cur_chr}.tped'
+eval 'sed 's/N/0/g' ${directory}/4.post.tped/${cur_chr}.tped  > ${directory}/6.post.tped.nto0/temp.${cur_chr}.tped'
 
-# #Copy the tfam file
-# eval 'cp ${directory}/3.pre.tped/${cur_chr}.tfam ${directory}/5.pre.tped.nto0/temp.${cur_chr}.tfam'
-# eval 'cp ${directory}/4.post.tped/${cur_chr}.tfam ${directory}/6.post.tped.nto0/temp.${cur_chr}.tfam'
+#Copy the tfam file
+eval 'cp ${directory}/3.pre.tped/${cur_chr}.tfam ${directory}/5.pre.tped.nto0/temp.${cur_chr}.tfam'
+eval 'cp ${directory}/4.post.tped/${cur_chr}.tfam ${directory}/6.post.tped.nto0/temp.${cur_chr}.tfam'
 
-# #Convert tped to ped
-# plink --tfile ${directory}/5.pre.tped.nto0/temp.${cur_chr} --recode --out ${directory}/7.pre.ped/${cur_chr}_pre_ped
-# plink --tfile ${directory}/6.post.tped.nto0/temp.${cur_chr} --recode --out ${directory}/8.post.ped/${cur_chr}_post_ped
+#Convert tped to ped
+plink --tfile ${directory}/5.pre.tped.nto0/temp.${cur_chr} --recode --out ${directory}/7.pre.ped/${cur_chr}_pre_ped
+plink --tfile ${directory}/6.post.tped.nto0/temp.${cur_chr} --recode --out ${directory}/8.post.ped/${cur_chr}_post_ped
 
 #Add the rsids
 plink --file ${directory}/7.pre.ped/${cur_chr}_pre_ped --update-map references/pobi.snps.by.chr/${cur_chr}.se.pobi.updated.bim.txt.fixed --update-name --make-bed --out ${directory}/9.pre.add.rsid/${cur_chr}.pre.with.rsid

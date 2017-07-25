@@ -5,24 +5,24 @@ Options in effect:
   --make-bed
   --out pre.modern/13.notriallelic/6.pobi.notri_tmp
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Wed Jul 19 10:24:04 2017
+Hostname: ebc229
+Working directory: /mmg/awwohns/selection_v4
+Start time: Sun Jul 23 06:51:36 2017
 
-Random number seed: 1500449044
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
-1206 variants loaded from .bim file.
+Random number seed: 1500781896
+257661 MB RAM detected; reserving 128830 MB for main workspace.
+50751 variants loaded from .bim file.
 204 people (104 males, 100 females) loaded from .fam.
 204 phenotype values loaded from .fam.
---exclude: 1184 variants remaining.
+--exclude: 50391 variants remaining.
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 204 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.998779.
-1184 variants and 204 people pass filters and QC.
+Total genotyping rate is 0.999481.
+50391 variants and 204 people pass filters and QC.
 Among remaining phenotypes, 0 are cases and 204 are controls.
 --make-bed to pre.modern/13.notriallelic/6.pobi.notri_tmp.bed +
 pre.modern/13.notriallelic/6.pobi.notri_tmp.bim +
 pre.modern/13.notriallelic/6.pobi.notri_tmp.fam ... done.
 
-End time: Wed Jul 19 10:24:04 2017
+End time: Sun Jul 23 06:51:42 2017

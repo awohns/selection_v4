@@ -6,31 +6,38 @@ Options in effect:
   --make-bed
   --out pre.post.inter/16.merged/13.merge
 
-Hostname: atlas.hpc.ut.ee
-Working directory: /ebc_data/awwohns/selection_v4
-Start time: Thu Jul 20 00:46:02 2017
+Hostname: ebc216
+Working directory: /mmg/awwohns/selection_v4
+Start time: Tue Jul 25 20:25:19 2017
 
-Random number seed: 1500500762
-2068000 MB RAM detected; reserving 1034000 MB for main workspace.
+Random number seed: 1501003519
+257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from
 pre.post.inter/13.post.intersect.pheno/13.post.intersected.fam.
 40 people to be merged from
 pre.post.inter/15.pre.with.post.snps/13.pre.with.post.snps.fam.
 Of these, 40 are new, while 0 are present in the base dataset.
-587 markers loaded from
+1 marker loaded from
 pre.post.inter/13.post.intersect.pheno/13.post.intersected.bim.
-587 markers to be merged from
+1 marker to be merged from
 pre.post.inter/15.pre.with.post.snps/13.pre.with.post.snps.bim.
-Of these, 0 are new, while 587 are present in the base dataset.
-Error: 4 variants with 3+ alleles present.
-* If you believe this is due to strand inconsistency, try --flip with
-  pre.post.inter/16.merged/13.merge-merge.missnp.
-  (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
-  alleles probably remain in your data.  If LD between nearby SNPs is high,
-  --flip-scan should detect them.)
-* If you are dealing with genuine multiallelic variants, we recommend exporting
-  that subset of the data to VCF (via e.g. '--recode vcf'), merging with
-  another tool/script, and then importing the result; PLINK is not yet suited
-  to handling them.
+Of these, 0 are new, while 1 is present in the base dataset.
+Performing single-pass merge (74 people, 1 variant).
+Merged fileset written to pre.post.inter/16.merged/13.merge-merge.bed +
+pre.post.inter/16.merged/13.merge-merge.bim +
+pre.post.inter/16.merged/13.merge-merge.fam .
+1 variant loaded from .bim file.
+74 people (0 males, 0 females, 74 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to pre.post.inter/16.merged/13.merge.nosex .
+74 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 74 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.216216.
+1 variant and 74 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 40 are controls.
+--make-bed to pre.post.inter/16.merged/13.merge.bed +
+pre.post.inter/16.merged/13.merge.bim + pre.post.inter/16.merged/13.merge.fam
+... done.
 
-End time: Thu Jul 20 00:46:02 2017
+End time: Tue Jul 25 20:25:19 2017

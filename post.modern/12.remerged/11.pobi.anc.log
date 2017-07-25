@@ -6,29 +6,36 @@ Options in effect:
   --make-bed
   --out post.modern/12.remerged/11.pobi.anc
 
-Hostname: ebc226
+Hostname: ebc203
 Working directory: /mmg/awwohns/selection_v4
-Start time: Tue Jun 27 17:54:07 2017
+Start time: Tue Jul 25 20:22:48 2017
 
-Random number seed: 1498575247
+Random number seed: 1501003368
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 34 people loaded from post.modern/11.merged.flipped/11.merge.flipped.fam.
-101 people to be merged from
+204 people to be merged from
 post.modern/9.pobi.with.anc.snps/11.pobi.with.anc.snps.fam.
-Of these, 101 are new, while 0 are present in the base dataset.
-1194 markers loaded from post.modern/11.merged.flipped/11.merge.flipped.bim.
-1194 markers to be merged from
+Of these, 204 are new, while 0 are present in the base dataset.
+1 marker loaded from post.modern/11.merged.flipped/11.merge.flipped.bim.
+1 marker to be merged from
 post.modern/9.pobi.with.anc.snps/11.pobi.with.anc.snps.bim.
-Of these, 0 are new, while 1194 are present in the base dataset.
-Error: 17 variants with 3+ alleles present.
-* If you believe this is due to strand inconsistency, try --flip with
-  post.modern/12.remerged/11.pobi.anc-merge.missnp.
-  (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
-  alleles probably remain in your data.  If LD between nearby SNPs is high,
-  --flip-scan should detect them.)
-* If you are dealing with genuine multiallelic variants, we recommend exporting
-  that subset of the data to VCF (via e.g. '--recode vcf'), merging with
-  another tool/script, and then importing the result; PLINK is not yet suited
-  to handling them.
+Of these, 0 are new, while 1 is present in the base dataset.
+Performing single-pass merge (238 people, 1 variant).
+Merged fileset written to post.modern/12.remerged/11.pobi.anc-merge.bed +
+post.modern/12.remerged/11.pobi.anc-merge.bim +
+post.modern/12.remerged/11.pobi.anc-merge.fam .
+1 variant loaded from .bim file.
+238 people (104 males, 100 females, 34 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to post.modern/12.remerged/11.pobi.anc.nosex .
+238 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 238 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.89916.
+1 variant and 238 people pass filters and QC.
+Among remaining phenotypes, 34 are cases and 204 are controls.
+--make-bed to post.modern/12.remerged/11.pobi.anc.bed +
+post.modern/12.remerged/11.pobi.anc.bim +
+post.modern/12.remerged/11.pobi.anc.fam ... done.
 
-End time: Tue Jun 27 17:54:07 2017
+End time: Tue Jul 25 20:22:49 2017

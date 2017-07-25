@@ -8,26 +8,26 @@ Options in effect:
 
 Hostname: ebc201
 Working directory: /mmg/awwohns/selection_v4
-Start time: Wed Jul 19 09:29:09 2017
+Start time: Thu Jul 20 21:50:06 2017
 
-Random number seed: 1500445749
+Random number seed: 1500576606
 257661 MB RAM detected; reserving 128830 MB for main workspace.
 40 people loaded from
 pre.modern/17.ambiguous.removed/1.anc.ambiguous.removed.fam.
 204 people to be merged from
 pre.modern/17.ambiguous.removed/1.pobi.ambiguous.removed.fam.
 Of these, 204 are new, while 0 are present in the base dataset.
-1539 markers loaded from
+27 markers loaded from
 pre.modern/17.ambiguous.removed/1.anc.ambiguous.removed.bim.
-1539 markers to be merged from
+27 markers to be merged from
 pre.modern/17.ambiguous.removed/1.pobi.ambiguous.removed.bim.
-Of these, 0 are new, while 1539 are present in the base dataset.
-Performing single-pass merge (244 people, 1539 variants).
+Of these, 0 are new, while 27 are present in the base dataset.
+Performing single-pass merge (244 people, 27 variants).
 Merged fileset written to
 pre.modern/18.ambiguous.removed.merged/1.anc.pobi.no.ambiguous-merge.bed +
 pre.modern/18.ambiguous.removed.merged/1.anc.pobi.no.ambiguous-merge.bim +
 pre.modern/18.ambiguous.removed.merged/1.anc.pobi.no.ambiguous-merge.fam .
-1539 variants loaded from .bim file.
+27 variants loaded from .bim file.
 244 people (104 males, 100 females, 40 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to
 pre.modern/18.ambiguous.removed.merged/1.anc.pobi.no.ambiguous.nosex .
@@ -35,12 +35,12 @@ pre.modern/18.ambiguous.removed.merged/1.anc.pobi.no.ambiguous.nosex .
 Using 1 thread (no multithreaded calculations invoked.
 Before main variant filters, 244 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.86611.
-1539 variants and 244 people pass filters and QC.
+Total genotyping rate is 0.878264.
+27 variants and 244 people pass filters and QC.
 Among remaining phenotypes, 40 are cases and 204 are controls.
 --make-bed to
 pre.modern/18.ambiguous.removed.merged/1.anc.pobi.no.ambiguous.bed +
 pre.modern/18.ambiguous.removed.merged/1.anc.pobi.no.ambiguous.bim +
 pre.modern/18.ambiguous.removed.merged/1.anc.pobi.no.ambiguous.fam ... done.
 
-End time: Wed Jul 19 09:29:09 2017
+End time: Thu Jul 20 21:50:06 2017
